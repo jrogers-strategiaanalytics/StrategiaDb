@@ -6760,8 +6760,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7155	12	970	\N	McFadden
 7156	11	971	\N	Jon
 7157	12	971	\N	Sharp
-7158	11	972	\N	Jack
-7159	12	972	\N	Welch
 7160	11	973	\N	Jack
 7161	12	973	\N	Welch
 7162	11	976	\N	Kathryn
