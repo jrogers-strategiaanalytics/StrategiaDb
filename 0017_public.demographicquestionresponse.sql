@@ -5758,15 +5758,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5910	35	791	215	
 5911	36	791	221	
 5912	37	791	226	
-5913	11	792	\N	AlanR
-5914	12	792	\N	Severance
-5915	20	792	\N	aseverance@strategiaanalytics.com
-5916	33	792	203	
-5917	2	792	7	
-5918	34	792	204	
-5919	35	792	217	
-5920	36	792	225	
-5921	37	792	226	
 5922	11	793	\N	Jesse
 5923	12	793	\N	Frola
 5924	20	793	\N	jesse.frola@gmail.com

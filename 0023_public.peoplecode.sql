@@ -28,6 +28,7 @@ COPY public.peoplecode (idcode, idpeople, status, codehash, state, isadmin) FROM
 21	15	1	btOGu0F5tahwCk7OkVQgqNpkQt5P8vXh6OIdiy	confirmed	f
 22	16	0	5OyXZpFkvwe0XWfAbg1jWq3P3yfPgpKcHdBPF8	confirmed	f
 23	17	1	wRvLhX7fSZB4lX5QHTXgMcw4BuGlb6335Vdawa	confirmed	f
+24	18	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	unconfirmed	f
 \.
 
 
@@ -35,4 +36,4 @@ COPY public.peoplecode (idcode, idpeople, status, codehash, state, isadmin) FROM
 -- Name: peoplecode_id_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.peoplecode_id_seq', 23, true);
+SELECT pg_catalog.setval('public.peoplecode_id_seq', 24, true);

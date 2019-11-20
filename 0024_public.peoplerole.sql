@@ -43,4 +43,5 @@ COPY public.peoplerole (idpeople, idrole, idclient) FROM stdin;
 15	1	3
 16	1	4
 17	1	8
+18	1	2
 \.
