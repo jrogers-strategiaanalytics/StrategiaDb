@@ -30,6 +30,14 @@ COPY public.peoplecode (idcode, idpeople, status, codehash, state, isadmin) FROM
 23	17	1	wRvLhX7fSZB4lX5QHTXgMcw4BuGlb6335Vdawa	confirmed	f
 24	18	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	unconfirmed	f
 25	6	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+26	7	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+27	2	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+28	3	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+29	12	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+30	10	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+31	9	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+32	4	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
+33	8	1	GCIKPeGnMvOBbZQBlMPDuTnwWWayuCGjA5dgPN	confirmed	t
 \.
 
 
@@ -37,4 +45,4 @@ COPY public.peoplecode (idcode, idpeople, status, codehash, state, isadmin) FROM
 -- Name: peoplecode_id_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.peoplecode_id_seq', 25, true);
+SELECT pg_catalog.setval('public.peoplecode_id_seq', 33, true);
