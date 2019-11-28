@@ -6794,6 +6794,9 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7200	12	1007	\N	Gollab
 7201	11	1009	\N	Alexandra
 7202	12	1009	\N	Holguin
+7203	1	1012	2	
+7204	11	1012	\N	Joseph
+7205	12	1012	\N	Mallory
 \.
 
 
@@ -6801,4 +6804,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7202, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7205, true);
