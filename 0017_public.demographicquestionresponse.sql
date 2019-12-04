@@ -6759,9 +6759,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7165	12	977	\N	Lueth
 7166	11	978	\N	Alan 1
 7167	11	979	\N	Alan 2
-7168	11	980	\N	Alan 1
-7169	12	980	\N	Severance 1
-7170	20	980	\N	alseverance13@msn.com
 7171	11	981	\N	Jim
 7172	12	981	\N	Hauerwas
 7173	11	982	\N	Brandon
@@ -6797,6 +6794,10 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7203	1	1012	2	
 7204	11	1012	\N	Joseph
 7205	12	1012	\N	Mallory
+7209	11	1014	\N	Alan ISAAC test 3dec19
+7210	11	1015	\N	Alan 3
+7211	12	1015	\N	Test 3
+7212	20	1015	\N	alseverance13@msn.com
 \.
 
 
@@ -6804,4 +6805,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7205, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7212, true);
