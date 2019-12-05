@@ -957,6 +957,10 @@ COPY public.assessmentresponse (idassessmentresponse, idassessment, session, cre
 1012	55	\N	2019-11-27 20:54:35
 1014	69	\N	2019-12-03 19:45:10
 1015	70	\N	2019-12-03 19:49:47
+1016	70	\N	2019-12-04 20:28:29
+1017	70	\N	2019-12-04 20:33:22
+1018	70	\N	2019-12-04 20:41:08
+1019	70	\N	2019-12-04 20:44:25
 \.
 
 
@@ -964,4 +968,4 @@ COPY public.assessmentresponse (idassessmentresponse, idassessment, session, cre
 -- Name: assessmentresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmentresponse_seq', 1015, true);
+SELECT pg_catalog.setval('public.assessmentresponse_seq', 1019, true);
