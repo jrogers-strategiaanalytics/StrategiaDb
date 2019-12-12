@@ -60,7 +60,7 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 53	8	1	2nd	f	{ \n  "en": "2nd", \n  "es": "2do"\n}
 54	8	2	3rd	f	{ \n  "en": "3rd", \n  "es": "3er"\n}
 55	9	0	Yes	f	{ \n  "en": "Yes", \n  "es": "Si"\n}
-56	9	1	No	f	{\n   "en": "", \n   "es": ""\n}
+56	9	1	No	f	{ \n  "en": "No", \n  "es": "No"\n}
 57	10	0	Baltimore/Glen Burnie, MD	f	{\n   "en": "", \n   "es": ""\n}
 58	10	5	Goldsboro, NC	f	{\n   "en": "", \n   "es": ""\n}
 59	10	1	Nashville, TN	f	{\n   "en": "", \n   "es": ""\n}
@@ -80,8 +80,8 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 74	13	3	CEO	f	{\n   "en": "", \n   "es": ""\n}
 75	14	1	Accounting/Finance	f	{\n   "en": "", \n   "es": ""\n}
 76	14	2	Warehouse/Distribution	f	{\n   "en": "", \n   "es": ""\n}
-77	14	3	Other	f	{\n   "en": "", \n   "es": ""\n}
-78	14	4	Human Resources	f	{\n   "en": "", \n   "es": ""\n}
+77	14	3	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
+78	14	4	Human Resources	f	{ \n  "en": "Human Resources", \n  "es": "Recursos humanos"\n}
 79	14	4	Sales	f	{\n   "en": "", \n   "es": ""\n}
 80	14	4	Administration	f	{\n   "en": "", \n   "es": ""\n}
 81	10	13	Wadesboro, NC	f	{\n   "en": "", \n   "es": ""\n}
@@ -105,11 +105,11 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 99	18	0	CEO/President/Chairman	f	{\n   "en": "", \n   "es": ""\n}
 100	18	1	EVP/SVP	f	{\n   "en": "", \n   "es": ""\n}
 101	18	2	Vice President	f	{\n   "en": "", \n   "es": ""\n}
-102	18	3	Manager	f	{\n   "en": "", \n   "es": ""\n}
-103	18	4	Supervisor	f	{\n   "en": "", \n   "es": ""\n}
+102	18	3	Manager	f	{ \n  "en": "Manager", \n  "es": "Gerente"\n}
+103	18	4	Supervisor	f	{ \n  "en": "Supervisor", \n  "es": "Supervisor"\n}
 104	18	5	Project Leader/Manager	f	{\n   "en": "", \n   "es": ""\n}
 105	18	6	Employee	f	{\n   "en": "", \n   "es": ""\n}
-106	18	7	Other	f	{\n   "en": "", \n   "es": ""\n}
+106	18	7	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
 107	19	0	Contact with External customers	f	{\n   "en": "", \n   "es": ""\n}
 108	19	1	Contact with Internal customers	f	{\n   "en": "", \n   "es": ""\n}
 109	19	2	None 	f	{\n   "en": "", \n   "es": ""\n}
@@ -128,7 +128,7 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 122	22	6	21+	f	{\n   "en": "", \n   "es": ""\n}
 123	23	0	Board Member	f	{\n   "en": "", \n   "es": ""\n}
 124	23	1	Staff	f	{\n   "en": "", \n   "es": ""\n}
-125	23	2	Other	f	{\n   "en": "", \n   "es": ""\n}
+125	23	2	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
 126	24	0	Less than 1 yr	f	{\n   "en": "", \n   "es": ""\n}
 127	24	1	1-3	f	{\n   "en": "", \n   "es": ""\n}
 128	24	2	4-5	f	{\n   "en": "", \n   "es": ""\n}
@@ -160,35 +160,35 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 154	27	8	Golf	f	{\n   "en": "", \n   "es": ""\n}
 155	27	9	Film	f	{\n   "en": "", \n   "es": ""\n}
 156	27	10	Veterans/Military	f	{\n   "en": "", \n   "es": ""\n}
-157	28	12	Armstrong Sales	t	{\n   "en": "", \n   "es": ""\n}
-158	28	11	CMH Sales	t	{\n   "en": "", \n   "es": ""\n}
-159	28	13	Corporate Sales	t	{\n   "en": "", \n   "es": ""\n}
-160	28	1	Credit	t	{\n   "en": "", \n   "es": ""\n}
-161	28	7	Customer Service	t	{\n   "en": "", \n   "es": ""\n}
-162	28	2	Executive Management	t	{\n   "en": "", \n   "es": ""\n}
+157	28	12	Armstrong Sales	t	{ \n  "en": "Armstrong Sales", \n  "es": "Ventas de Armstrong"\n}
+158	28	11	CMH Sales	t	{ \n  "en": "CMH Sales", \n  "es": "Ventas CMH"\n}
+159	28	13	Corporate Sales	t	{ \n  "en": "Corporate Sales", \n  "es": "Ventas corporativas"\n}
+160	28	1	Credit	t	{ \n  "en": "Credit", \n  "es": "Crédito"\n}
+161	28	7	Customer Service	t	{ \n  "en": "Customer Service", \n  "es": "Servicio al Cliente"\n}
+162	28	2	Executive Management	t	{ \n  "en": "Executive Management", \n  "es": "Dirección ejecutiva"\n}
 163	28	0	Finance/Accounting	t	{ \n  "en": "Finance/Accounting", \n  "es": "Contabilidad financiera"\n}
-164	28	3	Human Resources	t	{\n   "en": "", \n   "es": ""\n}
-165	28	4	Information/Technology	t	{\n   "en": "", \n   "es": ""\n}
-166	28	5	Inventory Control	t	{\n   "en": "", \n   "es": ""\n}
-167	28	6	Marketing	t	{\n   "en": "", \n   "es": ""\n}
-168	28	8	Operations Management	t	{\n   "en": "", \n   "es": ""\n}
-169	28	14	Operations Warehouse	t	{\n   "en": "", \n   "es": ""\n}
-170	28	15	Other	t	{\n   "en": "", \n   "es": ""\n}
-171	28	9	Purchasing	t	{\n   "en": "", \n   "es": ""\n}
-172	28	10	Supplies	t	{\n   "en": "", \n   "es": ""\n}
-173	29	1	Director	f	{\n   "en": "", \n   "es": ""\n}
+164	28	3	Human Resources	t	{ \n  "en": "Human Resources", \n  "es": "Recursos humanos"\n}
+165	28	4	Information/Technology	t	{ \n  "en": "Information/Technology", \n  "es": "Tecnologías de la información"\n}
+166	28	5	Inventory Control	t	{ \n  "en": "Inventory Control", \n  "es": "Control de inventario"\n}
+167	28	6	Marketing	t	{ \n  "en": "Marketing", \n  "es": "Marketing"\n}
+168	28	8	Operations Management	t	{ \n  "en": "Operations Management", \n  "es": "Jefe de operaciones"\n}
+169	28	14	Operations Warehouse	t	{ \n  "en": "Operations Warehouse", \n  "es": "Almacén de operaciones"\n}
+170	28	15	Other	t	{ \n  "en": "Other", \n  "es": "Otro"\n}
+171	28	9	Purchasing	t	{ \n  "en": "Purchasing", \n  "es": "Adquisitivo"\n}
+172	28	10	Supplies	t	{ \n  "en": "Supplies", \n  "es": "Suministros"\n}
+173	29	1	Director	f	{ \n  "en": "Director", \n  "es": "Director"\n}
 174	29	6	Employee (non-supervisory)	f	{ \n  "en": "Employee (non-supervisory)", \n  "es": "Empleado (no supervisor)"\n}
 175	29	0	Executive/Leadership	f	{ \n  "en": "Executive/Leadership", \n  "es": "Liderazgo ejecutivo"\n}
-176	29	5	Leads	f	{\n   "en": "", \n   "es": ""\n}
-177	29	3	Manager	f	{\n   "en": "", \n   "es": ""\n}
-178	29	7	Other	f	{\n   "en": "", \n   "es": ""\n}
-179	29	2	Regional Manager	f	{\n   "en": "", \n   "es": ""\n}
-180	29	4	Supervisor	f	{\n   "en": "", \n   "es": ""\n}
-181	30	0	1st	f	{\n   "en": "", \n   "es": ""\n}
-182	30	1	2nd	f	{\n   "en": "", \n   "es": ""\n}
-183	30	2	3rd	f	{\n   "en": "", \n   "es": ""\n}
-184	31	0	Yes	t	{\n   "en": "", \n   "es": ""\n}
-185	31	1	No	t	{\n   "en": "", \n   "es": ""\n}
+176	29	5	Leads	f	{ \n  "en": "Leads", \n  "es": "Guías"\n}
+177	29	3	Manager	f	{ \n  "en": "Manager", \n  "es": "Gerente"\n}
+178	29	7	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
+179	29	2	Regional Manager	f	{ \n  "en": "Regional Manager", \n  "es": "Administrador regional"\n}
+180	29	4	Supervisor	f	{ \n  "en": "Supervisor", \n  "es": "Supervisor"\n}
+181	30	0	1st	f	{ \n  "en": "1st", \n  "es": "1er"\n}
+182	30	1	2nd	f	{ \n  "en": "2nd", \n  "es": "2do"\n}
+183	30	2	3rd	f	{ \n  "en": "3rd", \n  "es": "3er"\n}
+184	31	0	Yes	t	{ \n  "en": "Yes", \n  "es": "Si"\n}
+185	31	1	No	t	{ \n  "en": "No", \n  "es": "No"\n}
 196	32	9	.	f	{ \n  "en": ".", \n  "es": "."\n}
 197	28	16	E-Commerce	t	{ \n  "en": "E-Commerce", \n  "es": "Comercio electrónico"\n}
 198	28	17	Privage Label	t	{ \n  "en": "Privage Label", \n  "es": "Etiqueta privada"\n}
@@ -212,43 +212,43 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 218	36	0	CEO/President/Chairman	f	{\n   "en": "", \n   "es": ""\n}
 219	36	1	EVP/SVP	f	{\n   "en": "", \n   "es": ""\n}
 220	36	2	Vice President	f	{\n   "en": "", \n   "es": ""\n}
-221	36	3	Manager	f	{\n   "en": "", \n   "es": ""\n}
-222	36	4	Supervisor	f	{\n   "en": "", \n   "es": ""\n}
+221	36	3	Manager	f	{ \n  "en": "Manager", \n  "es": "Gerente"\n}
+222	36	4	Supervisor	f	{ \n  "en": "Supervisor", \n  "es": "Supervisor"\n}
 223	36	5	Project Leader/Manager	f	{\n   "en": "", \n   "es": ""\n}
 224	36	6	Employee	f	{\n   "en": "", \n   "es": ""\n}
-225	36	7	Other	f	{\n   "en": "", \n   "es": ""\n}
+225	36	7	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
 226	37	0	Contact with External customers	f	{\n   "en": "", \n   "es": ""\n}
 227	37	1	Contact with Internal customers	f	{\n   "en": "", \n   "es": ""\n}
 228	37	2	None 	f	{\n   "en": "", \n   "es": ""\n}
-229	38	12	Armstrong Sales	f	{\n   "en": "", \n   "es": ""\n}
-230	38	11	CMH Sales	f	{\n   "en": "", \n   "es": ""\n}
-231	38	13	Corporate Sales	f	{\n   "en": "", \n   "es": ""\n}
-232	38	1	Credit	f	{\n   "en": "", \n   "es": ""\n}
-233	38	7	Customer Service	f	{\n   "en": "", \n   "es": ""\n}
-234	38	2	Executive Management	f	{\n   "en": "", \n   "es": ""\n}
+229	38	12	Armstrong Sales	f	{ \n  "en": "Armstrong Sales", \n  "es": "Ventas de Armstrong"\n}
+230	38	11	CMH Sales	f	{ \n  "en": "CMH Sales", \n  "es": "Ventas CMH"\n}
+231	38	13	Corporate Sales	f	{ \n  "en": "Corporate Sales", \n  "es": "Ventas corporativas"\n}
+232	38	1	Credit	f	{ \n  "en": "Credit", \n  "es": "Crédito"\n}
+233	38	7	Customer Service	f	{ \n  "en": "Customer Service", \n  "es": "Servicio al Cliente"\n}
+234	38	2	Executive Management	f	{ \n  "en": "Executive Management", \n  "es": "Dirección ejecutiva"\n}
 235	38	0	Finance/Accounting	f	{ \n  "en": "Finance/Accounting", \n  "es": "Contabilidad financiera"\n}
-236	38	3	Human Resources	f	{\n   "en": "", \n   "es": ""\n}
-237	38	4	Information/Technology	f	{\n   "en": "", \n   "es": ""\n}
-238	38	5	Inventory Control	f	{\n   "en": "", \n   "es": ""\n}
-239	38	6	Marketing	f	{\n   "en": "", \n   "es": ""\n}
-240	38	8	Operations Management	f	{\n   "en": "", \n   "es": ""\n}
-241	38	14	Operations Warehouse	f	{\n   "en": "", \n   "es": ""\n}
-242	38	15	Other	f	{\n   "en": "", \n   "es": ""\n}
-243	38	9	Purchasing	f	{\n   "en": "", \n   "es": ""\n}
-244	38	10	Supplies	f	{\n   "en": "", \n   "es": ""\n}
-245	39	1	Director	f	{\n   "en": "", \n   "es": ""\n}
+236	38	3	Human Resources	f	{ \n  "en": "Human Resources", \n  "es": "Recursos humanos"\n}
+237	38	4	Information/Technology	f	{ \n  "en": "Information/Technology", \n  "es": "Tecnologías de la información"\n}
+238	38	5	Inventory Control	f	{ \n  "en": "Inventory Control", \n  "es": "Control de inventario"\n}
+239	38	6	Marketing	f	{ \n  "en": "Marketing", \n  "es": "Marketing"\n}
+240	38	8	Operations Management	f	{ \n  "en": "Operations Management", \n  "es": "Jefe de operaciones"\n}
+241	38	14	Operations Warehouse	f	{ \n  "en": "Operations Warehouse", \n  "es": "Almacén de operaciones"\n}
+242	38	15	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
+243	38	9	Purchasing	f	{ \n  "en": "Purchasing", \n  "es": "Adquisitivo"\n}
+244	38	10	Supplies	f	{ \n  "en": "Supplies", \n  "es": "Suministros"\n}
+245	39	1	Director	f	{ \n  "en": "Director", \n  "es": "Director"\n}
 246	39	6	Employee (non-supervisory)	f	{ \n  "en": "Employee (non-supervisory)", \n  "es": "Empleado (no supervisor)"\n}
 247	39	0	Executive/Leadership	f	{ \n  "en": "Executive/Leadership", \n  "es": "Liderazgo ejecutivo"\n}
-248	39	5	Leads	f	{\n   "en": "", \n   "es": ""\n}
-249	39	3	Manager	f	{\n   "en": "", \n   "es": ""\n}
-250	39	7	Other	f	{\n   "en": "", \n   "es": ""\n}
-251	39	2	Regional Manager	f	{\n   "en": "", \n   "es": ""\n}
-252	39	4	Supervisor	f	{\n   "en": "", \n   "es": ""\n}
-253	40	0	1st	f	{\n   "en": "", \n   "es": ""\n}
-254	40	1	2nd	f	{\n   "en": "", \n   "es": ""\n}
-255	40	2	3rd	f	{\n   "en": "", \n   "es": ""\n}
-256	41	0	Yes	f	{\n   "en": "", \n   "es": ""\n}
-257	41	1	No	f	{\n   "en": "", \n   "es": ""\n}
+248	39	5	Leads	f	{ \n  "en": "Leads", \n  "es": "Guías"\n}
+249	39	3	Manager	f	{ \n  "en": "Manager", \n  "es": "Gerente"\n}
+250	39	7	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
+251	39	2	Regional Manager	f	{ \n  "en": "Regional Manager", \n  "es": "Administrador regional"\n}
+252	39	4	Supervisor	f	{ \n  "en": "Supervisor", \n  "es": "Supervisor"\n}
+253	40	0	1st	f	{ \n  "en": "1st", \n  "es": "1er"\n}
+254	40	1	2nd	f	{ \n  "en": "2nd", \n  "es": "2do"\n}
+255	40	2	3rd	f	{ \n  "en": "3rd", \n  "es": "3er"\n}
+256	41	0	Yes	f	{ \n  "en": "Yes", \n  "es": "Si"\n}
+257	41	1	No	f	{ \n  "en": "No", \n  "es": "No"\n}
 258	42	0	Baltimore/Glen Burnie, MD	f	{\n   "en": "", \n   "es": ""\n}
 259	42	5	Goldsboro, NC	f	{\n   "en": "", \n   "es": ""\n}
 260	42	1	Nashville, TN	f	{\n   "en": "", \n   "es": ""\n}
@@ -284,11 +284,11 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 290	46	0	CEO/President/Chairman	f	{\n   "en": "", \n   "es": ""\n}
 291	46	1	EVP/SVP	f	{\n   "en": "", \n   "es": ""\n}
 292	46	2	Vice President	f	{\n   "en": "", \n   "es": ""\n}
-293	46	3	Manager	f	{\n   "en": "", \n   "es": ""\n}
-294	46	4	Supervisor	f	{\n   "en": "", \n   "es": ""\n}
+293	46	3	Manager	f	{ \n  "en": "Manager", \n  "es": "Gerente"\n}
+294	46	4	Supervisor	f	{ \n  "en": "Supervisor", \n  "es": "Supervisor"\n}
 295	46	5	Project Leader/Manager	f	{\n   "en": "", \n   "es": ""\n}
 296	46	6	Employee	f	{\n   "en": "", \n   "es": ""\n}
-297	46	7	Other	f	{\n   "en": "", \n   "es": ""\n}
+297	46	7	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
 298	47	0	Contact with External customers	f	{\n   "en": "", \n   "es": ""\n}
 299	47	1	Contact with Internal customers	f	{\n   "en": "", \n   "es": ""\n}
 300	47	2	None 	f	{\n   "en": "", \n   "es": ""\n}
@@ -312,18 +312,18 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 318	51	0	CEO/President/Chairman	f	{\n   "en": "", \n   "es": ""\n}
 319	51	1	EVP/SVP	f	{\n   "en": "", \n   "es": ""\n}
 320	51	2	Vice President	f	{\n   "en": "", \n   "es": ""\n}
-321	51	3	Manager	f	{\n   "en": "", \n   "es": ""\n}
-322	51	4	Supervisor	f	{\n   "en": "", \n   "es": ""\n}
+321	51	3	Manager	f	{ \n  "en": "Manager", \n  "es": "Gerente"\n}
+322	51	4	Supervisor	f	{ \n  "en": "Supervisor", \n  "es": "Supervisor"\n}
 323	51	5	Project Leader/Manager	f	{\n   "en": "", \n   "es": ""\n}
 324	51	6	Employee	f	{\n   "en": "", \n   "es": ""\n}
-325	51	7	Other	f	{\n   "en": "", \n   "es": ""\n}
+325	51	7	Other	f	{ \n  "en": "Other", \n  "es": "Otro"\n}
 326	52	0	Contact with External customers	f	{\n   "en": "", \n   "es": ""\n}
 327	52	1	Contact with Internal customers	f	{\n   "en": "", \n   "es": ""\n}
 328	52	2	None 	f	{\n   "en": "", \n   "es": ""\n}
 329	53	1	Breinigsville, PA	f	{\n   "en": "", \n   "es": ""\n}
 330	53	2	Tacoma, WA	f	{\n   "en": "", \n   "es": ""\n}
 332	5	5	Post High School	f	{\n  "en": "Post High School Certificate", \n  "es": "Licenciatura"\n}
-333	31	1		t	{\n   "en": "", \n   "es": ""\n}
+333	31	1		t	{ \n  "en": "", \n  "es": ""\n}
 \.
 
 

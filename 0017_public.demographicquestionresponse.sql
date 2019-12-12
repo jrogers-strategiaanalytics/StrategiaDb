@@ -6813,6 +6813,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7225	1	1020	2	--Select--\nFemale\nMale
 7226	11	1020	\N	Reynaldo
 7227	12	1020	\N	Henriquez
+7228	11	1021	\N	Edgar Allan
+7229	12	1021	\N	Glez
+7230	20	1021	\N	edgarallanglez@gmail.com
+7231	11	1022	\N	Edgar Allan
+7232	12	1022	\N	Glez
+7233	20	1022	\N	edgarallanglez@gmail.com
 \.
 
 
@@ -6820,4 +6826,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7227, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7233, true);

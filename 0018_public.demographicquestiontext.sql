@@ -15,8 +15,8 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 8	8	What Shift do you work?	Shift	en	{\n   "en": "What shift do you work?", \n   "es": ""\n}
 9	9	Were you a CMH Employee?	Other Employee	en	{\n   "en": "", \n   "es": ""\n}
 10	10	Your work location	Work Location	en	{\n   "en": "Your work location", \n   "es": ""\n}
-11	11	First Name	First Name	en	{\n   "en": "", \n   "es": ""\n}
-12	12	Last Name	Last Name	en	{\n   "en": "", \n   "es": ""\n}
+11	11	First Name	First Name	en	{\n   "en": "First Name", \n   "es": "Nombre"\n}
+12	12	Last Name	Last Name	en	{\n   "en": "Last Name", \n   "es": "Apellidos"\n}
 13	13	What best describes your job level	Job Level	en	{\n   "en": "", \n   "es": ""\n}
 14	14	What best describes your job function	Job Function	en	{ \n  "en": "What best describes your job function",\n  "es": "¿Qué describe mejor su función laboral?"\n}
 15	15	Gender	Gender	en	{ \n  "en": "What is your gender?",\n  "es": "Cúal es tu género?"\n}
@@ -24,7 +24,7 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 17	17	Education	Education Level	en	{\n   "en": "", \n   "es": ""\n}
 18	18	Job Level	Job Level	en	{ \n  "en": "Job Level",\n  "es": "Posición de trabajo"\n}
 19	19	Customer Contact	Contact Level	en	{\n   "en": "", \n   "es": ""\n}
-20	20	E-mail	E-mail	en	{\n   "en": "", \n   "es": ""\n}
+20	20	E-mail	E-mail	en	{\n   "en": "E-mail", \n   "es": "Correo electrónico"\n}
 21	21	Education	Education	en	{\n   "en": "", \n   "es": ""\n}
 22	22	How long have you been a Chamber member?	Long in chamber	en	{\n   "en": "", \n   "es": ""\n}
 23	23	Are you a	Board or Staff	en	{\n   "en": "", \n   "es": ""\n}

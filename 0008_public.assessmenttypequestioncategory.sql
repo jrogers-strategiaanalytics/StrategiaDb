@@ -32,6 +32,10 @@ COPY public.assessmenttypequestioncategory (idassessmenttypequestioncategory, na
 25	SECCIÓN 2: Estas preguntas se refieren al enfoque de su organización hacia el entorno externo.	es
 26	SECCIÓN 3: Estas preguntas se refieren a qué tan bien su organización ejecuta su estrategia.	es
 27	SECCIÓN 4: Estas preguntas se refieren al enfoque de su organización para el desarrollo de las personas.	es
+28	SECCIÓN 1: Estas preguntas se refieren al enfoque básico de su empresa preferida para las operaciones diarias.	es
+29	SECCIÓN 2: Estas preguntas se refieren al enfoque de su organización preferida hacia el entorno externo.	es
+30	SECCIÓN 3: Estas preguntas se refieren a qué tan bien su compañía preferida ejecuta su estrategia.	es
+31	SECCIÓN 4: Estas preguntas se refieren al enfoque de su empresa preferida para el desarrollo de las personas.	es
 \.
 
 
@@ -39,4 +43,4 @@ COPY public.assessmenttypequestioncategory (idassessmenttypequestioncategory, na
 -- Name: assessmenttypequestioncategory_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmenttypequestioncategory_seq', 27, true);
+SELECT pg_catalog.setval('public.assessmenttypequestioncategory_seq', 31, true);

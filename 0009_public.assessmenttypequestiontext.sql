@@ -395,6 +395,69 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 388	59	27	Nuestro departamento de recursos humanos continuamente esta creando nuevas estrategias innovadoras para incrementar la eficacia de los empleados.	es
 389	63	27	La estrategia de gestión de mi compañía asegura que los empleados aprendan continuamente nuevas maneras de cumplir con las necesidades de nuestros clientes.	es
 390	61	27	En mi compañía, la énfasis estratégica se centra en el desempeño.	es
+391	190	28	Opero mejor en un entorno que tiende a tomar decisiones a un ritmo constante.	es
+392	192	28	Opero mejor en un entorno donde valoramos hacer mejor las cosas.	es
+393	194	28	Opero mejor en un entorno que tiende a ser analitíco.	es
+394	196	28	Opero mejor en un entorno donde tendemos anticipar las necesidades de nuestros clientes.	es
+395	193	28	Opero mejor en un entorno donde valoramos hacer diferentes las cosas.	es
+396	191	28	Opero mejor en un entorno que tiende a tomar decisiones a un ritmo rápido.	es
+397	198	28	Opero mejor en un entorno donde valoramos el crecimiento de la participación en el mercado.	es
+398	195	28	Opero mejor en un entorno que tiende a ser experimental.	es
+399	197	28	Opero mejor en un entorno que tendemos a reaccionar a las necesidades de nuestros clientes.	es
+400	199	28	Opero mejor en un entorno que valoramos el crecimiento de las ganancias.	es
+401	200	29	Opero mejor en un entorno donde ponemos énfasis en adquirir nuevos clientes.	es
+402	202	29	Opero mejor en un entorno donde las asignaciones del trabajo tienden a llevar responsabilidades limitadas.	es
+403	204	29	Opero mejor en un entorno donde nos centramos en proteger el legado de la compañía.	es
+404	201	29	Opero mejor en un entorno donde ponemos una énfasis en retener nuestros clientes actuales.	es
+405	206	29	Opero mejor en un entorno donde el trabajo de cada uno se define estrechamente con límites precisos.	es
+406	208	29	Opero mejor en un entorno donde tiene la tendencia de trabajar solo.	es
+407	203	29	Opero mejor en un entorno donde las asignaciones del trabajo tiende a llevar responsabilidades amplias.	es
+408	209	29	Opero mejor en un entorno donde tiene una gran tendencia a asociarse con otras organizaciones.	es
+409	207	29	Opero mejor en un entorno donde el trabajo de cada uno se define ampliamente y tienen límites amplios.	es
+410	205	29	Opero mejor en un entorno donde nos centramos en desarrollar el legado de la compañía.	es
+411	210	29	Opero mejor en un entorno donde los empleados están empoderados a usar su propio juicio a cumplir con las necesidades de los clientes.	es
+412	211	29	Opero mejor en un entorno donde los empleados en mi compañía se sienten cómodos al estar en desacuerdo con cualquiera persona en la compañía.	es
+413	212	29	Opero mejor en un entorno donde todas nuestras actividades y departamentos contribuyen a que los clientes reciban valor.	es
+414	213	29	Opero mejor en un entorno donde siempre intentamos superar las expectativas de nuestros clientes.	es
+415	214	30	Opero mejor en un entorno donde el comportamiento del equipo de gerencia ejecutiva coincide con la filosofía de la compañía tal como la entiendo yo.	es
+416	223	30	Opero mejor en un entorno donde le gente se recompensa directamente por su cumplimiento de las expectativas de la compañía.	es
+417	215	30	Opero mejor en un entorno donde el comportamiento de los ejecutivos de mi compañía coincide con los comportamientos necesarios para ejecutar con éxito el plan estratégico.	es
+418	216	30	Opero mejor en un entorno donde el comportamiento de la gerencia intermedia de mi compañía coincide con los comportamientos necesarios para ejecutar con éxito el plan estratégico.	es
+419	225	30	Opero mejor en un entorno donde todos entienden la aspiración global de la compañía.	es
+420	217	30	Opero mejor en un entorno donde el comportamiento de los empleados de mi compañía coincide con la filosofía de la compañía.	es
+421	218	30	Opero mejor en un entorno donde la declaración filosófica de mi compañía (una declaración pública sobre el comportamiento de los empleados y los valores de la compañía) es consistente con su estrategia (un plan bien pensado y expresado para lograr las metas de la compañía).	es
+422	219	30	Opero mejor en un entorno donde el comportamiento de los empleados de mi compañía es consistente con los comportamientos necesarios para ejecutar con éxito el plan estratégico.	es
+423	220	30	Opero mejor en un entorno donde yo sé lo que necesito saber sobre la estrategia de mi compañía para hacer mi trabajo eficazmente.	es
+424	221	30	Opero mejor en un entorno donde el tema o mensaje básico de la filosofía de mi compañía combina con mi filosofía personal.	es
+425	224	30	Opero mejor en un entorno donde la gente es recompensada indirectamente por su cumplimiento de las expectativas de la compañía.	es
+426	222	30	Opero mejor en un entorno donde el comportamiento de la gerencia intermedia de mi compañía es consistente con la filosofía de la compañía.	es
+427	227	30	Opero mejor en un entorno donde usamos investigación de consumo para formar nuevos productos y servicios.	es
+428	226	30	Opero mejor en un entorno donde nadie entiende la aspiración global (lo que quiere logara en le futuro)	es
+429	228	30	Opero mejor en un entorno donde usamos la información del cliente como el factor más importante en desarrollar productos y servicios nuevos.	es
+430	229	30	Opero mejor en un entorno donde usamos estrategias bien desarrolladas para escuchar a los clientes y determinar sus expectativas.	es
+431	230	30	Opero mejor en un entorno donde nos enfocamos precisamente en las necesidades a largo plazo de nuestros clientes.	es
+432	231	30	Opero mejor en un entorno donde diseñamos y distribuimos nuestros productos y servicios para superar las expectativas de nuestros clientes.	es
+433	232	30	Opero mejor en un entorno donde nuestros procesos internos están diseñados para cumplir con las necesidades de los clientes mejor.	es
+434	233	30	Opero mejor en un entorno donde nadie entiende cuáles son las expectativas del desempeño de la compañía.	es
+435	235	30	Opero mejor en un entorno donde la gerencia asciende a la persona que tiene las mejores habilidades y conocimiento para cumplir el trabajo.	es
+436	236	30	Opero mejor en un entorno donde los empleados se recompensados por cumplir con las metas de satisfacción del cliente.	es
+437	239	30	Opero mejor en un entorno donde los criterios para avanzar no son muy claros.	es
+438	237	30	Opero mejor en un entorno donde las medidas del desempeño de mi compañía se definen claramente.	es
+439	238	30	Opero mejor en un entorno donde todos entienden claramente las expectativas del desempeño de la compañía.	es
+440	241	30	Opero mejor en un entorno donde mi supervisor inmediato me ayuda rutinariamente a mejorar mi desempeño.	es
+441	242	30	Opera mejor en un entorno donde mi supervisor inmediato entiende las fortalezas que traigo a mi trabajo.	es
+442	245	30	Opero mejor en un entorno donde un valor compartido que mantiene unida mi organización es la lealtad a la compañía.	es
+443	240	30	Opero mejor en un entorno donde los criterios para avanzar son muy claros.	es
+444	243	30	Opero mejor en un entorno donde mi supervisor tiene la información y conocimiento que necesito para hacer mi trabajo.	es
+445	246	30	Opero mejor en un entorno donde la mayoría de los empleados participan en o muestran interés en los eventos sociales patrocinados por la compañía.	es
+446	244	30	Opero mejor en un entorno donde recibo la información que necesito para hacer mi trabajo de mi supervisor.	es
+447	234	30	Opero mejor en un entorno donde todos entienden cuáles son las expectativas de desempeño de la compañía.	es
+448	247	31	Opero mejor en un entorno donde nuestro departamento de recursos humanos continuamente esta prestando estrategias innovadoras para incrementar la eficacia de los empleados.	es
+449	249	31	Opera mejor en un entorno donde el enfoque estratégico se centra en el potencial.	es
+450	251	31	Opero mejor en un entorno donde necesita conocimiento especializado sobre cada cliente para vender con éxito sus productos.	es
+451	248	31	Opero mejor en un entorno donde nuestro departamento de recursos humanos continuamente esta creando nuevas estrategias innovadoras para incrementar la eficacia de los empleados.	es
+452	252	31	Opero mejor en un entorno donde la estrategia de gestión de mi compañía asegura que los empleados aprendan continuamente nuevas maneras de cumplir con las necesidades de nuestros clientes.	es
+453	250	31	Opero mejor en un entorno donde la énfasis estratégica se centra en el desempeño.	es
 \.
 
 
@@ -402,4 +465,4 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 -- Name: assessmenttypequestiontext_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmenttypequestiontext_seq', 390, true);
+SELECT pg_catalog.setval('public.assessmenttypequestiontext_seq', 453, true);
