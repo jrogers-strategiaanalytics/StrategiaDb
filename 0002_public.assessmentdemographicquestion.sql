@@ -374,6 +374,8 @@ COPY public.assessmentdemographicquestion (idassessment, iddemographicquestion) 
 71	3
 71	5
 71	7
-72	11
-72	12
+73	11
+73	12
+74	11
+74	12
 \.
