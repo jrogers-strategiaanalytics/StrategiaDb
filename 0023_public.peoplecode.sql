@@ -44,6 +44,7 @@ COPY public.peoplecode (idcode, idpeople, status, codehash, state, isadmin) FROM
 37	8	0	uZ8TdQkz6ErGfVKD2OWuLbZnKluBHRoC1jqs8I	unconfirmed	f
 38	8	0	KWDaRXDbTreXVv8jlt5fqXREVbMga35xlmvY9K	unconfirmed	f
 39	8	0	MAevwBPkWOk8wshb4Yq7SW09W25rvErzBLsprU	unconfirmed	f
+40	19	0	MAevwBPkWOk8wshb4Yq7SW09W25rvErzBLsprU	confirmed	f
 \.
 
 
@@ -51,4 +52,4 @@ COPY public.peoplecode (idcode, idpeople, status, codehash, state, isadmin) FROM
 -- Name: peoplecode_id_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.peoplecode_id_seq', 39, true);
+SELECT pg_catalog.setval('public.peoplecode_id_seq', 40, true);
