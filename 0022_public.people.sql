@@ -10,7 +10,7 @@ COPY public.people (idpeople, name, lastname, email, passhash, salt, state, isad
 4	Al	Severance	aseverance@strategiaanalytics.com	$2a$10$IvOLUFTKpEq/2UhRdgkM5.fCiDofHF2EhemNe3XITGoLLaAvlZlDW                                        	$2a$10$IvOLUFTKpEq/2UhRdgkM5.                     	active	t
 6	Strategia		admin@strategiaanalytics.com	$2a$10$B3BAKGr91aypX/ZoU0BUJeCbVNrOG.6LCNk5LZ21/AkWvSRT2WBQm                                        	$2a$10$B3BAKGr91aypX/ZoU0BUJe                     	active	t
 7	Diana	Boyanova	dboyanova@strategiaanalytics.com	$2a$10$gVTYYlObmS9vs9dQ/ylyn.Ggubf60Y/aN.SWxumkkO8mSXO3MWrAu                                        	$2a$10$gVTYYlObmS9vs9dQ/ylyn.                     	active	t
-8	Jon	Sharp	jons@trinityglass.com	$2a$10$AXBrAw0jiAAkCoKEhRaZqenwg.EGssL9pQoWqAKkH35Pwwl5hgtyW                                        	$2a$10$AXBrAw0jiAAkCoKEhRaZqe                     	active	f
+8	Jon	Sharp	jons@trinityglass.com	$2a$10$UL0lxcZdu3BrCp/pB/Sgb.eBVvkjC3O0llrS7O4DdEI8oSJ.1hWLa                                        	$2a$10$UL0lxcZdu3BrCp/pB/Sgb.                     	active	f
 9	Karen	Rutynowski	karen.maranamath@gmail.com	$2a$10$SKmUCCHQDbDn4bvnUqMQk.c52Ix2gGWc5vWCsUc1bx4vWRD8tJ/qC                                        	$2a$10$SKmUCCHQDbDn4bvnUqMQk.                     	inactive	f
 10	Bill	Rothenbach	brothenbach@jjhaines.com	$2a$10$tqLe5rv/9TgafNrqKVk1uO0I2bMVEdB9zRoT1aE5HQv6iR7jQDIcG                                        	$2a$10$tqLe5rv/9TgafNrqKVk1uO                     	active	f
 12	John	Rogers	jr@aok7.com	$2a$10$WWbC5vRByMliJCrN3G7K4OrET26utcAmcuiKm2IX4bGFHKK6cRjv.                                        	$2a$10$WWbC5vRByMliJCrN3G7K4O                     	active	t
