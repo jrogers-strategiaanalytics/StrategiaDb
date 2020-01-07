@@ -15,13 +15,13 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 9	2	Strategia Analytics OSA 2019	\N	1
 10	2	 Delete this Entire Project 	\N	1
 12	5	Trinity Leadership Surveys 2018 - 2019	\N	1
-14	5	Trinity OSA Sep2013	\N	1
+14	5	Trinity OSA	\N	1
 15	2	Customer Centricity	\N	1
 16	2	2019 Webinar Participants	\N	1
 17	2	Customer Fit Partnership with Alain	\N	1
 18	3	Hire Director	\N	1
 20	6	Introduction	\N	1
-21	5	Candidate Fit 2019	\N	1
+21	5	Candidate Fit	\N	1
 22	7	CFP for Trinity Glass	\N	1
 24	3	Candidate fit 2020	\N	1
 25	2	Computer APP Testing	\N	1
