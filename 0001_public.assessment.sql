@@ -57,8 +57,8 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 70	4	25	My weird reporting MPO	2019-11-11 00:00:00	2019-12-31 00:00:00	2	24	mwrmpo
 71	1	10	Spanish Test	2019-11-12 00:00:00	2019-11-29 00:00:00	2	6	Spanagain
 73	5	22	Candidate Fit for 2020	2019-12-12 00:00:00	2020-12-31 00:00:00	1	250	AERO2020
-74	4	22	Candidates for 2020	2019-12-12 00:00:00	2020-12-31 00:00:00	1	250	AERO0020
 75	5	21	CFP 2020-01	2020-01-06 00:00:00	2020-12-31 00:00:00	1	60	trinity20
+76	4	8	MPO 2020-01	2020-01-08 00:00:00	2020-12-31 00:00:00	1	100	SAMPO
 \.
 
 
@@ -66,4 +66,4 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 -- Name: assessment_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessment_seq', 75, true);
+SELECT pg_catalog.setval('public.assessment_seq', 76, true);
