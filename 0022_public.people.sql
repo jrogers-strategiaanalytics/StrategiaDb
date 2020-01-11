@@ -17,7 +17,7 @@ COPY public.people (idpeople, name, lastname, email, passhash, salt, state, isad
 13	Devi	Paolillo	marana@mathnasium.com	$2a$10$8oui2UDOo9UAaTQmBIhxKeFx6PHdxBgYOoTcqhzwb2D2bSm/mYKiC                                        	$2a$10$8oui2UDOo9UAaTQmBIhxKe                     	active	f
 14	Alan	Severance	strategia-test@aok7.com	$2a$10$1CKp0qv7.54fOXOzNk0y/.TtswcqiW04/QWlIHlZnzGhFUHYdL5.q                                        	$2a$10$1CKp0qv7.54fOXOzNk0y/.                     	active	f
 15	Alan	Severance	mathnasium-test@aok7.com	$2a$10$OwaZvknGYr0FTQpzqJdOZeNikS1k0xIHi8EMHgb3V.hD19H9qFSyy                                        	$2a$10$OwaZvknGYr0FTQpzqJdOZe                     	active	f
-16	Audra	Winters	audrawinters@maranachamber.com	\N	\N	active	f
+16	Audra	Winters	audrawinters@maranachamber.com	$2a$10$uuG1YGACH.mzyNtpB307keQEvpZ792oEgVYwxrb5Mzxuo9yHjZTgC                                        	$2a$10$uuG1YGACH.mzyNtpB307ke                     	active	f
 17	Sherry	Benjamins	sherry@sbcompany.net	$2a$10$6hmCzSUSpJmE1XTP9XABy.LGz7d8.Rrj2xdoJiVXKT0pOo.40P80W                                        	$2a$10$6hmCzSUSpJmE1XTP9XABy.                     	active	f
 18	Upper	Case	CapTest@Aok7.com	$2a$10$ovvnE7iNDVFXEa/SFuTdpO0R/AQY7aNQzUHTZoN.Q0wXnjXZp2iXy                                        	$2a$10$ovvnE7iNDVFXEa/SFuTdpO                     	active	f
 19	Mick	Luth	mickl@trinityglass.com	$2a$10$B3BAKGr91aypX/ZoU0BUJeCbVNrOG.6LCNk5LZ21/AkWvSRT2WBQm                                        	$2a$10$B3BAKGr91aypX/ZoU0BUJe                     	active	f
