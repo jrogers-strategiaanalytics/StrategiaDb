@@ -6825,6 +6825,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7239	11	1025	\N	Alan jan 20
 7240	12	1025	\N	Severance
 7241	20	1025	\N	alseverance13@msn.com
+7242	11	1026	\N	Cassie
+7243	12	1026	\N	Cranford
+7244	20	1026	\N	cassiecranford1@gmail.com
+7245	11	1027	\N	Jessi
+7246	12	1027	\N	Purdy
+7247	20	1027	\N	jessicajaymespurdy@gmail.com
 \.
 
 
@@ -6832,4 +6838,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7241, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7247, true);
