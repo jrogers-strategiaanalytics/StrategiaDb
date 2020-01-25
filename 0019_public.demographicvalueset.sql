@@ -324,6 +324,20 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 330	53	2	Tacoma, WA	f	{\n   "en": "", \n   "es": ""\n}
 332	5	5	Post High School	f	{\n  "en": "Post High School Certificate", \n  "es": "Licenciatura"\n}
 333	31	1		t	{ \n  "en": "", \n  "es": ""\n}
+337	56	1	Administration	f	\N
+353	56	2	Finance/Accounting	f	\N
+354	56	3	Credit	f	\N
+355	56	4	Information/Technology	f	\N
+356	56	5	Marketing	f	\N
+357	56	6	Sales	f	\N
+358	56	7	Customer Service	f	\N
+359	56	8	E-Commerce	f	\N
+360	56	9	Purchasing	f	\N
+361	56	10	Inventory Control	f	\N
+362	56	11	Production Operations	f	\N
+363	56	12	Warehouse Operations	f	\N
+364	56	13	Operations Management	f	\N
+365	56	14	Executive Management	f	\N
 \.
 
 
@@ -331,4 +345,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 336, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 365, true);

@@ -59,6 +59,7 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 52	52	Customer Contact	Contact Level	en	{\n   "en": "", \n   "es": ""\n}
 53	53	Work Location	Work Location	en	{\n   "en": "", \n   "es": ""\n}
 54	54	Job Function	Job Function	en	{\n   "en": "", \n   "es": ""\n}
+56	56	Job Function	Job Function	en	\N
 \.
 
 
@@ -66,4 +67,4 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 -- Name: demographicquestiontext_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestiontext_seq', 55, true);
+SELECT pg_catalog.setval('public.demographicquestiontext_seq', 56, true);

@@ -59,6 +59,7 @@ COPY public.demographicquestion (iddemographicquestion, enumerator, weight, type
 52	D52	7	selectbox	D52	custom	t
 53	D53	1	selectbox	D53	custom	t
 54	D54	1	selectbox	D54	custom	t
+56	D56	1	selectbox	D56	standard	t
 \.
 
 
@@ -66,4 +67,4 @@ COPY public.demographicquestion (iddemographicquestion, enumerator, weight, type
 -- Name: demographicquestion_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestion_seq', 55, true);
+SELECT pg_catalog.setval('public.demographicquestion_seq', 56, true);
