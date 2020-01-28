@@ -6838,4 +6838,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7247, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7253, true);
