@@ -325,20 +325,11 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 332	5	5	Post High School	f	{\n  "en": "Post High School Certificate", \n  "es": "Licenciatura"\n}
 333	31	1		t	{ \n  "en": "", \n  "es": ""\n}
 337	56	1	Administration	f	{ \n  "en": "Administration", \n  "es": ""\n}
-353	56	2	Finance/Accounting	f	{ \n  "en": "Finance/Accounting", \n  "es": ""\n}
-354	56	3	Credit	f	{ \n  "en": "Credit", \n  "es": ""\n}
-355	56	4	Information/Technology	f	{ \n  "en": "Information/Technology", \n  "es": ""\n}
-356	56	5	Marketing	f	{ \n  "en": "Marketing", \n  "es": ""\n}
-357	56	6	Sales	f	{ \n  "en": "Sales", \n  "es": ""\n}
-358	56	7	Customer Service	f	{ \n  "en": "Customer Service", \n  "es": ""\n}
-359	56	8	E-Commerce	f	{ \n  "en": "E-Commerce", \n  "es": ""\n}
-360	56	9	Purchasing	f	{ \n  "en": "Purchasing", \n  "es": ""\n}
-361	56	10	Inventory Control	f	{ \n  "en": "Inventory Control", \n  "es": ""\n}
 362	56	11	Production Operations	f	{ \n  "en": "Production Operations", \n  "es": ""\n}
 363	56	12	Warehouse Operations	f	{ \n  "en": "Warehouse Operations", \n  "es": ""\n}
-364	56	13	Operations Management	f	{ \n  "en": "Operations Management", \n  "es": ""\n}
-365	56	14	Executive Management	f	{ \n  "en": "Executive Management", \n  "es": ""\n}
 366	54	1	Administration	f	{ \n  "en": "Administration", \n  "es": ""\n}
+367	54	2	Warehouse 	f	{ "en": "Warehouse ", "es": "Warehouse "}
+368	54	3	Production	f	{ "en": "Production", "es": "Production"}
 \.
 
 
@@ -346,4 +337,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 366, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 368, true);

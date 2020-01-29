@@ -58,8 +58,8 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 51	51	Job Level	Job Level	en	{\n   "en": "", \n   "es": ""\n}
 52	52	Customer Contact	Contact Level	en	{\n   "en": "", \n   "es": ""\n}
 53	53	Work Location	Work Location	en	{\n   "en": "Work Location", \n   "es": ""\n}
-54	54	Job Function	Job Function	en	{\n   "en": "Job Function", \n   "es": ""\n}
-56	56	Job Function	Job Function	en	{\n   "en": "Job Function", \n   "es": ""\n}
+54	54	Job Function	Job Function	en	{ "en": "Job Function", "es": "Job Function"}
+56	56	Job Function	Job Function	en	{ "en": "Job Function", "es": "Job Function"}
 \.
 
 
