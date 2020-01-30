@@ -321,15 +321,14 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 327	52	1	Contact with Internal customers	f	{\n   "en": "", \n   "es": ""\n}
 328	52	2	None 	f	{\n   "en": "", \n   "es": ""\n}
 329	53	1	Breinigsville, PA	f	{\n   "en": "Breinigsville, PA", \n   "es": ""\n}
-330	53	2	Tacoma, WA	f	{\n   "en": "Tacoma, WA", \n   "es": ""\n}
 332	5	5	Post High School	f	{\n  "en": "Post High School Certificate", \n  "es": "Licenciatura"\n}
 333	31	1		t	{ \n  "en": "", \n  "es": ""\n}
 337	56	1	Administration	f	{ \n  "en": "Administration", \n  "es": ""\n}
 362	56	11	Production Operations	f	{ \n  "en": "Production Operations", \n  "es": ""\n}
 363	56	12	Warehouse Operations	f	{ \n  "en": "Warehouse Operations", \n  "es": ""\n}
-366	54	1	Administration	f	{ \n  "en": "Administration", \n  "es": ""\n}
-367	54	2	Warehouse 	f	{ "en": "Warehouse ", "es": "Warehouse "}
-368	54	3	Production	f	{ "en": "Production", "es": "Production"}
+379	54	1	Administration	f	{ "en": "Administration", "es": "Administration"}
+380	54	2	Warehouse	f	{ "en": "Warehouse", "es": "Warehouse"}
+381	54	3	Production	f	{ "en": "Production", "es": "Production"}
 \.
 
 
@@ -337,4 +336,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 368, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 409, true);

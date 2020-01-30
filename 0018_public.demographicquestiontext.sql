@@ -7,7 +7,7 @@
 COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicquestion, question, label, lang, questionlang) FROM stdin;
 1	1	Gender	Gender	en	{ \n  "en": "What is your gender?",\n  "es": "Cúal es tu género?"\n}
 2	2	Age	Age	en	{ \n  "en": "What is your age?",\n  "es": "Que edad tienes?"\n}
-3	3	Years with company	Employment	en	{ \n  "en": "Years with company",\n  "es": "Años con la compañia"\n}
+3	3	Years with company	Employment	en	{ "en": "Employment", "es": "Employment"}
 4	4	What best describes your job function	Job Function	en	{\n   "en": "", \n   "es": ""\n}
 5	5	Education Level	Education Level	en	{ \n  "en": "Education Level",\n  "es": "Nivel educativo"\n}
 6	6	Job Level	Job Level	en	{\n   "en": "", \n   "es": ""\n}
@@ -57,9 +57,12 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 50	50	Education	Education Level	en	{\n   "en": "", \n   "es": ""\n}
 51	51	Job Level	Job Level	en	{\n   "en": "", \n   "es": ""\n}
 52	52	Customer Contact	Contact Level	en	{\n   "en": "", \n   "es": ""\n}
-53	53	Work Location	Work Location	en	{\n   "en": "Work Location", \n   "es": ""\n}
-54	54	Job Function	Job Function	en	{ "en": "Job Function", "es": "Job Function"}
+53	53	Work Location	Work Location	en	{ "en": "Work Location", "es": "Work Location"}
+54	54	Work Area 	Work Area	en	{ "en": "Work Area", "es": "Work Area"}
 56	56	Job Function	Job Function	en	{ "en": "Job Function", "es": "Job Function"}
+57	57	test custom demo question	test custom dem	en	{ "en": "test custom dem", "es": "test custom dem"}
+58	58	test2 - custom	test2 - custom 	en	{ "en": "test2 - custom ", "es": "test2 - custom "}
+59	59	create empty one	create empty on	en	{ "en": "create empty on", "es": "create empty on"}
 \.
 
 
@@ -67,4 +70,4 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 -- Name: demographicquestiontext_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestiontext_seq', 56, true);
+SELECT pg_catalog.setval('public.demographicquestiontext_seq', 59, true);

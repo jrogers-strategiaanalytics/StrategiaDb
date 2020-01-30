@@ -58,6 +58,7 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 73	5	22	Candidate Fit for 2020	2019-12-12 00:00:00	2020-12-31 00:00:00	1	250	AERO2020
 75	5	21	CFP 2020-01	2020-01-06 00:00:00	2020-12-31 00:00:00	1	60	trinity20
 76	4	8	MPO 2020-01	2020-01-08 00:00:00	2020-12-31 00:00:00	1	100	SAMPO
+87	1	14	OSA 2020-02	2020-01-29 00:00:00	2020-02-10 00:00:00	1	100	Trin400
 \.
 
 
@@ -65,4 +66,4 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 -- Name: assessment_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessment_seq', 83, true);
+SELECT pg_catalog.setval('public.assessment_seq', 87, true);
