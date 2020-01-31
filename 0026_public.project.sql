@@ -25,6 +25,7 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 22	7	CFP for Trinity Glass	\N	1
 24	3	Candidate fit 2020	\N	1
 25	2	Computer APP Testing	\N	1
+26	9	What Not	\N	1
 \.
 
 
@@ -32,4 +33,4 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 -- Name: project_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.project_seq', 25, true);
+SELECT pg_catalog.setval('public.project_seq', 26, true);

@@ -14,7 +14,7 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 7	7	In your present position, you have	Contact Level	en	{ \n  "en": "In your present position, you have",\n  "es": "En tu puesto actual, tienes"\n}
 8	8	What Shift do you work?	Shift	en	{\n   "en": "What shift do you work?", \n   "es": ""\n}
 9	9	Were you a CMH Employee?	Other Employee	en	{\n   "en": "", \n   "es": ""\n}
-10	10	Your work location	Work Location	en	{\n   "en": "Your work location", \n   "es": ""\n}
+10	10	Your work location	Work Location	en	{ "en": "Work Location", "es": "Work Location"}
 11	11	First Name	First Name	en	{\n   "en": "First Name", \n   "es": "Nombre"\n}
 12	12	Last Name	Last Name	en	{\n   "en": "Last Name", \n   "es": "Apellidos"\n}
 13	13	What best describes your job level	Job Level	en	{\n   "en": "", \n   "es": ""\n}

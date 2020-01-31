@@ -69,7 +69,7 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 62	10	11	Outside Sales	f	{\n   "en": "", \n   "es": ""\n}
 63	10	3	Raleigh, NJ	f	{\n   "en": "", \n   "es": ""\n}
 64	10	7	Richmond, VA	f	{\n   "en": "", \n   "es": ""\n}
-65	10	10	Supply Centers	f	{\n   "en": "", \n   "es": ""\n}
+65	10	10	Supply Centers	t	{\n   "en": "", \n   "es": ""\n}
 66	10	8	Smyrna, GA	f	{\n   "en": "", \n   "es": ""\n}
 68	10	9	Wytheville, VA	f	{\n   "en": "", \n   "es": ""\n}
 69	4	16	E-Commerce	f	{ \n  "en": "E-Commerce", \n  "es": "Comercio electrónico"\n}
@@ -329,6 +329,19 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 379	54	1	Administration	f	{ "en": "Administration", "es": "Administration"}
 380	54	2	Warehouse	f	{ "en": "Warehouse", "es": "Warehouse"}
 381	54	3	Production	f	{ "en": "Production", "es": "Production"}
+410	56	13	Finance/Accounting	f	{ "en": "Finance/Accounting", "es": "Finance/Accounting"}
+411	56	14	Credit	f	{ "en": "Credit", "es": "Credit"}
+412	56	15	Human Resources	f	{ "en": "Human Resources", "es": "Human Resources"}
+413	56	16	Information Technology	f	{ "en": "Information Technology", "es": "Information Technology"}
+414	56	17	Marketing	f	{ "en": "Marketing", "es": "Marketing"}
+415	56	18	Sales	f	{ "en": "Sales", "es": "Sales"}
+416	56	19	Customer Service	f	{ "en": "Customer Service", "es": "Customer Service"}
+417	56	20	Purchasing	f	{ "en": "Purchasing", "es": "Purchasing"}
+418	56	21	Inventory Control	f	{ "en": "Inventory Control", "es": "Inventory Control"}
+419	56	22	Executive Management	f	{ "en": "Executive Management", "es": "Executive Management"}
+420	56	23	Operations Management	f	{ "en": "Operations Management", "es": "Operations Management"}
+421	53	2	Tacoma, WA	f	{ "en": "Tacoma, WA", "es": "Tacoma, WA"}
+422	56	12	E-Commerce	f	{ "en": "E-Commerce", "es": "E-Commerce"}
 \.
 
 
@@ -336,4 +349,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 409, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 422, true);

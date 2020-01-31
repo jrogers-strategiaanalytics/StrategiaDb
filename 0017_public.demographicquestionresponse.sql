@@ -6831,6 +6831,11 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7245	11	1027	\N	Jessi
 7246	12	1027	\N	Purdy
 7247	20	1027	\N	jessicajaymespurdy@gmail.com
+7254	2	1030	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7255	7	1030	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7256	56	1030	363	--Select--\nAdministration\nProduction Operations\nWarehouse Operations
+7257	5	1031	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7258	56	1031	362	--Select--\nAdministration\nProduction Operations\nWarehouse Operations
 \.
 
 
@@ -6838,4 +6843,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7253, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7258, true);

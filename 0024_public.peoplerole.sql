@@ -25,6 +25,7 @@ COPY public.peoplerole (idpeople, idrole, idclient) FROM stdin;
 6	1	6
 6	1	7
 6	1	8
+6	1	9
 7	1	1
 7	1	2
 7	1	3
@@ -45,4 +46,5 @@ COPY public.peoplerole (idpeople, idrole, idclient) FROM stdin;
 17	1	8
 18	1	2
 19	1	5
+20	1	9
 \.
