@@ -5,7 +5,7 @@
 --
 
 COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicquestion, question, label, lang, questionlang) FROM stdin;
-1	1	Gender	Gender	en	{ \n  "en": "What is your gender?",\n  "es": "Cúal es tu género?"\n}
+1	1	Gender	Gender	en	{ "en": "Gender", "es": "Gender"}
 2	2	Age	Age	en	{ \n  "en": "What is your age?",\n  "es": "Que edad tienes?"\n}
 3	3	Years with company	Employment	en	{ "en": "Employment", "es": "Employment"}
 4	4	What best describes your job function	Job Function	en	{\n   "en": "", \n   "es": ""\n}

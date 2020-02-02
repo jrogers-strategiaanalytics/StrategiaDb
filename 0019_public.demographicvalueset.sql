@@ -342,6 +342,9 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 420	56	23	Operations Management	f	{ "en": "Operations Management", "es": "Operations Management"}
 421	53	2	Tacoma, WA	f	{ "en": "Tacoma, WA", "es": "Tacoma, WA"}
 422	56	12	E-Commerce	f	{ "en": "E-Commerce", "es": "E-Commerce"}
+423	1	2	Non-Binary	f	{ "en": "Non-Binary", "es": "Non-Binary"}
+424	1	3	Other	f	{ "en": "Other", "es": "Other"}
+425	1	4	Prefer not to answer	f	{ "en": "Prefer not to answer", "es": "Prefer not to answer"}
 \.
 
 
@@ -349,4 +352,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 422, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 425, true);
