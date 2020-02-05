@@ -6836,6 +6836,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7256	56	1030	363	--Select--\nAdministration\nProduction Operations\nWarehouse Operations
 7257	5	1031	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
 7258	56	1031	362	--Select--\nAdministration\nProduction Operations\nWarehouse Operations
+7259	11	1032	\N	Samantha 
+7260	12	1032	\N	Zayas 
+7261	3	1033	\N	\N
+7262	54	1033	381	
+7263	3	1034	14	
+7264	54	1034	381	
+7265	3	1035	15	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
+7266	54	1035	381	--Seleccionar--\nAdministration\nWarehouse\nProduction
+7267	3	1036	15	
+7268	54	1036	380	
 \.
 
 
@@ -6843,4 +6853,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7258, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7268, true);
