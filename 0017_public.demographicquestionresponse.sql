@@ -6882,6 +6882,8 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7302	54	1053	380	--Select--\nAdministration\nWarehouse\nProduction
 7303	3	1054	14	
 7304	54	1054	381	
+7305	3	1055	13	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
+7306	54	1055	381	--Seleccionar--\nAdministration\nWarehouse\nProduction
 \.
 
 
@@ -6889,4 +6891,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7304, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7306, true);
