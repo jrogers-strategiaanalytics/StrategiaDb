@@ -61802,6 +61802,69 @@ COPY public.assessmentquestionresponse (idassessmentquestionresponse, idassessme
 65281	59	1055	3	3
 65282	63	1055	3	3
 65283	61	1055	3	3
+65284	1	1056	\N	\N
+65285	3	1056	\N	\N
+65286	5	1056	\N	\N
+65287	7	1056	\N	\N
+65288	4	1056	\N	\N
+65289	2	1056	\N	\N
+65290	9	1056	\N	\N
+65291	6	1056	\N	\N
+65292	8	1056	\N	\N
+65293	10	1056	\N	\N
+65294	11	1056	\N	\N
+65295	13	1056	\N	\N
+65296	15	1056	\N	\N
+65297	12	1056	\N	\N
+65298	17	1056	\N	\N
+65299	19	1056	\N	\N
+65300	14	1056	\N	\N
+65301	20	1056	\N	\N
+65302	18	1056	\N	\N
+65303	16	1056	\N	\N
+65304	21	1056	\N	\N
+65305	22	1056	\N	\N
+65306	23	1056	\N	\N
+65307	24	1056	\N	\N
+65308	25	1056	\N	\N
+65309	34	1056	\N	\N
+65310	26	1056	\N	\N
+65311	27	1056	\N	\N
+65312	36	1056	\N	\N
+65313	28	1056	\N	\N
+65314	29	1056	\N	\N
+65315	30	1056	\N	\N
+65316	31	1056	\N	\N
+65317	32	1056	\N	\N
+65318	35	1056	\N	\N
+65319	33	1056	\N	\N
+65320	38	1056	\N	\N
+65321	37	1056	\N	\N
+65322	39	1056	\N	\N
+65323	40	1056	\N	\N
+65324	41	1056	\N	\N
+65325	42	1056	\N	\N
+65326	43	1056	\N	\N
+65327	44	1056	\N	\N
+65328	46	1056	\N	\N
+65329	47	1056	\N	\N
+65330	50	1056	\N	\N
+65331	48	1056	\N	\N
+65332	49	1056	\N	\N
+65333	52	1056	\N	\N
+65334	53	1056	\N	\N
+65335	56	1056	\N	\N
+65336	51	1056	\N	\N
+65337	54	1056	\N	\N
+65338	57	1056	\N	\N
+65339	55	1056	\N	\N
+65340	45	1056	\N	\N
+65341	58	1056	\N	\N
+65342	60	1056	\N	\N
+65343	62	1056	\N	\N
+65344	59	1056	\N	\N
+65345	63	1056	\N	\N
+65346	61	1056	\N	\N
 \.
 
 
@@ -61809,4 +61872,4 @@ COPY public.assessmentquestionresponse (idassessmentquestionresponse, idassessme
 -- Name: assessmentquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmentquestionresponse_seq', 65283, true);
+SELECT pg_catalog.setval('public.assessmentquestionresponse_seq', 65346, true);
