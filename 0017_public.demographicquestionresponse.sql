@@ -5857,15 +5857,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6036	35	805	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
 6037	36	805	224	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
 6038	37	805	227	--Select--\nContact with External customers\nContact with Internal customers\nNone
-6066	11	809	\N	Kathy
-6067	12	809	\N	Crow;eu
-6068	20	809	\N	rmcgkc@aol.com
-6069	33	809	201	
-6070	2	809	11	
-6071	34	809	211	
-6072	35	809	212	
-6073	36	809	220	
-6074	37	809	227	
 6075	11	810	\N	Tracy
 6076	12	810	\N	Kelly
 6077	20	810	\N	tkelly@gmail.com
@@ -6725,15 +6716,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7129	12	960	\N	Overholt 
 7130	11	962	\N	Alan
 7131	12	962	\N	Severance
-7132	2	963	\N	\N
-7133	33	963	\N	\N
-7134	34	963	\N	\N
-7135	35	963	\N	\N
-7136	36	963	\N	\N
-7137	37	963	\N	\N
-7138	11	963	\N	Alan
-7139	12	963	\N	Platform Test
-7140	20	963	\N	alseverance13@msn.com
 7141	2	964	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
 7142	33	964	\N	\N
 7143	34	964	\N	\N
@@ -6898,6 +6880,26 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7318	54	1061	381	
 7319	3	1062	15	--Select-- Less than 1 year 1 - 3 4 - 5 6 - 10 11 - 15 16 - 21 22 or more 
 7320	54	1062	379	--Select-- Administration Warehouse Production 
+7321	3	1063	14	
+7322	54	1063	380	
+7323	3	1064	14	
+7324	54	1064	380	
+7325	3	1065	\N	\N
+7326	54	1065	\N	\N
+7327	3	1066	12	
+7328	54	1066	381	
+7329	3	1067	\N	\N
+7330	54	1067	\N	\N
+7331	3	1068	\N	\N
+7332	54	1068	\N	\N
+7333	3	1069	12	
+7334	54	1069	381	
+7335	3	1070	\N	\N
+7336	54	1070	\N	\N
+7337	3	1071	14	
+7338	54	1071	381	
+7339	3	1072	\N	\N
+7340	54	1072	\N	\N
 \.
 
 
@@ -6905,4 +6907,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7320, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7340, true);
