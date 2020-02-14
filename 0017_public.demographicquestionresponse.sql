@@ -6934,6 +6934,8 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7372	54	1088	\N	\N
 7373	3	1089	15	
 7374	54	1089	380	
+7375	3	1090	16	
+7376	54	1090	380	
 \.
 
 
@@ -6941,4 +6943,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7374, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7376, true);

@@ -1026,6 +1026,7 @@ COPY public.assessmentresponse (idassessmentresponse, idassessment, session, cre
 1087	87	\N	2020-02-12 17:48:00
 1088	87	\N	2020-02-12 21:13:59
 1089	87	\N	2020-02-12 23:26:32
+1090	87	\N	2020-02-13 20:49:20
 \.
 
 
@@ -1033,4 +1034,4 @@ COPY public.assessmentresponse (idassessmentresponse, idassessment, session, cre
 -- Name: assessmentresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmentresponse_seq', 1089, true);
+SELECT pg_catalog.setval('public.assessmentresponse_seq', 1090, true);
