@@ -6936,6 +6936,50 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7374	54	1089	380	
 7375	3	1090	16	
 7376	54	1090	380	
+7377	3	1091	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7378	54	1091	380	--Select--\nAdministration\nWarehouse\nProduction
+7379	3	1092	12	
+7380	54	1092	381	
+7381	3	1093	16	
+7382	54	1093	381	
+7383	3	1094	15	
+7384	54	1094	380	
+7385	3	1095	13	
+7386	54	1095	381	
+7387	3	1096	12	
+7388	54	1096	\N	\N
+7389	3	1097	12	
+7390	54	1097	380	
+7391	3	1098	12	
+7392	54	1098	380	
+7393	3	1099	12	
+7394	54	1099	381	
+7395	3	1100	12	
+7396	54	1100	381	
+7397	3	1101	13	
+7398	54	1101	380	
+7399	3	1102	13	
+7400	54	1102	381	
+7401	3	1103	\N	\N
+7402	54	1103	\N	\N
+7403	3	1104	12	
+7404	54	1104	381	
+7405	3	1105	\N	\N
+7406	54	1105	\N	\N
+7407	3	1106	14	
+7408	54	1106	380	
+7409	3	1107	\N	\N
+7410	54	1107	\N	\N
+7411	3	1108	\N	\N
+7412	54	1108	\N	\N
+7413	3	1109	-1	
+7414	54	1109	380	
+7415	3	1110	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7416	54	1110	-1	--Select--\nAdministration\nWarehouse\nProduction
+7417	3	1111	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7418	54	1111	380	--Select--\nAdministration\nWarehouse\nProduction
+7419	3	1112	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7420	54	1112	381	--Select--\nAdministration\nWarehouse\nProduction
 \.
 
 
@@ -6943,4 +6987,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7376, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7420, true);
