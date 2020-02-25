@@ -6986,6 +6986,17 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7424	54	1114	381	--Select--\nAdministration\nWarehouse\nProduction
 7425	3	1115	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7426	54	1115	381	--Select--\nAdministration\nWarehouse\nProduction
+7427	3	1116	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7428	54	1116	381	--Select--\nAdministration\nWarehouse\nProduction
+7429	3	1117	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7430	54	1117	380	--Select--\nAdministration\nWarehouse\nProduction
+7431	3	1118	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7432	54	1118	379	--Select--\nAdministration\nWarehouse\nProduction
+7433	3	1119	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7434	54	1119	381	--Select--\nAdministration\nWarehouse\nProduction
+7435	11	1120	\N	Deborah
+7436	12	1120	\N	Walsh
+7437	20	1120	\N	dwalsh@dswalsh.com
 \.
 
 
@@ -6993,4 +7004,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7426, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7437, true);
