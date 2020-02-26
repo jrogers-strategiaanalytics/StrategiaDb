@@ -386,4 +386,7 @@ COPY public.assessmentdemographicquestion (idassessment, iddemographicquestion) 
 89	56
 90	1
 90	2
+91	11
+91	12
+91	20
 \.
