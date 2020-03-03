@@ -6994,9 +6994,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7432	54	1118	379	--Select--\nAdministration\nWarehouse\nProduction
 7433	3	1119	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7434	54	1119	381	--Select--\nAdministration\nWarehouse\nProduction
-7435	11	1120	\N	Deborah
-7436	12	1120	\N	Walsh
-7437	20	1120	\N	dwalsh@dswalsh.com
 7438	3	1121	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7439	54	1121	381	--Select--\nAdministration\nWarehouse\nProduction
 7440	3	1122	\N	\N
@@ -7004,96 +7001,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7442	11	1123	\N	Alan
 7443	12	1123	\N	Severance
 7444	20	1123	\N	alseverance13@msn.com
-7445	11	1124	\N	Alan
-7446	12	1124	\N	Severance
-7447	20	1124	\N	alseverance13@msn.com
-7448	11	1125	\N	Test
-7449	12	1125	\N	Test
-7450	20	1125	\N	test@test.com
-7451	11	1126	\N	
-7452	12	1126	\N	
-7453	20	1126	\N	
-7454	11	1127	\N	
-7455	12	1127	\N	
-7456	20	1127	\N	
-7457	11	1128	\N	Test
-7458	12	1128	\N	Test
-7459	20	1128	\N	test@test.com
-7460	11	1129	\N	Test
-7461	12	1129	\N	Test
-7462	20	1129	\N	test@test.com
-7463	11	1130	\N	Test
-7464	12	1130	\N	Test
-7465	20	1130	\N	test@test.com
-7466	11	1131	\N	Test
-7467	12	1131	\N	Test
-7468	20	1131	\N	test@test.com
-7469	11	1132	\N	Test
-7470	12	1132	\N	Test
-7471	20	1132	\N	test@test.com
-7472	11	1133	\N	Test
-7473	12	1133	\N	Test
-7474	20	1133	\N	test@test.com
-7475	11	1134	\N	
-7476	12	1134	\N	
-7477	20	1134	\N	
-7478	11	1135	\N	Test
-7479	12	1135	\N	Test
-7480	20	1135	\N	test@test.com
-7481	11	1136	\N	Test
-7482	12	1136	\N	Test
-7483	20	1136	\N	test@test.com
-7484	11	1137	\N	Test
-7485	12	1137	\N	Test
-7486	20	1137	\N	test@test.com
-7487	11	1138	\N	Test
-7488	12	1138	\N	Test
-7489	20	1138	\N	test@test.com
-7490	11	1139	\N	Test
-7491	12	1139	\N	Test
-7492	20	1139	\N	test@test.com
-7493	11	1140	\N	Test
-7494	12	1140	\N	Test
-7495	20	1140	\N	test@test.com
-7496	11	1141	\N	Test
-7497	12	1141	\N	Test
-7498	20	1141	\N	test@test.com
-7499	11	1142	\N	Test
-7500	12	1142	\N	Test
-7501	20	1142	\N	test@test.com
-7502	11	1143	\N	Test
-7503	12	1143	\N	Test
-7504	20	1143	\N	test@test.com
-7505	11	1144	\N	Test
-7506	12	1144	\N	Test
-7507	20	1144	\N	test@test.com
-7508	11	1145	\N	Test
-7509	12	1145	\N	Test
-7510	20	1145	\N	test@test.com
 7511	11	1146	\N	Test
 7512	12	1146	\N	Test
 7513	20	1146	\N	test@test.com
 7514	11	1147	\N	Test
 7515	12	1147	\N	Test
 7516	20	1147	\N	test@test.com
-7517	11	1148	\N	Test
-7518	12	1148	\N	Test
-7519	20	1148	\N	test@test.com
-7520	11	1149	\N	Test
-7521	12	1149	\N	Test
-7522	20	1149	\N	test@test.com
-7523	11	1150	\N	test
-7524	12	1150	\N	test
-7525	20	1150	\N	test@test.com
-7526	11	1151	\N	test
-7527	12	1151	\N	test
-7528	20	1151	\N	test@test.com
-7529	11	1152	\N	Test
-7530	12	1152	\N	Test
-7531	20	1152	\N	Test@test.com
-7532	11	1153	\N	
-7533	12	1153	\N	
-7534	20	1153	\N	
 7535	11	1154	\N	Test
 7536	12	1154	\N	Test
 7537	20	1154	\N	test@test.com
