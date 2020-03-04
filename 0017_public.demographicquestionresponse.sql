@@ -7001,18 +7001,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7442	11	1123	\N	Alan
 7443	12	1123	\N	Severance
 7444	20	1123	\N	alseverance13@msn.com
-7511	11	1146	\N	Test
-7512	12	1146	\N	Test
-7513	20	1146	\N	test@test.com
-7514	11	1147	\N	Test
-7515	12	1147	\N	Test
-7516	20	1147	\N	test@test.com
-7535	11	1154	\N	Test
-7536	12	1154	\N	Test
-7537	20	1154	\N	test@test.com
-7538	11	1155	\N	Test
-7539	12	1155	\N	Test
-7540	20	1155	\N	test@test.com
 \.
 
 
@@ -7020,4 +7008,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7540, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7558, true);
