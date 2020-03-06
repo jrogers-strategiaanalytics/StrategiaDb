@@ -65904,4 +65904,4 @@ COPY public.assessmentquestionresponse (idassessmentquestionresponse, idassessme
 -- Name: assessmentquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmentquestionresponse_seq', 71961, true);
+SELECT pg_catalog.setval('public.assessmentquestionresponse_seq', 72024, true);
