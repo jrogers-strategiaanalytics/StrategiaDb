@@ -6998,9 +6998,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7439	54	1121	381	--Select--\nAdministration\nWarehouse\nProduction
 7440	3	1122	\N	\N
 7441	54	1122	\N	\N
-7442	11	1123	\N	Alan
-7443	12	1123	\N	Severance
-7444	20	1123	\N	alseverance13@msn.com
 7562	11	1163	\N	Test
 7563	12	1163	\N	Test
 7564	20	1163	\N	Test@test.com

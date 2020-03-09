@@ -1058,7 +1058,6 @@ COPY public.assessmentresponse (idassessmentresponse, idassessment, session, cre
 1119	87	\N	2020-02-24 19:57:18
 1121	87	\N	2020-02-25 12:20:54
 1122	87	\N	2020-02-25 14:52:10
-1123	91	\N	2020-02-25 15:56:55
 1163	76	\N	2020-03-08 02:47:16
 \.
 

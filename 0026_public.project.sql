@@ -26,7 +26,6 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 24	3	Candidate fit 2020	\N	1
 25	2	Computer APP Testing	\N	1
 26	9	What Not	\N	1
-27	9	MPO TEST	\N	1
 \.
 
 
