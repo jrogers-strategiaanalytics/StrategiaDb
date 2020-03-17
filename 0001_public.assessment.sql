@@ -62,6 +62,7 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 88	6	26	Centricity Check	2020-01-30 00:00:00	2020-02-28 00:00:00	2	6	ALS400
 89	1	26	OSAAAA	2020-01-30 00:00:00	2020-02-28 00:00:00	2	6	ALS44441
 90	2	26	ALSEP	2020-01-30 00:00:00	2020-02-28 00:00:00	2	5	als4141
+93	2	28	Executive Prefeence Profile	2020-03-17 00:00:00	2020-04-17 00:00:00	1	3	EPP
 \.
 
 
@@ -69,4 +70,4 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 -- Name: assessment_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessment_seq', 92, true);
+SELECT pg_catalog.setval('public.assessment_seq', 93, true);

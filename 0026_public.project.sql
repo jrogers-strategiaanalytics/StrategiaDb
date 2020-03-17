@@ -26,6 +26,7 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 24	3	Candidate fit 2020	\N	1
 25	2	Computer APP Testing	\N	1
 26	9	What Not	\N	1
+28	2	Alice & Albert	\N	1
 \.
 
 
@@ -33,4 +34,4 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 -- Name: project_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.project_seq', 27, true);
+SELECT pg_catalog.setval('public.project_seq', 28, true);
