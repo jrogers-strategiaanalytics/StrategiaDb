@@ -7001,6 +7001,20 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7562	11	1163	\N	Test
 7563	12	1163	\N	Test
 7564	20	1163	\N	Test@test.com
+7565	1	1164	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7566	2	1164	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7567	3	1164	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7568	5	1164	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7569	7	1164	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7570	11	1164	\N	Jenn
+7571	12	1164	\N	Smith
+7572	1	1165	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7573	2	1165	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7574	3	1165	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7575	5	1165	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7576	7	1165	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7577	11	1165	\N	Peter
+7578	12	1165	\N	Farrell
 \.
 
 
@@ -7008,4 +7022,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7564, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7578, true);
