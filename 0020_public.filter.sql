@@ -15,6 +15,7 @@ COPY public.filter (id, name, state) FROM stdin;
 12	Psychological Safety	active
 13	Employee Experience	active
 14	Biggest Gaps OSA/EPP 2020	active
+15	Strategy	active
 \.
 
 
@@ -22,4 +23,4 @@ COPY public.filter (id, name, state) FROM stdin;
 -- Name: filter_id_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.filter_id_seq', 14, true);
+SELECT pg_catalog.setval('public.filter_id_seq', 15, true);

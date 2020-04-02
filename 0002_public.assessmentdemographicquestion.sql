@@ -393,4 +393,10 @@ COPY public.assessmentdemographicquestion (idassessment, iddemographicquestion) 
 93	7
 93	11
 93	12
+94	1
+94	2
+94	3
+94	5
+94	7
+94	56
 \.

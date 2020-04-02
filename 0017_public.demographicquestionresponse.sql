@@ -7015,6 +7015,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7576	7	1165	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
 7577	11	1165	\N	Peter
 7578	12	1165	\N	Farrell
+7579	1	1166	2	--Seleccionar--\nFemenino\nMasculino\nNon-Binary\nOther\nPrefer not to answer
+7580	2	1166	11	--Seleccionar--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7581	3	1166	15	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
+7582	5	1166	38	--Seleccionar--\nPreparatoria\nDiplomado\nBachillerato\nMaestría\nDoctorado\nLicenciatura
+7583	7	1166	48	--Seleccionar--\nContacto directo con clientes internos\nContacto directo con clientes externos\nContacto indirecto con clientes externos\nContacto indirecto con clientes internos
+7584	56	1166	\N	\N
 \.
 
 
@@ -7022,4 +7028,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7578, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7584, true);
