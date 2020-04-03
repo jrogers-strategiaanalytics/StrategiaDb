@@ -7021,6 +7021,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7582	5	1166	38	--Seleccionar--\nPreparatoria\nDiplomado\nBachillerato\nMaestría\nDoctorado\nLicenciatura
 7583	7	1166	48	--Seleccionar--\nContacto directo con clientes internos\nContacto directo con clientes externos\nContacto indirecto con clientes externos\nContacto indirecto con clientes internos
 7584	56	1166	\N	\N
+7585	1	1167	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7586	2	1167	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7587	3	1167	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7588	5	1167	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7589	7	1167	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7590	1	1168	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7591	2	1168	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7592	3	1168	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7593	5	1168	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7594	7	1168	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
 \.
 
 
@@ -7028,4 +7038,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7584, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7594, true);
