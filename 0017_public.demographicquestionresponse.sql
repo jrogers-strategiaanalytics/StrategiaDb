@@ -7031,6 +7031,11 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7592	3	1168	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7593	5	1168	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
 7594	7	1168	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7595	1	1169	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7596	2	1169	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7597	3	1169	\N	\N
+7598	5	1169	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7599	7	1169	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
 \.
 
 
@@ -7038,4 +7043,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7594, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7599, true);
