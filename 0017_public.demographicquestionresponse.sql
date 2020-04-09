@@ -7046,6 +7046,11 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7607	3	1171	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7608	5	1171	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
 7609	7	1171	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7610	1	1172	1	
+7611	2	1172	9	
+7612	3	1172	12	
+7613	5	1172	37	
+7614	7	1172	49	
 \.
 
 
@@ -7053,4 +7058,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7609, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7614, true);
