@@ -7056,6 +7056,13 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7624	3	1174	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7625	5	1174	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
 7626	7	1174	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7627	1	1175	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7628	2	1175	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7629	3	1175	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7630	5	1175	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7631	7	1175	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7632	11	1175	\N	Marc
+7633	12	1175	\N	Barbella
 \.
 
 
@@ -7063,4 +7070,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7626, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7633, true);
