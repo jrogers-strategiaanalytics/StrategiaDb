@@ -7063,6 +7063,81 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7631	7	1175	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
 7632	11	1175	\N	Marc
 7633	12	1175	\N	Barbella
+7634	1	1176	2	--Select-- Female Male Non-Binary Other Prefer not to answer 
+7635	2	1176	8	--Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+ 
+7636	3	1176	17	--Select-- Less than 1 year 1 - 3 4 - 5 6 - 10 11 - 15 16 - 21 22 or more 
+7637	5	1176	37	--Select-- High School Associates Degree Bachelors Degree Graduate Masters Degree Graduate Doctorate Post High School Certificate 
+7638	7	1176	48	--Select-- Direct contact with internal customers Direct contact with external customers Indirect contact with external customers Indirect contact with internal customers 
+7639	22	1176	116	--Select--        
+7640	23	1176	123	--Select--   Other 
+7641	24	1176	128	--Select--        
+7642	26	1176	139	--Select--          
+7643	27	1176	146	--Select--            
+7644	1	1177	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7645	2	1177	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7646	3	1177	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7647	5	1177	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7648	7	1177	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7649	22	1177	\N	\N
+7650	23	1177	\N	\N
+7651	24	1177	\N	\N
+7652	26	1177	\N	\N
+7653	27	1177	\N	\N
+7654	1	1178	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7655	2	1178	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7656	3	1178	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7657	5	1178	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7658	7	1178	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7659	22	1178	\N	\N
+7660	23	1178	\N	\N
+7661	24	1178	\N	\N
+7662	26	1178	\N	\N
+7663	27	1178	\N	\N
+7664	1	1179	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7665	2	1179	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7666	3	1179	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7667	5	1179	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7668	7	1179	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7669	22	1179	\N	\N
+7670	23	1179	\N	\N
+7671	24	1179	\N	\N
+7672	26	1179	\N	\N
+7673	27	1179	\N	\N
+7674	1	1180	2	
+7675	2	1180	11	
+7676	3	1180	15	
+7677	5	1180	39	
+7678	7	1180	49	
+7679	22	1180	-1	
+7680	23	1180	\N	\N
+7681	24	1180	\N	\N
+7682	26	1180	145	
+7683	27	1180	\N	\N
+7684	1	1181	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7685	2	1181	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7686	3	1181	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7687	5	1181	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7688	7	1181	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7689	1	1182	2	
+7690	2	1182	9	
+7691	3	1182	18	
+7692	5	1182	38	
+7693	7	1182	49	
+7694	1	1183	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7695	2	1183	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7696	3	1183	16	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7697	5	1183	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7698	7	1183	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7699	22	1183	\N	\N
+7700	23	1183	\N	\N
+7701	24	1183	\N	\N
+7702	26	1183	\N	\N
+7703	27	1183	\N	\N
+7704	1	1184	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7705	2	1184	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7706	3	1184	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7707	5	1184	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7708	7	1184	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
 \.
 
 
@@ -7070,4 +7145,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7633, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7708, true);
