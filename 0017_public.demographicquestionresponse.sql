@@ -7138,6 +7138,76 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7706	3	1184	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
 7707	5	1184	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
 7708	7	1184	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7709	1	1185	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7710	2	1185	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7711	3	1185	17	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7712	5	1185	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7713	7	1185	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7714	22	1185	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7715	23	1185	123	--Select--\nBoard Member\nStaff\nOther
+7716	24	1185	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7717	26	1185	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7718	27	1185	152	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7719	1	1186	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7720	2	1186	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7721	3	1186	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7722	5	1186	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7723	7	1186	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7724	22	1186	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7725	23	1186	123	--Select--\nBoard Member\nStaff\nOther
+7726	24	1186	126	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7727	26	1186	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7728	27	1186	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7729	1	1187	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7730	2	1187	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7731	3	1187	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7732	5	1187	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7733	7	1187	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7734	22	1187	118	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7735	23	1187	123	--Select--\nBoard Member\nStaff\nOther
+7736	24	1187	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7737	26	1187	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7738	27	1187	149	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7739	1	1188	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7740	2	1188	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7741	3	1188	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7742	5	1188	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7743	7	1188	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7744	22	1188	120	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7745	23	1188	123	--Select--\nBoard Member\nStaff\nOther
+7746	24	1188	126	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7747	26	1188	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7748	27	1188	\N	\N
+7749	1	1189	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7750	2	1189	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7751	3	1189	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7752	5	1189	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7753	7	1189	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7754	22	1189	117	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7755	23	1189	124	--Select--\nBoard Member\nStaff\nOther
+7756	24	1189	\N	\N
+7757	26	1189	\N	\N
+7758	27	1189	\N	\N
+7759	1	1190	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7760	2	1190	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7761	3	1190	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7762	5	1190	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7763	7	1190	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7764	22	1190	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7765	23	1190	123	--Select--\nBoard Member\nStaff\nOther
+7766	24	1190	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7767	26	1190	139	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7768	27	1190	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7769	1	1191	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7770	2	1191	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7771	3	1191	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7772	5	1191	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7773	7	1191	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7774	22	1191	121	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7775	23	1191	123	--Select--\nBoard Member\nStaff\nOther
+7776	24	1191	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7777	26	1191	138	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7778	27	1191	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
 \.
 
 
@@ -7145,4 +7215,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7708, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7778, true);
