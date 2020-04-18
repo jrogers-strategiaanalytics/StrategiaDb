@@ -7208,6 +7208,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7776	24	1191	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
 7777	26	1191	138	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
 7778	27	1191	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7779	1	1192	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7780	2	1192	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7781	3	1192	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7782	5	1192	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7783	7	1192	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7784	1	1193	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7785	2	1193	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7786	3	1193	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7787	5	1193	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7788	7	1193	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
 \.
 
 
@@ -7215,4 +7225,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7778, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7788, true);
