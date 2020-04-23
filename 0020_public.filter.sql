@@ -14,7 +14,6 @@ COPY public.filter (id, name, state) FROM stdin;
 11	Empowerment	active
 12	Psychological Safety	active
 13	Employee Experience	active
-14	Biggest Gaps OSA/EPP 2020	active
 15	Strategy	active
 16	AA Top Five Gaps 	active
 \.

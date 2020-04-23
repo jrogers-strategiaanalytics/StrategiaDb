@@ -7233,6 +7233,26 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7801	24	1195	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
 7802	26	1195	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
 7803	27	1195	\N	\N
+7804	1	1196	\N	\N
+7805	2	1196	\N	\N
+7806	3	1196	\N	\N
+7807	5	1196	\N	\N
+7808	7	1196	\N	\N
+7809	22	1196	\N	\N
+7810	23	1196	\N	\N
+7811	24	1196	\N	\N
+7812	26	1196	\N	\N
+7813	27	1196	\N	\N
+7814	1	1197	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
+7815	2	1197	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7816	3	1197	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7817	5	1197	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
+7818	7	1197	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7819	22	1197	122	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7820	23	1197	123	--Select--\nBoard Member\nStaff\nOther
+7821	24	1197	129	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7822	26	1197	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7823	27	1197	154	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
 \.
 
 
@@ -7240,4 +7260,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7803, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7823, true);
