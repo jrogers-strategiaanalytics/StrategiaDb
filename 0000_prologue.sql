@@ -780,7 +780,7 @@ CREATE TABLE public.demographicquestiontext (
     question text,
     label character varying(15),
     lang character varying(10) DEFAULT NULL::character varying,
-    questionlang json
+    questionlang jsonb
 );
 
 
@@ -810,7 +810,7 @@ CREATE TABLE public.demographicvalueset (
     weight integer,
     value character varying(255) DEFAULT NULL::character varying,
     hidden boolean DEFAULT false NOT NULL,
-    lang json
+    lang jsonb
 );
 
 
