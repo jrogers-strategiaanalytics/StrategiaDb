@@ -24,7 +24,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 17	17	2	In my company, everyone's jobs are narrowly defined with narrow boundaries.	en
 18	18	2	In my company, everyone's jobs are broadly defined and  have broad boundaries.	en
 19	19	2	My company has a tendency to go it alone.	en
-20	20	2	My company has greater tendency to partner with other organizations.  	en
+20	20	2	My company has a greater tendency to partner.	en
 21	21	2	Employees are empowered to use their own judgment to meet customer needs.	en
 22	22	2	Employees in my company feel comfortable disagreeing with anyone in the company.	en
 23	23	2	All of our functions and/or departments contribute to our customers receiving value.	en
@@ -150,7 +150,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 143	143	10	In my company, everyone's jobs are narrowly defined with narrow boundaries.	en
 144	144	10	In my company, everyone's jobs are broadly defined and  have broad boundaries.	en
 145	145	10	My company has a tendency to go it alone.	en
-146	146	10	My company has greater tendency to partner with other organizations.	en
+146	146	10	My company has a greater tendency to partner.	en
 147	147	10	Employees are empowered to use their own judgment to meet customer needs.	en
 148	148	10	Employees in my company feel comfortable disagreeing with anyone in the company.	en
 149	149	10	All of our functions and/or departments contribute to our customers receiving value.	en
