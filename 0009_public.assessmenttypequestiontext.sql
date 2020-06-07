@@ -87,7 +87,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 80	80	6	I operate best in an environment where everyone's jobs are narrowly defined and have narrow boundaries.	en
 81	81	6	I operate best in an environment where everyone's jobs are broadly defined and have broad boundaries.	en
 82	82	6	I operate best in an environment where the company has a tendency "go it alone."	en
-83	83	6	I operate best in an environment where we have a greater tendency to partner with other organizations.	en
+83	83	6	I operate best in an environment where we have a greater tendency to partner.	en
 84	84	6	I operate best in an environment where employees/staff are empowered to use their own judgment to meet customer/client needs.	en
 85	85	6	I operate best in an environment where employees feel comfortable disagreeing with anyone in the company.	en
 86	86	6	I operate best in an environment where all of our functions and/or departments contribute to our customers/clients receiving value.	en
@@ -213,7 +213,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 206	206	14	I operate best in an environment where everyone's jobs are narrowly defined and have narrow boundaries.	en
 207	207	14	I operate best in an environment where everyone's jobs are broadly defined and have broad boundaries.	en
 208	208	14	I operate best in an environment where the company has a tendency "go it alone."	en
-209	209	14	I operate best in an environment where we have a greater tendency to partner with other organizations.	en
+209	209	14	I operate best in an environment where we have a greater tendency to partner.	en
 210	210	14	I operate best in an environment where employees/staff are empowered to use their own judgment to meet customer/client needs.	en
 211	211	14	I operate best in an environment where employees feel comfortable disagreeing with anyone in the company.	en
 212	212	14	I operate best in an environment where all of our functions and/or departments contribute to our customers/clients receiving value.	en
@@ -276,7 +276,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 269	269	18	I operate best in an environment where everyone's jobs are narrowly defined and have narrow boundaries.	en
 270	270	18	I operate best in an environment where everyone's jobs are broadly defined and have broad boundaries.	en
 271	271	18	I operate best in an environment where the company has a tendency "go it alone."	en
-272	272	18	I operate best in an environment where we have a greater tendency to partner with other organizations.	en
+272	272	18	I operate best in an environment where we have a greater tendency to partner.	en
 273	273	18	I operate best in an environment where employees/staff are empowered to use their own judgment to meet customer/client needs.	en
 274	274	18	I operate best in an environment where employees feel comfortable disagreeing with anyone in the company.	en
 275	275	18	I operate best in an environment where all of our functions and/or departments contribute to our customers/clients receiving value.	en
@@ -349,7 +349,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 342	17	25	En mi compañía, el trabajo de cada uno se define estrechamente con límites precisos.	es
 343	19	25	Mi compañía tiene la tendencia de trabajar solo.	es
 344	14	25	En mi compañía, las asignaciones del trabajo tiende a llevar responsabilidades amplias.	es
-345	20	25	Mi compañía tiene una gran tendencia a asociarse con otras organizaciones.	es
+345	20	25	Mi compañía tiene una gran tendencia a asociarse.	es
 346	18	25	En mi compañía, el trabajo de cada uno se define ampliamente y tienen límites amplios.	es
 347	16	25	En mi compañía, nos centramos en desarrollar el legado de la compañía.	es
 348	21	25	Los empleados están empoderados a usar su propio juicio a cumplir con las necesidades de los clientes.	es
@@ -412,7 +412,7 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 405	206	29	Opero mejor en un entorno donde el trabajo de cada uno se define estrechamente con límites precisos.	es
 406	208	29	Opero mejor en un entorno donde tiene la tendencia de trabajar solo.	es
 407	203	29	Opero mejor en un entorno donde las asignaciones del trabajo tiende a llevar responsabilidades amplias.	es
-408	209	29	Opero mejor en un entorno donde tiene una gran tendencia a asociarse con otras organizaciones.	es
+408	209	29	Opero mejor en un entorno donde tiene una gran tendencia a asociarse.	es
 409	207	29	Opero mejor en un entorno donde el trabajo de cada uno se define ampliamente y tienen límites amplios.	es
 410	205	29	Opero mejor en un entorno donde nos centramos en desarrollar el legado de la compañía.	es
 411	210	29	Opero mejor en un entorno donde los empleados están empoderados a usar su propio juicio a cumplir con las necesidades de los clientes.	es
