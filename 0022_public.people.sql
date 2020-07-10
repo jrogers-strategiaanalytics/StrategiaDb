@@ -5,7 +5,7 @@
 --
 
 COPY public.people (idpeople, name, lastname, email, passhash, salt, state, isadmin) FROM stdin;
-2	Kathy	Crowley	kcrowley@strategiaanalytics.com	$2a$10$1vmx9wrLfjjoXu56xGtPoODizlR4eBIlf5ZVGiRDzaBiq6LE9vwZC                                        	$2a$10$1vmx9wrLfjjoXu56xGtPoO                     	active	t
+2	Kathy	Crowley	kcrowley@strategiaanalytics.com	$2a$10$KArh5AVZ4uCMsj92mQWnEuewfAy4v46E/jxs.SfYC13i.I5BF531i                                        	$2a$10$KArh5AVZ4uCMsj92mQWnEu                     	active	t
 3	Miles	Overholt	moverholt@strategiaanalytics.com	$2a$10$rZNbIjBVaz8dQOdG1aLaQOU3N/ECWn26IkTb0HkPnSpvPLEH2kNbq                                        	$2a$10$rZNbIjBVaz8dQOdG1aLaQO                     	active	t
 4	Al	Severance	aseverance@strategiaanalytics.com	$2a$10$IvOLUFTKpEq/2UhRdgkM5.fCiDofHF2EhemNe3XITGoLLaAvlZlDW                                        	$2a$10$IvOLUFTKpEq/2UhRdgkM5.                     	active	t
 6	Strategia		admin@strategiaanalytics.com	$2a$10$B3BAKGr91aypX/ZoU0BUJeCbVNrOG.6LCNk5LZ21/AkWvSRT2WBQm                                        	$2a$10$B3BAKGr91aypX/ZoU0BUJe                     	active	t

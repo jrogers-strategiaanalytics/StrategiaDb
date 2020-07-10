@@ -68,6 +68,7 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 98	1	29	OSA 2020-04	2020-04-01 00:00:00	2020-04-20 00:00:00	2	8	Team2020
 99	1	28	OSA 2020-04	2020-04-14 00:00:00	2020-05-14 00:00:00	2	3	AA04
 100	1	7	OSA 2020-04	2020-04-14 00:00:00	2020-04-25 00:00:00	2	20	CoC420
+101	1	31	Company's employees	2020-07-09 00:00:00	2020-07-09 00:00:00	2	20	kitchen
 \.
 
 
@@ -75,4 +76,4 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 -- Name: assessment_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessment_seq', 100, true);
+SELECT pg_catalog.setval('public.assessment_seq', 101, true);
