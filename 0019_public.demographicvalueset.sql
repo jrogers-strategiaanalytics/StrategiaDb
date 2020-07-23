@@ -345,6 +345,15 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 423	1	2	Non-Binary	f	{"en": "Non-Binary", "es": "Non-Binary"}
 424	1	3	Other	f	{"en": "Other", "es": "Other"}
 425	1	4	Prefer not to answer	f	{"en": "Prefer not to answer", "es": "Prefer not to answer"}
+426	60	1	CEO	f	{"en": "CEO"}
+427	60	2	Executive	f	{"en": "Executive"}
+428	60	3	Supervisor	f	{"en": "Supervisor"}
+429	60	4	Manager	f	{"en": "Manager"}
+430	60	5	Team Leader	f	{"en": "Team Leader"}
+431	60	6	Associate	f	{"en": "Associate"}
+432	60	7	Employee	f	{"en": "Employee"}
+433	60	8	Other	f	{"en": "Other"}
+434	56	24	Other	f	{"en": "Other"}
 \.
 
 
@@ -352,4 +361,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 425, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 434, true);

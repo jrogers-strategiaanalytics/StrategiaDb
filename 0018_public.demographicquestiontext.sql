@@ -63,6 +63,7 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 57	57	test custom demo question	test custom dem	en	{"en": "test custom dem", "es": "test custom dem"}
 58	58	test2 - custom	test2 - custom 	en	{"en": "test2 - custom ", "es": "test2 - custom "}
 59	59	create empty one	create empty on	en	{"en": "create empty on", "es": "create empty on"}
+60	60	Job Level	Job Level	en	{"en": "Job Level", "es": ""}
 \.
 
 
@@ -70,4 +71,4 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 -- Name: demographicquestiontext_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestiontext_seq', 59, true);
+SELECT pg_catalog.setval('public.demographicquestiontext_seq', 60, true);
