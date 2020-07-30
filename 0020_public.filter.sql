@@ -6,7 +6,6 @@
 
 COPY public.filter (id, name, state) FROM stdin;
 3	Customer Centricity	active
-4	Board Priorities	active
 5	Lean Implementation	active
 6	Communication of Alignment	active
 7	Progress Report	active
