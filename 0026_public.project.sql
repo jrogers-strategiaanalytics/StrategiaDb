@@ -29,6 +29,7 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 28	2	Alice & Albert	\N	1
 29	2	Strategia Analytics OSA 2020	\N	1
 31	10	Kathy's Kitchen OSA 2020	\N	1
+33	11	Crowley Plumbing & Air Conditioning	\N	1
 \.
 
 
@@ -36,4 +37,4 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 -- Name: project_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.project_seq', 32, true);
+SELECT pg_catalog.setval('public.project_seq', 33, true);

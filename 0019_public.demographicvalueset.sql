@@ -354,6 +354,12 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 432	60	7	Employee	f	{"en": "Employee"}
 433	60	8	Other	f	{"en": "Other"}
 434	56	24	Other	f	{"en": "Other"}
+435	61	1	PA	f	{"en": "PA"}
+436	61	2	NJ	f	{"en": "NJ"}
+437	61	3	DE	f	{"en": "DE"}
+438	62	1	Pennsylvania	f	{"en": "Pennsylvania"}
+439	62	2	New Jersey	f	{"en": "New Jersey"}
+440	62	3	Delaware	f	{"en": "Delaware"}
 \.
 
 
@@ -361,4 +367,4 @@ COPY public.demographicvalueset (iddemographicvalueset, iddemographicquestiontex
 -- Name: demographicvalueset_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicvalueset_seq', 434, true);
+SELECT pg_catalog.setval('public.demographicvalueset_seq', 443, true);

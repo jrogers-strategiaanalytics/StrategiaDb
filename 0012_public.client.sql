@@ -15,6 +15,7 @@ COPY public.client (idclient, name, phone, email, primarycontact) FROM stdin;
 8	S. Benjamins & Company	562-394-7091	sherry@sbcompany.net	
 9	Al's Testing Company	6104426373	alseverance13@msn.com	
 10	Kathy's Kitchen	856-786-9355	kcrowley@strategiaanalytics.com	
+11	Crowley Plumbing and Air conditioning	856-829-4033	mlb@aol.com	
 \.
 
 
@@ -22,4 +23,4 @@ COPY public.client (idclient, name, phone, email, primarycontact) FROM stdin;
 -- Name: client_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.client_seq', 10, true);
+SELECT pg_catalog.setval('public.client_seq', 11, true);

@@ -49,6 +49,8 @@ COPY public.clientsdemographiccustomquestion (id, clientid, demographicquestioni
 42	5	57
 43	5	58
 44	5	59
+45	10	61
+46	11	62
 \.
 
 
@@ -56,4 +58,4 @@ COPY public.clientsdemographiccustomquestion (id, clientid, demographicquestioni
 -- Name: clientsdemographiccustomquestion_id_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.clientsdemographiccustomquestion_id_seq', 44, true);
+SELECT pg_catalog.setval('public.clientsdemographiccustomquestion_id_seq', 46, true);
