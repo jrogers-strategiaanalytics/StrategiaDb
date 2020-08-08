@@ -22,7 +22,6 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 18	3	Hire Director	\N	1
 20	6	Introduction	\N	1
 21	5	Candidate Fit	\N	1
-22	7	CFP for Trinity Glass	\N	1
 24	3	Candidate fit 2020	\N	1
 25	2	Computer APP Testing	\N	1
 26	9	What Not	\N	1
