@@ -7254,6 +7254,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7822	26	1197	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
 7823	27	1197	154	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
 7824	11	1198	\N	ed
+7825	1	1199	2	Male
+7826	2	1199	11	71+
+7827	3	1199	17	16 - 21
+7828	5	1199	38	Graduate Masters Degree
+7829	7	1199	49	Direct contact with external customers
+7830	56	1199	\N	\N
 \.
 
 
@@ -7261,4 +7267,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7824, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7830, true);
