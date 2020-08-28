@@ -69,7 +69,7 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 100	1	7	OSA 2020-04	2020-04-14 00:00:00	2020-04-25 00:00:00	2	20	CoC420
 101	1	31	Company's employees	2020-07-13 00:00:00	2020-07-30 00:00:00	2	20	kitchen
 102	1	33	OSA	2020-08-04 00:00:00	2020-08-19 00:00:00	2	25	Crowley
-103	2	26	Check 18	2020-08-24 00:00:00	2020-08-28 00:00:00	1	3	18
+103	2	26	Check 18	2020-08-24 00:00:00	2020-08-28 00:00:00	2	3	18
 \.
 
 
