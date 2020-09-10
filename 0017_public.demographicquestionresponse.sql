@@ -7260,6 +7260,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7828	5	1199	38	Graduate Masters Degree
 7829	7	1199	49	Direct contact with external customers
 7830	56	1199	\N	\N
+7831	1	1200	2	Male
+7832	2	1200	6	31 - 35
+7833	3	1200	12	Less than 1 year
+7834	5	1200	37	Bachelors Degree
+7835	7	1200	48	Direct contact with internal customers
+7836	56	1200	337	Administration
 \.
 
 
@@ -7267,4 +7273,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7830, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7836, true);
