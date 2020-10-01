@@ -130,7 +130,8 @@ begin
              JOIN assessmentquestionresponse ar USING (idassessmentresponse)
              JOIN assessmenttypequestion atq USING (idassessmenttypequestion)
              JOIN section s USING (idsection)
-             JOIN component c_1 USING (idcomponent)) c
+             JOIN component c_1 USING (idcomponent)
+             WHERE a_1.idassessmenttype BETWEEN 1 AND 6) c
      LEFT JOIN ( SELECT ct.idassessmentresponse,
             ct.idassessment,
             '||ct1columnlist||'
@@ -426,7 +427,8 @@ CREATE VIEW public.assessmentswithdemographicsvw AS
              JOIN public.assessmentquestionresponse ar USING (idassessmentresponse))
              JOIN public.assessmenttypequestion atq USING (idassessmenttypequestion))
              JOIN public.section s USING (idsection))
-             JOIN public.component c_1 USING (idcomponent))) c
+             JOIN public.component c_1 USING (idcomponent))
+          WHERE ((a_1.idassessmenttype >= 1) AND (a_1.idassessmenttype <= 6))) c
      LEFT JOIN ( SELECT ct.idassessmentresponse,
             ct.idassessment,
             ct.d1,
@@ -1176,6 +1178,108 @@ CREATE TABLE public.role (
 
 
 ALTER TABLE public.role OWNER TO adminstrategia;
+
+--
+-- Name: slcqanswer; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqanswer (
+    idslcqanswer integer NOT NULL,
+    answer text,
+    enumerator integer,
+    reversed boolean,
+    lang text
+);
+
+
+ALTER TABLE public.slcqanswer OWNER TO adminstrategia;
+
+--
+-- Name: slcqassessmentquestionresponse_seq; Type: SEQUENCE; Schema: public; Owner: adminstrategia
+--
+
+CREATE SEQUENCE public.slcqassessmentquestionresponse_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.slcqassessmentquestionresponse_seq OWNER TO adminstrategia;
+
+--
+-- Name: slcqassessmentquestionresponse; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqassessmentquestionresponse (
+    idslcqassessmentquestionresponse integer DEFAULT nextval('public.slcqassessmentquestionresponse_seq'::regclass) NOT NULL,
+    idassessmentresponse integer,
+    idslcqquestion integer,
+    value integer
+);
+
+
+ALTER TABLE public.slcqassessmentquestionresponse OWNER TO adminstrategia;
+
+--
+-- Name: slcqquadrant; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqquadrant (
+    idslcqquadrant integer NOT NULL,
+    quadrantname text,
+    quadrantphrase1 text,
+    quadrantphrase2 text,
+    idslcqscaleyaxis integer,
+    idslcqscalexaxis integer,
+    q1line1 text,
+    q1line2 text,
+    q2line1 text,
+    q2line2 text,
+    q3line1 text,
+    q3line2 text,
+    q4line1 text,
+    q4line2 text,
+    "order" integer,
+    lang text
+);
+
+
+ALTER TABLE public.slcqquadrant OWNER TO adminstrategia;
+
+--
+-- Name: slcqquestion; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqquestion (
+    idslcqquestion integer NOT NULL,
+    idslcqscale integer,
+    questiontext text,
+    enumerator integer,
+    reversed boolean,
+    lang text
+);
+
+
+ALTER TABLE public.slcqquestion OWNER TO adminstrategia;
+
+--
+-- Name: slcqscale; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqscale (
+    idslcqscale integer NOT NULL,
+    sectionname text,
+    scalename text,
+    "left" text,
+    "right" text,
+    "order" integer,
+    lang text
+);
+
+
+ALTER TABLE public.slcqscale OWNER TO adminstrategia;
 
 --
 -- Name: systemtranslate; Type: TABLE; Schema: public; Owner: adminstrategia

@@ -9,6 +9,10 @@ COPY public.component (idcomponent, name, weight) FROM stdin;
 2	Relationships	2
 3	Daily Operations	3
 4	People Philosophy	4
+5	Strategic Focus	1
+6	Relationships	2
+7	Daily Operations	3
+8	People Philosophy	4
 \.
 
 

@@ -209,6 +209,46 @@ ALTER TABLE ONLY public.section
 
 
 --
+-- Name: slcqanswer slcqanswer_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqanswer
+    ADD CONSTRAINT slcqanswer_pkey PRIMARY KEY (idslcqanswer);
+
+
+--
+-- Name: slcqquadrant slcqquadrant_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqquadrant
+    ADD CONSTRAINT slcqquadrant_pkey PRIMARY KEY (idslcqquadrant);
+
+
+--
+-- Name: slcqquestion slcqquestion_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqquestion
+    ADD CONSTRAINT slcqquestion_pkey PRIMARY KEY (idslcqquestion);
+
+
+--
+-- Name: slcqassessmentquestionresponse slcqquestionresponse_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqassessmentquestionresponse
+    ADD CONSTRAINT slcqquestionresponse_pkey PRIMARY KEY (idslcqassessmentquestionresponse);
+
+
+--
+-- Name: slcqscale slcqscales_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqscale
+    ADD CONSTRAINT slcqscales_pkey PRIMARY KEY (idslcqscale);
+
+
+--
 -- Name: assessmenttypeslang assessmenttypeslang_idassessmenttype_fkey; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
 --
 
@@ -414,6 +454,46 @@ ALTER TABLE ONLY public.assessmenttypequestion
 
 ALTER TABLE ONLY public.peoplecode
     ADD CONSTRAINT peoplecode_idpeople_fkey FOREIGN KEY (idpeople) REFERENCES public.people(idpeople);
+
+
+--
+-- Name: slcqquadrant slcqquadrant_fk; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqquadrant
+    ADD CONSTRAINT slcqquadrant_fk FOREIGN KEY (idslcqscaleyaxis) REFERENCES public.slcqscale(idslcqscale);
+
+
+--
+-- Name: slcqquadrant slcqquadrant_fk_1; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqquadrant
+    ADD CONSTRAINT slcqquadrant_fk_1 FOREIGN KEY (idslcqscalexaxis) REFERENCES public.slcqscale(idslcqscale);
+
+
+--
+-- Name: slcqquestion slcqquestion_fk; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqquestion
+    ADD CONSTRAINT slcqquestion_fk FOREIGN KEY (idslcqscale) REFERENCES public.slcqscale(idslcqscale);
+
+
+--
+-- Name: slcqassessmentquestionresponse slcqquestionresponse_fk; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqassessmentquestionresponse
+    ADD CONSTRAINT slcqquestionresponse_fk FOREIGN KEY (idassessmentresponse) REFERENCES public.assessmentresponse(idassessmentresponse);
+
+
+--
+-- Name: slcqassessmentquestionresponse slcqquestionresponse_fk_1; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqassessmentquestionresponse
+    ADD CONSTRAINT slcqquestionresponse_fk_1 FOREIGN KEY (idslcqquestion) REFERENCES public.slcqquestion(idslcqquestion);
 
 
 --

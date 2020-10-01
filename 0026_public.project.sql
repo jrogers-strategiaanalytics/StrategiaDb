@@ -29,6 +29,7 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 29	2	Strategia Analytics OSA 2020	\N	1
 31	10	Kathy's Kitchen OSA 2020	\N	1
 33	11	Crowley Plumbing & Air Conditioning	\N	1
+34	12	Test Project	\N	1
 \.
 
 

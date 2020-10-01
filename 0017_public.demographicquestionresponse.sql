@@ -7266,6 +7266,531 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7834	5	1200	37	Bachelors Degree
 7835	7	1200	48	Direct contact with internal customers
 7836	56	1200	337	Administration
+7837	1	1201	2	Male
+7838	2	1201	9	51 - 60
+7839	3	1201	13	1 - 3
+7840	5	1201	37	Bachelors Degree
+7841	7	1201	50	Indirect contact with external customers
+7842	1	1202	2	Male
+7843	2	1202	9	51 - 60
+7844	3	1202	13	1 - 3
+7845	5	1202	37	Bachelors Degree
+7846	7	1202	50	Indirect contact with external customers
+7847	1	1203	2	Male
+7848	2	1203	9	51 - 60
+7849	3	1203	13	1 - 3
+7850	5	1203	37	Bachelors Degree
+7851	7	1203	50	Indirect contact with external customers
+7852	1	1204	2	Male
+7853	2	1204	9	51 - 60
+7854	3	1204	13	1 - 3
+7855	5	1204	37	Bachelors Degree
+7856	7	1204	50	Indirect contact with external customers
+7857	1	1205	2	Male
+7858	2	1205	9	51 - 60
+7859	3	1205	13	1 - 3
+7860	5	1205	37	Bachelors Degree
+7861	7	1205	50	Indirect contact with external customers
+7862	1	1206	2	Male
+7863	2	1206	9	51 - 60
+7864	3	1206	13	1 - 3
+7865	5	1206	37	Bachelors Degree
+7866	7	1206	50	Indirect contact with external customers
+7867	11	1206	\N	test1 first name
+7868	12	1206	\N	test1 last name
+7869	20	1206	\N	test1@chrome85.0_WIN10
+7870	1	1207	2	Male
+7871	2	1207	9	51 - 60
+7872	3	1207	13	1 - 3
+7873	5	1207	37	Bachelors Degree
+7874	7	1207	50	Indirect contact with external customers
+7875	11	1207	\N	test2 first name
+7876	12	1207	\N	test2 last name
+7877	20	1207	\N	test2@chrome85.0_WIN10
+7878	1	1208	2	Male
+7879	2	1208	9	51 - 60
+7880	3	1208	13	1 - 3
+7881	5	1208	37	Bachelors Degree
+7882	7	1208	50	Indirect contact with external customers
+7883	11	1208	\N	test3 first name
+7884	12	1208	\N	test3 last name
+7885	20	1208	\N	test3@chrome85.0_WIN10
+7886	1	1209	2	Male
+7887	2	1209	9	51 - 60
+7888	3	1209	13	1 - 3
+7889	5	1209	37	Bachelors Degree
+7890	7	1209	50	Indirect contact with external customers
+7891	11	1209	\N	test4 first name
+7892	12	1209	\N	test4 last name
+7893	20	1209	\N	test4@chrome85.0_WIN10
+7894	1	1210	2	Male
+7895	2	1210	9	51 - 60
+7896	3	1210	13	1 - 3
+7897	5	1210	37	Bachelors Degree
+7898	7	1210	50	Indirect contact with external customers
+7899	1	1211	2	Male
+7900	2	1211	9	51 - 60
+7901	3	1211	13	1 - 3
+7902	5	1211	37	Bachelors Degree
+7903	7	1211	50	Indirect contact with external customers
+7904	1	1212	2	Male
+7905	2	1212	9	51 - 60
+7906	3	1212	13	1 - 3
+7907	5	1212	37	Bachelors Degree
+7908	7	1212	50	Indirect contact with external customers
+7909	1	1213	2	Male
+7910	2	1213	9	51 - 60
+7911	3	1213	13	1 - 3
+7912	5	1213	37	Bachelors Degree
+7913	7	1213	50	Indirect contact with external customers
+7914	1	1214	2	Male
+7915	2	1214	9	51 - 60
+7916	3	1214	13	1 - 3
+7917	5	1214	37	Bachelors Degree
+7918	7	1214	50	Indirect contact with external customers
+7919	11	1214	\N	test1 first name
+7920	12	1214	\N	test1 last name
+7921	20	1214	\N	test1@Firefox78.0_WIN10
+7922	1	1215	2	Male
+7923	2	1215	9	51 - 60
+7924	3	1215	13	1 - 3
+7925	5	1215	37	Bachelors Degree
+7926	7	1215	50	Indirect contact with external customers
+7927	11	1215	\N	test2 first name
+7928	12	1215	\N	test2 last name
+7929	20	1215	\N	test2@Firefox78.0_WIN10
+7930	1	1216	2	Male
+7931	2	1216	9	51 - 60
+7932	3	1216	13	1 - 3
+7933	5	1216	37	Bachelors Degree
+7934	7	1216	50	Indirect contact with external customers
+7935	11	1216	\N	test3 first name
+7936	12	1216	\N	test3 last name
+7937	20	1216	\N	test3@Firefox78.0_WIN10
+7938	1	1217	2	Male
+7939	2	1217	9	51 - 60
+7940	3	1217	13	1 - 3
+7941	5	1217	37	Bachelors Degree
+7942	7	1217	50	Indirect contact with external customers
+7943	11	1217	\N	test4 first name
+7944	12	1217	\N	test4 last name
+7945	20	1217	\N	test4@Firefox78.0_WIN10
+7946	1	1218	2	Male
+7947	2	1218	9	51 - 60
+7948	3	1218	13	1 - 3
+7949	5	1218	37	Bachelors Degree
+7950	7	1218	50	Indirect contact with external customers
+7951	1	1219	2	Male
+7952	2	1219	9	51 - 60
+7953	3	1219	13	1 - 3
+7954	5	1219	37	Bachelors Degree
+7955	7	1219	50	Indirect contact with external customers
+7956	1	1220	2	Male
+7957	2	1220	9	51 - 60
+7958	3	1220	13	1 - 3
+7959	5	1220	37	Bachelors Degree
+7960	7	1220	50	Indirect contact with external customers
+7961	1	1221	2	Male
+7962	2	1221	9	51 - 60
+7963	3	1221	13	1 - 3
+7964	5	1221	37	Bachelors Degree
+7965	7	1221	50	Indirect contact with external customers
+7966	1	1222	2	Male
+7967	2	1222	9	51 - 60
+7968	3	1222	13	1 - 3
+7969	5	1222	37	Bachelors Degree
+7970	7	1222	50	Indirect contact with external customers
+7971	11	1222	\N	test1 first name
+7972	12	1222	\N	test1 last name
+7973	20	1222	\N	test1@MicrosoftEdge18.0_WIN10
+7974	1	1223	2	Male
+7975	2	1223	9	51 - 60
+7976	3	1223	13	1 - 3
+7977	5	1223	37	Bachelors Degree
+7978	7	1223	50	Indirect contact with external customers
+7979	11	1223	\N	test2 first name
+7980	12	1223	\N	test2 last name
+7981	20	1223	\N	test2@MicrosoftEdge18.0_WIN10
+7982	1	1224	2	Male
+7983	2	1224	9	51 - 60
+7984	3	1224	13	1 - 3
+7985	5	1224	37	Bachelors Degree
+7986	7	1224	50	Indirect contact with external customers
+7987	11	1224	\N	test3 first name
+7988	12	1224	\N	test3 last name
+7989	20	1224	\N	test3@MicrosoftEdge18.0_WIN10
+7990	1	1225	2	Male
+7991	2	1225	9	51 - 60
+7992	3	1225	13	1 - 3
+7993	5	1225	37	Bachelors Degree
+7994	7	1225	50	Indirect contact with external customers
+7995	11	1225	\N	test4 first name
+7996	12	1225	\N	test4 last name
+7997	20	1225	\N	test4@MicrosoftEdge18.0_WIN10
+7998	1	1226	2	Male
+7999	2	1226	9	51 - 60
+8000	3	1226	13	1 - 3
+8001	5	1226	37	Bachelors Degree
+8002	7	1226	50	Indirect contact with external customers
+8003	1	1227	2	Male
+8004	2	1227	9	51 - 60
+8005	3	1227	13	1 - 3
+8006	5	1227	37	Bachelors Degree
+8007	7	1227	50	Indirect contact with external customers
+8008	1	1228	2	Male
+8009	2	1228	9	51 - 60
+8010	3	1228	13	1 - 3
+8011	5	1228	37	Bachelors Degree
+8012	7	1228	50	Indirect contact with external customers
+8013	1	1229	2	Male
+8014	2	1229	9	51 - 60
+8015	3	1229	13	1 - 3
+8016	5	1229	37	Bachelors Degree
+8017	7	1229	50	Indirect contact with external customers
+8018	1	1230	2	Male
+8019	2	1230	9	51 - 60
+8020	3	1230	13	1 - 3
+8021	5	1230	37	Bachelors Degree
+8022	7	1230	50	Indirect contact with external customers
+8023	1	1231	2	Male
+8024	2	1231	9	51 - 60
+8025	3	1231	13	1 - 3
+8026	5	1231	37	Bachelors Degree
+8027	7	1231	50	Indirect contact with external customers
+8028	1	1232	2	Male
+8029	2	1232	9	51 - 60
+8030	3	1232	13	1 - 3
+8031	5	1232	37	Bachelors Degree
+8032	7	1232	50	Indirect contact with external customers
+8033	1	1233	2	Male
+8034	2	1233	9	51 - 60
+8035	3	1233	13	1 - 3
+8036	5	1233	37	Bachelors Degree
+8037	7	1233	50	Indirect contact with external customers
+8038	1	1234	2	Male
+8039	2	1234	9	51 - 60
+8040	3	1234	13	1 - 3
+8041	5	1234	37	Bachelors Degree
+8042	7	1234	50	Indirect contact with external customers
+8043	11	1234	\N	test1 first name
+8044	12	1234	\N	test1 last name
+8045	20	1234	\N	test1@Safari12.0_Mac
+8046	1	1235	2	Male
+8047	2	1235	9	51 - 60
+8048	3	1235	13	1 - 3
+8049	5	1235	37	Bachelors Degree
+8050	7	1235	50	Indirect contact with external customers
+8051	11	1235	\N	test2 first name
+8052	12	1235	\N	test2 last name
+8053	20	1235	\N	test2@Safari12.0_Mac
+8054	1	1236	2	Male
+8055	2	1236	9	51 - 60
+8056	3	1236	13	1 - 3
+8057	5	1236	37	Bachelors Degree
+8058	7	1236	50	Indirect contact with external customers
+8059	11	1236	\N	test3 first name
+8060	12	1236	\N	test3 last name
+8061	20	1236	\N	test3@Safari12.0_Mac
+8062	1	1237	2	Male
+8063	2	1237	9	51 - 60
+8064	3	1237	13	1 - 3
+8065	5	1237	37	Bachelors Degree
+8066	7	1237	50	Indirect contact with external customers
+8067	11	1237	\N	test4 first name
+8068	12	1237	\N	test4 last name
+8069	20	1237	\N	test4@Safari12.0_Mac
+8070	1	1238	2	Male
+8071	2	1238	9	51 - 60
+8072	3	1238	13	1 - 3
+8073	5	1238	37	Bachelors Degree
+8074	7	1238	50	Indirect contact with external customers
+8075	11	1238	\N	test1 first name
+8076	12	1238	\N	test1 last name
+8077	20	1238	\N	test1@_ANDROID
+8078	1	1239	2	Male
+8079	2	1239	9	51 - 60
+8080	3	1239	13	1 - 3
+8081	5	1239	37	Bachelors Degree
+8082	7	1239	50	Indirect contact with external customers
+8083	11	1239	\N	test2 first name
+8084	12	1239	\N	test2 last name
+8085	20	1239	\N	test2@_ANDROID
+8086	1	1240	2	Male
+8087	2	1240	9	51 - 60
+8088	3	1240	13	1 - 3
+8089	5	1240	37	Bachelors Degree
+8090	7	1240	50	Indirect contact with external customers
+8091	11	1240	\N	test3 first name
+8092	12	1240	\N	test3 last name
+8093	20	1240	\N	test3@_ANDROID
+8094	1	1241	2	Male
+8095	2	1241	9	51 - 60
+8096	3	1241	13	1 - 3
+8097	5	1241	37	Bachelors Degree
+8098	7	1241	50	Indirect contact with external customers
+8099	11	1241	\N	test4 first name
+8100	12	1241	\N	test4 last name
+8101	20	1241	\N	test4@_ANDROID
+8102	1	1242	2	Male
+8103	2	1242	9	51 - 60
+8104	3	1242	13	1 - 3
+8105	5	1242	37	Bachelors Degree
+8106	7	1242	50	Indirect contact with external customers
+8107	1	1243	2	Male
+8108	2	1243	9	51 - 60
+8109	3	1243	13	1 - 3
+8110	5	1243	37	Bachelors Degree
+8111	7	1243	50	Indirect contact with external customers
+8112	1	1244	2	Male
+8113	2	1244	9	51 - 60
+8114	3	1244	13	1 - 3
+8115	5	1244	37	Bachelors Degree
+8116	7	1244	50	Indirect contact with external customers
+8117	1	1245	2	Male
+8118	2	1245	9	51 - 60
+8119	3	1245	13	1 - 3
+8120	5	1245	37	Bachelors Degree
+8121	7	1245	50	Indirect contact with external customers
+8122	1	1246	2	Male
+8123	2	1246	9	51 - 60
+8124	3	1246	13	1 - 3
+8125	5	1246	37	Bachelors Degree
+8126	7	1246	50	Indirect contact with external customers
+8127	11	1246	\N	test1 first name
+8128	12	1246	\N	test1 last name
+8129	20	1246	\N	test1@chrome85.0_WIN10
+8130	1	1247	2	Male
+8131	2	1247	9	51 - 60
+8132	3	1247	13	1 - 3
+8133	5	1247	37	Bachelors Degree
+8134	7	1247	50	Indirect contact with external customers
+8135	11	1247	\N	test2 first name
+8136	12	1247	\N	test2 last name
+8137	20	1247	\N	test2@chrome85.0_WIN10
+8138	1	1248	2	Male
+8139	2	1248	9	51 - 60
+8140	3	1248	13	1 - 3
+8141	5	1248	37	Bachelors Degree
+8142	7	1248	50	Indirect contact with external customers
+8143	11	1248	\N	test3 first name
+8144	12	1248	\N	test3 last name
+8145	20	1248	\N	test3@chrome85.0_WIN10
+8146	1	1249	2	Male
+8147	2	1249	9	51 - 60
+8148	3	1249	13	1 - 3
+8149	5	1249	37	Bachelors Degree
+8150	7	1249	50	Indirect contact with external customers
+8151	11	1249	\N	test4 first name
+8152	12	1249	\N	test4 last name
+8153	20	1249	\N	test4@chrome85.0_WIN10
+8154	1	1250	2	Male
+8155	2	1250	9	51 - 60
+8156	3	1250	13	1 - 3
+8157	5	1250	37	Bachelors Degree
+8158	7	1250	50	Indirect contact with external customers
+8159	1	1251	2	Male
+8160	2	1251	9	51 - 60
+8161	3	1251	13	1 - 3
+8162	5	1251	37	Bachelors Degree
+8163	7	1251	50	Indirect contact with external customers
+8164	1	1252	2	Male
+8165	2	1252	9	51 - 60
+8166	3	1252	13	1 - 3
+8167	5	1252	37	Bachelors Degree
+8168	7	1252	50	Indirect contact with external customers
+8169	1	1253	2	Male
+8170	2	1253	9	51 - 60
+8171	3	1253	13	1 - 3
+8172	5	1253	37	Bachelors Degree
+8173	7	1253	50	Indirect contact with external customers
+8174	1	1254	2	Male
+8175	2	1254	9	51 - 60
+8176	3	1254	13	1 - 3
+8177	5	1254	37	Bachelors Degree
+8178	7	1254	50	Indirect contact with external customers
+8179	11	1254	\N	test1 first name
+8180	12	1254	\N	test1 last name
+8181	20	1254	\N	test1@Firefox78.0_WIN10
+8182	1	1255	2	Male
+8183	2	1255	9	51 - 60
+8184	3	1255	13	1 - 3
+8185	5	1255	37	Bachelors Degree
+8186	7	1255	50	Indirect contact with external customers
+8187	11	1255	\N	test2 first name
+8188	12	1255	\N	test2 last name
+8189	20	1255	\N	test2@Firefox78.0_WIN10
+8190	1	1256	2	Male
+8191	2	1256	9	51 - 60
+8192	3	1256	13	1 - 3
+8193	5	1256	37	Bachelors Degree
+8194	7	1256	50	Indirect contact with external customers
+8195	11	1256	\N	test3 first name
+8196	12	1256	\N	test3 last name
+8197	20	1256	\N	test3@Firefox78.0_WIN10
+8198	1	1257	2	Male
+8199	2	1257	9	51 - 60
+8200	3	1257	13	1 - 3
+8201	5	1257	37	Bachelors Degree
+8202	7	1257	50	Indirect contact with external customers
+8203	11	1257	\N	test4 first name
+8204	12	1257	\N	test4 last name
+8205	20	1257	\N	test4@Firefox78.0_WIN10
+8206	1	1258	2	Male
+8207	2	1258	9	51 - 60
+8208	3	1258	13	1 - 3
+8209	5	1258	37	Bachelors Degree
+8210	7	1258	50	Indirect contact with external customers
+8211	1	1259	2	Male
+8212	2	1259	9	51 - 60
+8213	3	1259	13	1 - 3
+8214	5	1259	37	Bachelors Degree
+8215	7	1259	50	Indirect contact with external customers
+8216	1	1260	2	Male
+8217	2	1260	9	51 - 60
+8218	3	1260	13	1 - 3
+8219	5	1260	37	Bachelors Degree
+8220	7	1260	50	Indirect contact with external customers
+8221	1	1261	2	Male
+8222	2	1261	9	51 - 60
+8223	3	1261	13	1 - 3
+8224	5	1261	37	Bachelors Degree
+8225	7	1261	50	Indirect contact with external customers
+8226	1	1262	2	Male
+8227	2	1262	9	51 - 60
+8228	3	1262	13	1 - 3
+8229	5	1262	37	Bachelors Degree
+8230	7	1262	50	Indirect contact with external customers
+8231	11	1262	\N	test1 first name
+8232	12	1262	\N	test1 last name
+8233	20	1262	\N	test1@MicrosoftEdge18.0_WIN10
+8234	1	1263	2	Male
+8235	2	1263	9	51 - 60
+8236	3	1263	13	1 - 3
+8237	5	1263	37	Bachelors Degree
+8238	7	1263	50	Indirect contact with external customers
+8239	11	1263	\N	test2 first name
+8240	12	1263	\N	test2 last name
+8241	20	1263	\N	test2@MicrosoftEdge18.0_WIN10
+8242	1	1264	2	Male
+8243	2	1264	9	51 - 60
+8244	3	1264	13	1 - 3
+8245	5	1264	37	Bachelors Degree
+8246	7	1264	50	Indirect contact with external customers
+8247	11	1264	\N	test3 first name
+8248	12	1264	\N	test3 last name
+8249	20	1264	\N	test3@MicrosoftEdge18.0_WIN10
+8250	1	1265	2	Male
+8251	2	1265	9	51 - 60
+8252	3	1265	13	1 - 3
+8253	5	1265	37	Bachelors Degree
+8254	7	1265	50	Indirect contact with external customers
+8255	11	1265	\N	test4 first name
+8256	12	1265	\N	test4 last name
+8257	20	1265	\N	test4@MicrosoftEdge18.0_WIN10
+8258	1	1266	2	Male
+8259	2	1266	9	51 - 60
+8260	3	1266	13	1 - 3
+8261	5	1266	37	Bachelors Degree
+8262	7	1266	50	Indirect contact with external customers
+8263	1	1267	2	Male
+8264	2	1267	9	51 - 60
+8265	3	1267	13	1 - 3
+8266	5	1267	37	Bachelors Degree
+8267	7	1267	50	Indirect contact with external customers
+8268	1	1268	2	Male
+8269	2	1268	9	51 - 60
+8270	3	1268	13	1 - 3
+8271	5	1268	37	Bachelors Degree
+8272	7	1268	50	Indirect contact with external customers
+8273	1	1269	2	Male
+8274	2	1269	9	51 - 60
+8275	3	1269	13	1 - 3
+8276	5	1269	37	Bachelors Degree
+8277	7	1269	50	Indirect contact with external customers
+8278	1	1270	2	Male
+8279	2	1270	9	51 - 60
+8280	3	1270	13	1 - 3
+8281	5	1270	37	Bachelors Degree
+8282	7	1270	50	Indirect contact with external customers
+8283	11	1270	\N	test1 first name
+8284	12	1270	\N	test1 last name
+8285	20	1270	\N	test1@Safari12.0_Mac
+8286	1	1271	2	Male
+8287	2	1271	9	51 - 60
+8288	3	1271	13	1 - 3
+8289	5	1271	37	Bachelors Degree
+8290	7	1271	50	Indirect contact with external customers
+8291	11	1271	\N	test2 first name
+8292	12	1271	\N	test2 last name
+8293	20	1271	\N	test2@Safari12.0_Mac
+8294	1	1272	2	Male
+8295	2	1272	9	51 - 60
+8296	3	1272	13	1 - 3
+8297	5	1272	37	Bachelors Degree
+8298	7	1272	50	Indirect contact with external customers
+8299	11	1272	\N	test3 first name
+8300	12	1272	\N	test3 last name
+8301	20	1272	\N	test3@Safari12.0_Mac
+8302	1	1273	2	Male
+8303	2	1273	9	51 - 60
+8304	3	1273	13	1 - 3
+8305	5	1273	37	Bachelors Degree
+8306	7	1273	50	Indirect contact with external customers
+8307	11	1273	\N	test4 first name
+8308	12	1273	\N	test4 last name
+8309	20	1273	\N	test4@Safari12.0_Mac
+8310	1	1274	2	Male
+8311	2	1274	9	51 - 60
+8312	3	1274	13	1 - 3
+8313	5	1274	37	Bachelors Degree
+8314	7	1274	50	Indirect contact with external customers
+8315	1	1275	2	Male
+8316	2	1275	9	51 - 60
+8317	3	1275	13	1 - 3
+8318	5	1275	37	Bachelors Degree
+8319	7	1275	50	Indirect contact with external customers
+8320	1	1276	2	Male
+8321	2	1276	9	51 - 60
+8322	3	1276	13	1 - 3
+8323	5	1276	37	Bachelors Degree
+8324	7	1276	50	Indirect contact with external customers
+8325	1	1277	2	Male
+8326	2	1277	9	51 - 60
+8327	3	1277	13	1 - 3
+8328	5	1277	37	Bachelors Degree
+8329	7	1277	50	Indirect contact with external customers
+8330	1	1278	2	Male
+8331	2	1278	9	51 - 60
+8332	3	1278	13	1 - 3
+8333	5	1278	37	Bachelors Degree
+8334	7	1278	50	Indirect contact with external customers
+8335	11	1278	\N	test1 first name
+8336	12	1278	\N	test1 last name
+8337	20	1278	\N	test1@_ANDROID
+8338	1	1279	2	Male
+8339	2	1279	9	51 - 60
+8340	3	1279	13	1 - 3
+8341	5	1279	37	Bachelors Degree
+8342	7	1279	50	Indirect contact with external customers
+8343	11	1279	\N	test2 first name
+8344	12	1279	\N	test2 last name
+8345	20	1279	\N	test2@_ANDROID
+8346	1	1280	2	Male
+8347	2	1280	9	51 - 60
+8348	3	1280	13	1 - 3
+8349	5	1280	37	Bachelors Degree
+8350	7	1280	50	Indirect contact with external customers
+8351	11	1280	\N	test3 first name
+8352	12	1280	\N	test3 last name
+8353	20	1280	\N	test3@_ANDROID
+8354	1	1281	2	Male
+8355	2	1281	9	51 - 60
+8356	3	1281	13	1 - 3
+8357	5	1281	37	Bachelors Degree
+8358	7	1281	50	Indirect contact with external customers
+8359	11	1281	\N	test4 first name
+8360	12	1281	\N	test4 last name
+8361	20	1281	\N	test4@_ANDROID
 \.
 
 
@@ -7273,4 +7798,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 7836, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8361, true);
