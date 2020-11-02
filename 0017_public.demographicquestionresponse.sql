@@ -3786,16 +3786,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 3893	8	401	52	1st
 3894	9	401	56	No
 3895	10	401	57	Baltimore/Glen Burnie, MD
-3896	1	402	1	 --Select--FemaleMale 
-3897	2	402	8	 --Select--18 - 2122 - 2526 - 3031 - 3536 - 4041 - 5051 - 6061 - 7071+ 
-3898	3	402	15	 --Select--Less than 1 year1 - 34 - 56 - 1011 - 1516 - 2122 or more 
+3896	1	402	1	Female
+3897	2	402	8	41 - 50
+3898	3	402	15	6 - 10
 3899	4	402	\N	\N
 3900	5	402	\N	\N
-3901	6	402	41	 --Select--Executive/LeadershipDirectorRegional ManagerManagerSupervisorLeadsEmployee (non-supervisory)Other 
-3902	7	402	48	 --Select--Direct contact with internal customersDirect contact with external customersIndirect contact with external customersIndirect contact with internal customers 
-3903	8	402	52	 --Select--1st2nd3rd 
-3904	9	402	56	 --Select--YesNo 
-3905	10	402	57	 --Select--Baltimore/Glen Burnie, MDNashville, TNOrlando, FLRaleigh, NJGoldsboro, NCOaks, PARichmond, VASmyrna, GAWytheville, VASupply CentersOutside SalesConcorde, NC 
+3901	6	402	41	Employee (non-supervisory)
+3902	7	402	48	Direct contact with internal customers
+3903	8	402	52	1st
+3904	9	402	56	No
+3905	10	402	57	Baltimore/Glen Burnie, MD
 3906	1	403	1	Female
 3907	2	403	9	51 - 60
 3908	3	403	14	4 - 5
@@ -3835,7 +3835,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 3942	7	408	\N	\N
 3943	8	408	\N	\N
 3944	9	408	\N	\N
-3945	10	408	57	 --Select--Baltimore/Glen Burnie, MDNashville, TNOrlando, FLRaleigh, NJGoldsboro, NCOaks, PARichmond, VASmyrna, GAWytheville, VASupply CentersOutside SalesConcorde, NC 
+3945	10	408	57	Baltimore/Glen Burnie, MD
 3946	1	410	1	Female
 3947	2	410	9	51 - 60
 3948	3	410	18	22 or more
@@ -4036,7 +4036,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 4143	8	455	52	1st
 4144	9	455	56	No
 4145	10	455	\N	\N
-4146	1	456	2	 --Select--FemaleMale 
+4146	1	456	2	Male
 4147	2	456	\N	\N
 4148	3	456	\N	\N
 4149	4	456	\N	\N
@@ -4300,7 +4300,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 4407	2	500	\N	\N
 4408	3	500	\N	\N
 4409	4	500	\N	\N
-4410	5	500	35	 --Select--High SchoolAssociates DegreeBachelors DegreeGraduate Masters DegreeGraduate Doctorate 
+4410	5	500	35	High School
 4411	6	500	\N	\N
 4412	7	500	\N	\N
 4413	8	500	\N	\N
@@ -4414,7 +4414,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 4521	6	520	\N	\N
 4522	7	520	\N	\N
 4523	8	520	\N	\N
-4524	9	520	56	 --Select--YesNo 
+4524	9	520	56	No
 4525	10	520	\N	\N
 4526	1	521	1	Female
 4527	2	521	9	51 - 60
@@ -4686,14 +4686,14 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 4793	8	563	52	1st
 4794	9	563	56	No
 4795	10	563	61	Orlando, FL
-4796	1	564	1	 --Select--FemaleMale 
+4796	1	564	1	Female
 4797	2	564	\N	\N
-4798	3	564	14	 --Select--Less than 1 year1 - 34 - 56 - 1011 - 1516 - 2122 or more 
+4798	3	564	14	4 - 5
 4799	4	564	\N	\N
-4800	5	564	35	 --Select--High SchoolAssociates DegreeBachelors DegreeGraduate Masters DegreeGraduate Doctorate 
-4801	6	564	41	 --Select--Executive/LeadershipDirectorRegional ManagerManagerSupervisorLeadsEmployee (non-supervisory)Other 
+4800	5	564	35	High School
+4801	6	564	41	Employee (non-supervisory)
 4802	7	564	\N	\N
-4803	8	564	52	 --Select--1st2nd3rd 
+4803	8	564	52	1st
 4804	9	564	\N	\N
 4805	10	564	\N	\N
 4806	1	566	1	Female
@@ -4846,16 +4846,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 4953	8	607	52	1st
 4954	9	607	56	No
 4955	10	607	71	Concorde, NC
-4956	1	609	1	 --Select--FemaleMale 
+4956	1	609	1	Female
 4957	2	609	\N	\N
-4958	3	609	17	 --Select--Less than 1 year1 - 34 - 56 - 1011 - 1516 - 2122 or more 
+4958	3	609	17	16 - 21
 4959	4	609	\N	\N
-4960	5	609	35	 --Select--High SchoolAssociates DegreeBachelors DegreeGraduate Masters DegreeGraduate Doctorate 
-4961	6	609	41	 --Select--Executive/LeadershipDirectorRegional ManagerManagerSupervisorLeadsEmployee (non-supervisory)Other 
+4960	5	609	35	High School
+4961	6	609	41	Employee (non-supervisory)
 4962	7	609	\N	\N
-4963	8	609	52	 --Select--1st2nd3rd 
-4964	9	609	56	 --Select--YesNo 
-4965	10	609	57	 --Select--Baltimore/Glen Burnie, MDNashville, TNOrlando, FLRaleigh, NJGoldsboro, NCOaks, PARichmond, VASmyrna, GAWytheville, VASupply CentersOutside SalesConcorde, NC 
+4963	8	609	52	1st
+4964	9	609	56	No
+4965	10	609	57	Baltimore/Glen Burnie, MD
 4966	1	611	2	Male
 4967	2	611	10	61 - 70
 4968	3	611	18	22 or more
@@ -5335,12 +5335,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5442	11	735	\N	Frances
 5443	12	735	\N	Almstrom
 5444	20	735	\N	FAlmstromLMFT@gmail.com
-5445	33	735	201	--Select--\nFemale\nMale\nNon-binary
-5446	2	735	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5447	34	735	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5448	35	735	216	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5449	36	735	218	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5450	37	735	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5445	33	735	201	Female
+5446	2	735	10	61 - 70
+5447	34	735	211	21+
+5448	35	735	216	Ph.D/Doctorate
+5449	36	735	218	CEO/President/Chairman
+5450	37	735	226	Contact with External customers
 5451	1	736	-1	\N
 5452	2	736	-1	\N
 5453	4	736	-1	\N
@@ -5475,33 +5475,33 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5582	25	756	135	Executive Assistant
 5583	26	756	137	<10
 5584	27	756	155	Film
-5585	1	757	1	 --Select-- Female Male  
-5586	2	757	7	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-5587	21	757	113	 --Select-- High School/GED Tech Ed Associates Bachelors Masters Doctorate  
-5588	22	757	116	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
-5589	23	757	124	 --Select-- Board Member Staff Other  
-5590	24	757	127	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
-5591	25	757	136	 --Select-- President/CEO Membership Director Executive Assistant Administrative Assistant  
-5592	26	757	137	 --Select-- <10 11-30 31-60 61-100 101-300 301-500 501-750 751-1000 >1001  
-5593	27	757	153	 --Select-- Executive Education Economic Development Membership Ambassadors Green Health and Wellness Legislative Golf Film Veterans/Military  
-5594	1	758	2	 --Select-- Female Male  
-5595	2	758	8	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-5596	21	758	113	 --Select-- High School/GED Tech Ed Associates Bachelors Masters Doctorate  
-5597	22	758	120	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
-5598	23	758	123	 --Select-- Board Member Staff Other  
-5599	24	758	126	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
+5585	1	757	1	Female
+5586	2	757	7	36 - 40
+5587	21	757	113	Bachelors
+5588	22	757	116	Less than 1 yr
+5589	23	757	124	Staff
+5590	24	757	127	1-3
+5591	25	757	136	Administrative Assistant
+5592	26	757	137	<10
+5593	27	757	153	Legislative
+5594	1	758	2	Male
+5595	2	758	8	41 - 50
+5596	21	758	113	Bachelors
+5597	22	758	120	11-15
+5598	23	758	123	Board Member
+5599	24	758	126	Less than 1 yr
 5600	25	758	\N	\N
-5601	26	758	141	 --Select-- <10 11-30 31-60 61-100 101-300 301-500 501-750 751-1000 >1001  
+5601	26	758	141	101-300
 5602	27	758	-1	 --Select-- Executive Education Economic Development Membership Ambassadors Green Health and Wellness Legislative Golf Film Veterans/Military  
-5603	1	759	2	 --Select-- Female Male  
-5604	2	759	8	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-5605	21	759	113	 --Select-- High School/GED Tech Ed Associates Bachelors Masters Doctorate  
-5606	22	759	122	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
-5607	23	759	123	 --Select-- Board Member Staff Other  
-5608	24	759	127	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
+5603	1	759	2	Male
+5604	2	759	8	41 - 50
+5605	21	759	113	Bachelors
+5606	22	759	122	21+
+5607	23	759	123	Board Member
+5608	24	759	127	1-3
 5609	25	759	\N	\N
-5610	26	759	141	 --Select-- <10 11-30 31-60 61-100 101-300 301-500 501-750 751-1000 >1001  
-5611	27	759	151	 --Select-- Executive Education Economic Development Membership Ambassadors Green Health and Wellness Legislative Golf Film Veterans/Military  
+5610	26	759	141	101-300
+5611	27	759	151	Green
 5612	1	760	1	Female
 5613	2	760	9	51 - 60
 5614	21	760	114	Masters
@@ -5534,25 +5534,25 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5641	10	762	57	Baltimore/Glen Burnie, MD
 5642	11	764	\N	Michael
 5643	12	764	\N	Barrett
-5644	1	764	2	 --Select-- Female Male  
-5645	2	764	9	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-5646	3	764	13	 --Select-- Less than 1 year 1 - 3 4 - 5 6 - 10 11 - 15 16 - 21 22 or more  
-5647	4	764	24	 --Select-- Finance/Accounting Credit Executive Management Human Resources Information/Technology Inventory Control Marketing Customer Service Operations Management Purchasing Supplies CMH Sales Armstrong Sales Corporate Sales Operations Warehouse Other E-Commerce Privage Label  
-5648	5	764	37	 --Select-- High School Associates Degree Bachelors Degree Graduate Masters Degree Graduate Doctorate  
-5649	6	764	42	 --Select-- Executive/Leadership Director Regional Manager Manager Supervisor Leads Employee (non-supervisory) Other  
-5650	7	764	49	 --Select-- Direct contact with internal customers Direct contact with external customers Indirect contact with external customers Indirect contact with internal customers  
-5651	8	764	52	 --Select-- 1st 2nd 3rd  
-5652	9	764	56	 --Select-- Yes No  
-5653	10	764	57	 --Select-- Baltimore/Glen Burnie, MD Nashville, TN Orlando, FL Raleigh, NJ Goldsboro, NC Oaks, PA Richmond, VA Smyrna, GA Wytheville, VA Supply Centers Outside Sales Concorde, NC Wadesboro, NC  
-5654	1	765	2	--Select--\nFemale\nMale
-5655	2	765	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5656	21	765	114	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-5657	22	765	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+5644	1	764	2	Male
+5645	2	764	9	51 - 60
+5646	3	764	13	1 - 3
+5647	4	764	24	Executive Management
+5648	5	764	37	Bachelors Degree
+5649	6	764	42	Executive/Leadership
+5650	7	764	49	Direct contact with external customers
+5651	8	764	52	1st
+5652	9	764	56	No
+5653	10	764	57	Baltimore/Glen Burnie, MD
+5654	1	765	2	Male
+5655	2	765	9	51 - 60
+5656	21	765	114	Masters
+5657	22	765	119	6-10
 5658	23	765	\N	\N
-5659	24	765	129	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+5659	24	765	129	6-10
 5660	25	765	\N	\N
-5661	26	765	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-5662	27	765	149	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+5661	26	765	137	<10
+5662	27	765	149	Membership
 5663	1	766	1	Female
 5664	2	766	8	41 - 50
 5665	21	766	113	Bachelors
@@ -5623,23 +5623,23 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5742	35	773	215	Masters
 5743	36	773	219	EVP/SVP
 5744	37	773	226	Contact with External customers
-5757	1	775	1	 --Select-- Female Male  
-5758	2	775	7	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-5759	21	775	113	 --Select-- High School/GED Tech Ed Associates Bachelors Masters Doctorate  
-5760	22	775	118	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
-5761	23	775	123	 --Select-- Board Member Staff Other  
-5762	24	775	128	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
+5757	1	775	1	Female
+5758	2	775	7	36 - 40
+5759	21	775	113	Bachelors
+5760	22	775	118	4-5
+5761	23	775	123	Board Member
+5762	24	775	128	4-5
 5763	25	775	\N	\N
-5764	26	775	145	 --Select-- <10 11-30 31-60 61-100 101-300 301-500 501-750 751-1000 >1001  
-5765	27	775	152	 --Select-- Executive Education Economic Development Membership Ambassadors Green Health and Wellness Legislative Golf Film Veterans/Military  
-5766	1	776	2	 --Select-- Female Male  
-5767	2	776	9	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-5768	21	776	110	 --Select-- High School/GED Tech Ed Associates Bachelors Masters Doctorate  
-5769	22	776	117	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
-5770	23	776	123	 --Select-- Board Member Staff Other  
-5771	24	776	127	 --Select-- Less than 1 yr 1-3 4-5 6-10 11-15 16-20 21+  
+5764	26	775	145	>1001
+5765	27	775	152	Health and Wellness
+5766	1	776	2	Male
+5767	2	776	9	51 - 60
+5768	21	776	110	High School/GED
+5769	22	776	117	1-3
+5770	23	776	123	Board Member
+5771	24	776	127	1-3
 5772	25	776	\N	\N
-5773	26	776	142	 --Select-- <10 11-30 31-60 61-100 101-300 301-500 501-750 751-1000 >1001  
+5773	26	776	142	301-500
 5774	27	776	\N	\N
 5775	1	777	1	Female
 5776	2	777	10	61 - 70
@@ -5662,12 +5662,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5805	11	780	\N	Audra
 5806	12	780	\N	Winters
 5807	20	780	\N	audrawinters@hotmail.com
-5808	48	780	301	--Select--\nFemale\nMale\nNon-binary
-5809	2	780	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5810	49	780	311	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5811	50	780	313	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5812	51	780	318	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5813	52	780	326	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5808	48	780	301	Female
+5809	2	780	8	41 - 50
+5810	49	780	311	21+
+5811	50	780	313	Associates
+5812	51	780	318	CEO/President/Chairman
+5813	52	780	326	Contact with External customers
 5814	11	781	\N	Prab
 5815	12	781	\N	Lashar
 5816	20	781	\N	prablashar@gmail.com
@@ -5680,30 +5680,30 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5832	11	783	\N	Rebecca
 5833	12	783	\N	Overholt
 5834	20	783	\N	Julephenia@gmail.com
-5835	33	783	201	--Select--\nFemale\nMale\nNon-binary
-5836	2	783	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5837	34	783	210	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5838	35	783	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5839	36	783	224	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5840	37	783	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5835	33	783	201	Female
+5836	2	783	6	31 - 35
+5837	34	783	210	16 to 20
+5838	35	783	214	Bachelors
+5839	36	783	224	Employee
+5840	37	783	226	Contact with External customers
 5841	11	784	\N	Maria
 5842	12	784	\N	Rose
 5843	20	784	\N	MariaRoseDoesEverything@gmail.com
-5844	33	784	201	--Select--\nFemale\nMale\nNon-binary
-5845	2	784	7	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5846	34	784	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5847	35	784	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5848	36	784	225	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5849	37	784	228	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5844	33	784	201	Female
+5845	2	784	7	36 - 40
+5846	34	784	211	21+
+5847	35	784	214	Bachelors
+5848	36	784	225	Other
+5849	37	784	228	None 
 5850	11	785	\N	Alex
 5851	12	785	\N	Demeroutis
 5852	20	785	\N	alex.demeroutis@gmail.com
-5853	48	785	301	--Select--\nFemale\nMale\nNon-binary
-5854	2	785	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5855	49	785	309	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5856	50	785	314	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5857	51	785	320	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5858	52	785	326	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5853	48	785	301	Female
+5854	2	785	6	31 - 35
+5855	49	785	309	11 to 15
+5856	50	785	314	Bachelors
+5857	51	785	320	Vice President
+5858	52	785	326	Contact with External customers
 5859	11	786	\N	Sandra
 5860	12	786	\N	Mehdian
 5861	20	786	\N	smehdian1@gmail.com
@@ -5743,12 +5743,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5895	11	790	\N	Ray
 5896	12	790	\N	Croce, SR
 5897	20	790	\N	raycroce@me.com
-5898	33	790	202	--Select--\nFemale\nMale\nNon-binary
-5899	2	790	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5900	34	790	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5901	35	790	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5902	36	790	224	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5903	37	790	227	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5898	33	790	202	Male
+5899	2	790	9	51 - 60
+5900	34	790	211	21+
+5901	35	790	214	Bachelors
+5902	36	790	224	Employee
+5903	37	790	227	Contact with Internal customers
 5904	11	791	\N	Robb
 5905	12	791	\N	Sewell
 5906	20	791	\N	rcsewell63@yahoo.com
@@ -5761,12 +5761,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 5922	11	793	\N	Jesse
 5923	12	793	\N	Frola
 5924	20	793	\N	jesse.frola@gmail.com
-5925	33	793	203	--Select--\nFemale\nMale\nNon-binary
-5926	2	793	7	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-5927	34	793	204	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-5928	35	793	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-5929	36	793	225	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-5930	37	793	228	--Select--\nContact with External customers\nContact with Internal customers\nNone
+5925	33	793	203	Non-binary
+5926	2	793	7	36 - 40
+5927	34	793	204	N/A
+5928	35	793	214	Bachelors
+5929	36	793	225	Other
+5930	37	793	228	None 
 5931	11	794	\N	Jeff
 5932	12	794	\N	Severance
 5933	20	794	\N	jeff.severance@outlook.com
@@ -5833,12 +5833,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6012	11	803	\N	Teresa
 6013	12	803	\N	Severance
 6014	20	803	\N	tmseverance@hotmail.com
-6015	33	803	201	 --Select-- Female Male Non-binary  
-6016	2	803	8	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-6017	34	803	210	 --Select-- N/A Less than 1 year 1 to 3 4 to 5 6 to 10 11 to 15 16 to 20 21+  
-6018	35	803	213	 --Select-- High School Associates Bachelors Masters Ph.D/Doctorate Post Doctorate  
-6019	36	803	224	 --Select-- CEO/President/Chairman EVP/SVP Vice President Manager Supervisor Project Leader/Manager Employee Other  
-6020	37	803	226	 --Select-- Contact with External customers Contact with Internal customers None  
+6015	33	803	201	Female
+6016	2	803	8	41 - 50
+6017	34	803	210	16 to 20
+6018	35	803	213	Associates
+6019	36	803	224	Employee
+6020	37	803	226	Contact with External customers
 6021	11	804	\N	Julie
 6022	12	804	\N	Severance
 6023	20	804	\N	julie132117@gmail.com
@@ -5851,12 +5851,12 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6030	11	805	\N	Robert
 6031	12	805	\N	Nicolas
 6032	20	805	\N	nicolasrobert@verizon.net
-6033	33	805	202	--Select--\nFemale\nMale\nNon-binary
+6033	33	805	202	Male
 6034	2	805	\N	\N
-6035	34	805	210	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6036	35	805	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6037	36	805	224	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6038	37	805	227	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6035	34	805	210	16 to 20
+6036	35	805	214	Bachelors
+6037	36	805	224	Employee
+6038	37	805	227	Contact with Internal customers
 6075	11	810	\N	Tracy
 6076	12	810	\N	Kelly
 6077	20	810	\N	tkelly@gmail.com
@@ -5876,15 +5876,15 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6119	8	814	\N	\N
 6120	9	814	\N	\N
 6121	10	814	\N	\N
-6122	1	815	2	--Select--\nFemale\nMale
-6123	2	815	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6124	3	815	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6125	4	815	32	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6126	5	815	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate
-6127	6	815	45	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6128	7	815	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6129	8	815	52	--Select--\n1st\n2nd\n3rd
-6130	9	815	56	--Select--\nYes\nNo
+6122	1	815	2	Male
+6123	2	815	11	71+
+6124	3	815	18	22 or more
+6125	4	815	32	Other
+6126	5	815	39	Graduate Doctorate
+6127	6	815	45	Other
+6128	7	815	49	Direct contact with external customers
+6129	8	815	52	1st
+6130	9	815	56	No
 6131	10	815	\N	\N
 6132	1	816	2	Male
 6133	2	816	6	31 - 35
@@ -5973,61 +5973,61 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6256	37	827	226	Contact with External customers
 6257	11	828	\N	Brandon
 6258	12	828	\N	Trautman
-6259	1	828	2	--Select--\nFemale\nMale
-6260	2	828	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6261	3	828	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6262	4	828	31	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6263	5	828	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate
-6264	6	828	44	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6265	7	828	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6266	8	828	52	--Select--\n1st\n2nd\n3rd
-6267	9	828	56	--Select--\nYes\nNo
+6259	1	828	2	Male
+6260	2	828	6	31 - 35
+6261	3	828	14	4 - 5
+6262	4	828	31	Operations Warehouse
+6263	5	828	37	Bachelors Degree
+6264	6	828	44	Manager
+6265	7	828	48	Direct contact with internal customers
+6266	8	828	52	1st
+6267	9	828	56	No
 6268	10	828	\N	\N
-6269	1	829	1	--Select--\nFemale\nMale
-6270	2	829	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6271	3	829	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6272	4	829	26	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6273	5	829	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate
-6274	6	829	44	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6275	7	829	51	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6276	8	829	52	--Select--\n1st\n2nd\n3rd
-6277	9	829	56	--Select--\nYes\nNo
+6269	1	829	1	Female
+6270	2	829	8	41 - 50
+6271	3	829	13	1 - 3
+6272	4	829	26	Human Resources
+6273	5	829	38	Graduate Masters Degree
+6274	6	829	44	Manager
+6275	7	829	51	Indirect contact with internal customers
+6276	8	829	52	1st
+6277	9	829	56	No
 6278	10	829	\N	\N
 6279	11	830	\N	Joe
 6280	12	830	\N	McFadden
-6281	1	830	2	--Select--\nFemale\nMale
-6282	2	830	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6283	3	830	16	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6284	4	830	32	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6285	5	830	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate
-6286	6	830	45	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6287	7	830	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6288	8	830	52	--Select--\n1st\n2nd\n3rd
-6289	9	830	56	--Select--\nYes\nNo
+6281	1	830	2	Male
+6282	2	830	9	51 - 60
+6283	3	830	16	11 - 15
+6284	4	830	32	Other
+6285	5	830	35	High School
+6286	6	830	45	Other
+6287	7	830	49	Direct contact with external customers
+6288	8	830	52	1st
+6289	9	830	56	No
 6290	10	830	\N	\N
 6291	11	831	\N	Maria
 6292	12	831	\N	Cappello
-6293	1	831	1	--Select--\nFemale\nMale
-6294	2	831	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6295	3	831	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6296	4	831	26	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6297	5	831	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate
-6298	6	831	44	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6299	7	831	51	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6300	8	831	52	--Select--\n1st\n2nd\n3rd
-6301	9	831	56	--Select--\nYes\nNo
+6293	1	831	1	Female
+6294	2	831	8	41 - 50
+6295	3	831	13	1 - 3
+6296	4	831	26	Human Resources
+6297	5	831	38	Graduate Masters Degree
+6298	6	831	44	Manager
+6299	7	831	51	Indirect contact with internal customers
+6300	8	831	52	1st
+6301	9	831	56	No
 6302	10	831	\N	\N
 6303	11	832	\N	Kathryn
 6304	12	832	\N	Valukevich
-6305	1	832	1	--Select--\nFemale\nMale
-6306	2	832	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6307	3	832	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6308	4	832	24	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6309	5	832	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate
-6310	6	832	44	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6311	7	832	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6312	8	832	52	--Select--\n1st\n2nd\n3rd
-6313	9	832	56	--Select--\nYes\nNo
+6305	1	832	1	Female
+6306	2	832	8	41 - 50
+6307	3	832	15	6 - 10
+6308	4	832	24	Executive Management
+6309	5	832	35	High School
+6310	6	832	44	Manager
+6311	7	832	50	Indirect contact with external customers
+6312	8	832	52	1st
+6313	9	832	56	No
 6314	10	832	\N	\N
 6315	11	833	\N	Mick
 6316	12	833	\N	Lueth
@@ -6043,16 +6043,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6326	10	833	\N	\N
 6327	11	834	\N	Alexandra
 6328	12	834	\N	Holguin
-6329	1	834	1	 --Select-- Female Male  
-6330	2	834	8	 --Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+  
-6331	3	834	13	 --Select-- Less than 1 year 1 - 3 4 - 5 6 - 10 11 - 15 16 - 21 22 or more  
-6332	4	834	32	 --Select-- Finance/Accounting Credit Executive Management Human Resources Information/Technology Inventory Control Marketing Customer Service Operations Management Purchasing Supplies CMH Sales Armstrong Sales Corporate Sales Operations Warehouse Other E-Commerce Privage Label  
-6333	5	834	36	 --Select-- High School Associates Degree Bachelors Degree Graduate Masters Degree Graduate Doctorate  
-6334	6	834	41	 --Select-- Executive/Leadership Director Regional Manager Manager Supervisor Leads Employee (non-supervisory) Other  
-6335	7	834	51	 --Select-- Direct contact with internal customers Direct contact with external customers Indirect contact with external customers Indirect contact with internal customers  
-6336	8	834	52	 --Select-- 1st 2nd 3rd  
-6337	9	834	56	 --Select-- Yes No  
-6338	10	834	60	 --Select-- Baltimore/Glen Burnie, MD Nashville, TN Orlando, FL Raleigh, NJ Goldsboro, NC Oaks, PA Richmond, VA Smyrna, GA Wytheville, VA Supply Centers Outside Sales Concorde, NC Wadesboro, NC  
+6329	1	834	1	Female
+6330	2	834	8	41 - 50
+6331	3	834	13	1 - 3
+6332	4	834	32	Other
+6333	5	834	36	Associates Degree
+6334	6	834	41	Employee (non-supervisory)
+6335	7	834	51	Indirect contact with internal customers
+6336	8	834	52	1st
+6337	9	834	56	No
+6338	10	834	60	Oaks, PA
 6339	11	835	\N	Scott
 6340	12	835	\N	Surdoval
 6341	1	835	2	Male
@@ -6178,60 +6178,60 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6488	40	850	\N	\N
 6489	41	850	-1	\N
 6490	42	850	\N	\N
-6491	1	851	1	--Select--\nFemale\nMale
-6492	2	851	3	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6493	3	851	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6494	5	851	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6495	7	851	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6496	38	851	242	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6497	39	851	246	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6498	40	851	253	--Select--\n1st\n2nd\n3rd
-6499	41	851	257	--Select--\nYes\nNo
-6500	42	851	265	--Select--\nBaltimore/Glen Burnie, MD\nNashville, TN\nOrlando, FL\nRaleigh, NJ\nGoldsboro, NC\nOaks, PA\nRichmond, VA\nSmyrna, GA\nWytheville, VA\nSupply Centers\nOutside Sales\nConcorde, NC\nWadesboro, NC
-6555	1	861	2	--Select--\nFemale\nMale
-6556	2	861	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6557	3	861	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6558	5	861	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6491	1	851	1	Female
+6492	2	851	3	18 - 21
+6493	3	851	13	1 - 3
+6494	5	851	37	Bachelors Degree
+6495	7	851	48	Direct contact with internal customers
+6496	38	851	242	Other
+6497	39	851	246	Employee (non-supervisory)
+6498	40	851	253	1st
+6499	41	851	257	No
+6500	42	851	265	Richmond, VA
+6555	1	861	2	Male
+6556	2	861	10	61 - 70
+6557	3	861	13	1 - 3
+6558	5	861	38	Graduate Masters Degree
 6559	7	861	\N	\N
-6560	1	862	1	--Select--\nFemale\nMale
-6561	2	862	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6562	3	862	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6563	5	862	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6560	1	862	1	Female
+6561	2	862	9	51 - 60
+6562	3	862	12	Less than 1 year
+6563	5	862	35	High School
 6564	7	862	\N	\N
 6565	1	863	\N	\N
 6566	2	863	\N	\N
-6567	3	863	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6568	5	863	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6567	3	863	15	6 - 10
+6568	5	863	35	High School
 6569	7	863	\N	\N
-6570	1	864	2	--Select--\nFemale\nMale
-6571	2	864	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6572	3	864	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6573	5	864	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6570	1	864	2	Male
+6571	2	864	6	31 - 35
+6572	3	864	15	6 - 10
+6573	5	864	37	Bachelors Degree
 6574	7	864	\N	\N
-6575	1	865	2	--Select--\nFemale\nMale
-6576	2	865	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6577	3	865	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6578	5	865	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6575	1	865	2	Male
+6576	2	865	8	41 - 50
+6577	3	865	13	1 - 3
+6578	5	865	37	Bachelors Degree
 6579	7	865	\N	\N
-6580	1	866	2	--Select--\nFemale\nMale
-6581	2	866	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6582	3	866	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6583	5	866	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6580	1	866	2	Male
+6581	2	866	9	51 - 60
+6582	3	866	15	6 - 10
+6583	5	866	35	High School
 6584	7	866	\N	\N
-6585	1	867	2	--Select--\nFemale\nMale
-6586	2	867	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6587	3	867	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6588	5	867	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6585	1	867	2	Male
+6586	2	867	8	41 - 50
+6587	3	867	15	6 - 10
+6588	5	867	35	High School
 6589	7	867	\N	\N
-6590	1	868	2	--Select--\nFemale\nMale
-6591	2	868	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6592	3	868	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6593	5	868	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6590	1	868	2	Male
+6591	2	868	8	41 - 50
+6592	3	868	15	6 - 10
+6593	5	868	37	Bachelors Degree
 6594	7	868	\N	\N
-6595	1	869	2	--Select--\nFemale\nMale
-6596	2	869	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6597	3	869	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6598	5	869	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6595	1	869	2	Male
+6596	2	869	9	51 - 60
+6597	3	869	14	4 - 5
+6598	5	869	37	Bachelors Degree
 6599	7	869	\N	\N
 6600	2	870	9	51 - 60
 6601	33	870	202	Male
@@ -6269,9 +6269,9 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6633	11	873	\N	Frank
 6634	12	873	\N	Mielke
 6635	20	873	\N	fmielke@audubonconsultants.com
-6636	1	874	2	--Select--\nFemale\nMale
-6637	2	874	3	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6638	5	874	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+6636	1	874	2	Male
+6637	2	874	3	18 - 21
+6638	5	874	36	Associates Degree
 6639	11	874	\N	Austin
 6640	12	874	\N	Wheeler
 6641	20	874	\N	austinwheeler1997@gmail.com
@@ -6291,16 +6291,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6655	11	877	\N	Keri
 6656	12	877	\N	Palmer
 6657	20	877	\N	kericpalmer@gmail.com
-6658	1	878	2	--Select--\nFemale\nMale
-6659	2	878	3	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6660	3	878	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6661	5	878	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6662	7	878	51	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6663	38	878	238	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6664	39	878	248	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
-6665	40	878	253	--Select--\n1st\n2nd\n3rd
-6666	41	878	257	--Select--\nYes\nNo
-6667	42	878	272	--Select--\nBaltimore/Glen Burnie, MD\nNashville, TN\nOrlando, FL\nRaleigh, NJ\nGoldsboro, NC\nOaks, PA\nRichmond, VA\nSmyrna, GA\nWytheville, VA\nSupply Centers\nOutside Sales\nConcorde, NC\nWadesboro, NC
+6658	1	878	2	Male
+6659	2	878	3	18 - 21
+6660	3	878	12	Less than 1 year
+6661	5	878	36	Associates Degree
+6662	7	878	51	Indirect contact with internal customers
+6663	38	878	238	Inventory Control
+6664	39	878	248	Leads
+6665	40	878	253	1st
+6666	41	878	257	No
+6667	42	878	272	Wadesboro, NC
 6668	1	879	1	Female
 6669	2	879	4	22 - 25
 6670	3	879	12	Less than 1 year
@@ -6311,18 +6311,18 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6675	40	879	254	2nd
 6676	41	879	\N	\N
 6677	42	879	\N	\N
-6678	7	880	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6679	28	880	162	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
+6678	7	880	49	Direct contact with external customers
+6679	28	880	162	Executive Management
 6680	11	880	\N	Alan
 6681	12	880	\N	Severance
 6682	20	880	\N	alseverance13@msn.com
-6692	1	882	2	--Select--\nFemale\nMale
-6693	2	882	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6694	3	882	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6695	5	882	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6696	7	882	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6697	28	882	162	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6698	29	882	175	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
+6692	1	882	2	Male
+6693	2	882	10	61 - 70
+6694	3	882	14	4 - 5
+6695	5	882	39	Graduate Doctorate
+6696	7	882	49	Direct contact with external customers
+6697	28	882	162	Executive Management
+6698	29	882	175	Executive/Leadership
 6699	11	882	\N	Miles 
 6700	1	883	1	Female
 6701	2	883	11	71+
@@ -6332,13 +6332,13 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6705	28	883	162	Executive Management
 6706	29	883	175	Executive/Leadership
 6707	11	883	\N	Kathy
-6708	1	884	2	--Select--\nFemale\nMale
-6709	2	884	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6710	3	884	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6711	5	884	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6712	7	884	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6713	28	884	162	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6714	29	884	175	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
+6708	1	884	2	Male
+6709	2	884	11	71+
+6710	3	884	15	6 - 10
+6711	5	884	38	Graduate Masters Degree
+6712	7	884	49	Direct contact with external customers
+6713	28	884	162	Executive Management
+6714	29	884	175	Executive/Leadership
 6715	11	884	\N	Alan
 6716	1	885	2	Male
 6717	2	885	6	31 - 35
@@ -6348,28 +6348,28 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6721	28	885	165	Information/Technology
 6722	29	885	173	Director
 6723	11	885	\N	Kirk
-6724	1	886	2	--Select--\nFemale\nMale
-6725	2	886	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6726	3	886	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6727	5	886	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6728	7	886	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6729	28	886	168	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6730	29	886	175	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
+6724	1	886	2	Male
+6725	2	886	9	51 - 60
+6726	3	886	18	22 or more
+6727	5	886	39	Graduate Doctorate
+6728	7	886	49	Direct contact with external customers
+6729	28	886	168	Operations Management
+6730	29	886	175	Executive/Leadership
 6731	11	886	\N	David
-6737	1	888	1	--Select--\nFemale\nMale
-6738	2	888	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6739	3	888	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6740	5	888	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6741	7	888	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6742	28	888	164	--Select--\nFinance/Accounting\nCredit\nExecutive Management\nHuman Resources\nInformation/Technology\nInventory Control\nMarketing\nCustomer Service\nOperations Management\nPurchasing\nSupplies\nCMH Sales\nArmstrong Sales\nCorporate Sales\nOperations Warehouse\nOther\nE-Commerce\nPrivage Label
-6743	29	888	174	--Select--\nExecutive/Leadership\nDirector\nRegional Manager\nManager\nSupervisor\nLeads\nEmployee (non-supervisory)\nOther
+6737	1	888	1	Female
+6738	2	888	8	41 - 50
+6739	3	888	13	1 - 3
+6740	5	888	37	Bachelors Degree
+6741	7	888	49	Direct contact with external customers
+6742	28	888	164	Human Resources
+6743	29	888	174	Employee (non-supervisory)
 6744	11	888	\N	diana
-6745	2	889	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6746	33	889	201	--Select--\nFemale\nMale\nNon-binary
-6747	34	889	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6748	35	889	215	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6749	36	889	225	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6750	37	889	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6745	2	889	9	51 - 60
+6746	33	889	201	Female
+6747	34	889	211	21+
+6748	35	889	215	Masters
+6749	36	889	225	Other
+6750	37	889	226	Contact with External customers
 6751	11	889	\N	Lynne
 6752	12	889	\N	Goldman
 6753	20	889	\N	lynnefeffer@gmail.com
@@ -6393,9 +6393,9 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6801	11	899	\N	Alain
 6802	12	899	\N	Thys
 6803	20	899	\N	ath@alainthys.com
-6804	1	900	2	--Select--\nFemale\nMale
-6805	2	900	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6806	7	900	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+6804	1	900	2	Male
+6805	2	900	11	71+
+6806	7	900	49	Direct contact with external customers
 6807	11	900	\N	Michael
 6808	12	900	\N	Seitchik
 6809	20	900	\N	michael@michaelseitchik.com
@@ -6404,17 +6404,17 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6812	11	901	\N	Alain
 6813	12	901	\N	Thys
 6814	20	901	\N	ath@alainthys.com
-6815	36	902	221	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6816	37	902	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6815	36	902	221	Manager
+6816	37	902	226	Contact with External customers
 6817	11	902	\N	Norbert
 6818	12	902	\N	Verkimpe
 6819	20	902	\N	norbert@customerfit.eu
-6820	1	903	1	--Select--\nFemale\nMale
-6821	2	903	5	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6822	44	903	279	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6823	45	903	287	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6824	46	903	295	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6825	47	903	298	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6820	1	903	1	Female
+6821	2	903	5	26 - 30
+6822	44	903	279	4 to 5
+6823	45	903	287	Masters
+6824	46	903	295	Project Leader/Manager
+6825	47	903	298	Contact with External customers
 6826	11	903	\N	Nirantha
 6827	12	903	\N	Balagopal
 6828	20	903	\N	nira.bala01@gmail.com
@@ -6423,55 +6423,55 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6831	3	904	12	Less than 1 year
 6832	5	904	37	Bachelors Degree
 6833	7	904	48	Direct contact with internal customers
-6834	1	905	1	--Select--\nFemale\nMale
-6835	2	905	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6836	3	905	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6837	5	905	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6838	7	905	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6839	1	906	1	--Select--\nFemale\nMale
-6840	2	906	3	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6841	3	906	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6842	5	906	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6843	7	906	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6844	1	907	1	--Select--\nFemale\nMale
-6845	2	907	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6846	3	907	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6847	5	907	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6848	7	907	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+6834	1	905	1	Female
+6835	2	905	9	51 - 60
+6836	3	905	15	6 - 10
+6837	5	905	38	Graduate Masters Degree
+6838	7	905	49	Direct contact with external customers
+6839	1	906	1	Female
+6840	2	906	3	18 - 21
+6841	3	906	14	4 - 5
+6842	5	906	35	High School
+6843	7	906	48	Direct contact with internal customers
+6844	1	907	1	Female
+6845	2	907	10	61 - 70
+6846	3	907	14	4 - 5
+6847	5	907	38	Graduate Masters Degree
+6848	7	907	49	Direct contact with external customers
 6849	1	908	2	Male
 6850	2	908	3	18 - 21
 6851	3	908	12	Less than 1 year
 6852	5	908	35	High School
 6853	7	908	48	Direct contact with internal customers
-6854	1	909	2	--Select--\nFemale\nMale
-6855	2	909	5	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6856	3	909	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6857	5	909	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6858	7	909	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6859	2	910	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6860	33	910	202	--Select--\nFemale\nMale\nNon-binary
-6861	34	910	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6862	35	910	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6863	36	910	218	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6864	37	910	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6854	1	909	2	Male
+6855	2	909	5	26 - 30
+6856	3	909	14	4 - 5
+6857	5	909	38	Graduate Masters Degree
+6858	7	909	49	Direct contact with external customers
+6859	2	910	9	51 - 60
+6860	33	910	202	Male
+6861	34	910	211	21+
+6862	35	910	214	Bachelors
+6863	36	910	218	CEO/President/Chairman
+6864	37	910	226	Contact with External customers
 6865	11	910	\N	John
 6866	12	910	\N	Rogers
 6867	20	910	\N	jr@aok7.com
-6868	2	911	4	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6869	33	911	202	--Select--\nFemale\nMale\nNon-binary
-6870	34	911	206	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6871	35	911	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6872	36	911	224	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6873	37	911	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6868	2	911	4	22 - 25
+6869	33	911	202	Male
+6870	34	911	206	1 to 3
+6871	35	911	214	Bachelors
+6872	36	911	224	Employee
+6873	37	911	226	Contact with External customers
 6874	11	911	\N	Tony
 6875	12	911	\N	Rogers
 6876	20	911	\N	tonyrogersmath@gmail.com
-6877	2	912	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6878	33	912	201	--Select--\nFemale\nMale\nNon-binary
-6879	34	912	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6880	35	912	214	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6881	36	912	218	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6882	37	912	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6877	2	912	8	41 - 50
+6878	33	912	201	Female
+6879	34	912	211	21+
+6880	35	912	214	Bachelors
+6881	36	912	218	CEO/President/Chairman
+6882	37	912	226	Contact with External customers
 6883	11	912	\N	Grace
 6884	12	912	\N	Rogers
 6885	20	912	\N	grace.yanzi@gmail.com
@@ -6499,40 +6499,40 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6907	11	915	\N	Alan
 6908	12	915	\N	Isaac Test
 6909	20	915	\N	alseverance13@msn.com
-6910	1	916	2	  --Select--   Female   Male   
+6910	1	916	2	Male
 6911	11	916	\N	David
 6912	12	916	\N	Lopez
-6913	2	917	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6914	33	917	201	--Select--\nFemale\nMale\nNon-binary
-6915	34	917	211	--Select--\nN/A\nLess than 1 year\n1 to 3\n4 to 5\n6 to 10\n11 to 15\n16 to 20\n21+
-6916	35	917	215	--Select--\nHigh School\nAssociates\nBachelors\nMasters\nPh.D/Doctorate\nPost Doctorate
-6917	36	917	220	--Select--\nCEO/President/Chairman\nEVP/SVP\nVice President\nManager\nSupervisor\nProject Leader/Manager\nEmployee\nOther
-6918	37	917	226	--Select--\nContact with External customers\nContact with Internal customers\nNone
+6913	2	917	9	51 - 60
+6914	33	917	201	Female
+6915	34	917	211	21+
+6916	35	917	215	Masters
+6917	36	917	220	Vice President
+6918	37	917	226	Contact with External customers
 6919	11	917	\N	Danielle
 6920	12	917	\N	Moser
 6921	20	917	\N	danielle@bltcareers.com
-6922	1	918	1	--Select--\nFemale\nMale
-6923	2	918	7	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6924	5	918	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6925	7	918	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6926	21	918	113	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-6927	22	918	117	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-6928	23	918	124	--Select--\nBoard Member\nStaff\nOther
-6929	24	918	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-6930	25	918	136	--Select--\nPresident/CEO\nMembership Director\nExecutive Assistant\nAdministrative Assistant
-6931	26	918	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-6932	27	918	156	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-6933	1	919	2	--Select--\nFemale\nMale
-6934	2	919	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6935	5	919	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6936	7	919	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6937	21	919	113	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-6938	22	919	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-6939	23	919	123	--Select--\nBoard Member\nStaff\nOther
-6940	24	919	129	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+6922	1	918	1	Female
+6923	2	918	7	36 - 40
+6924	5	918	37	Bachelors Degree
+6925	7	918	49	Direct contact with external customers
+6926	21	918	113	Bachelors
+6927	22	918	117	1-3
+6928	23	918	124	Staff
+6929	24	918	127	1-3
+6930	25	918	136	Administrative Assistant
+6931	26	918	137	<10
+6932	27	918	156	Veterans/Military
+6933	1	919	2	Male
+6934	2	919	10	61 - 70
+6935	5	919	37	Bachelors Degree
+6936	7	919	49	Direct contact with external customers
+6937	21	919	113	Bachelors
+6938	22	919	119	6-10
+6939	23	919	123	Board Member
+6940	24	919	129	6-10
 6941	25	919	\N	\N
-6942	26	919	142	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-6943	27	919	148	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+6942	26	919	142	301-500
+6943	27	919	148	Economic Development
 6944	1	920	2	Male
 6945	2	920	8	41 - 50
 6946	5	920	37	Bachelors Degree
@@ -6544,90 +6544,90 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 6952	25	920	\N	\N
 6953	26	920	137	<10
 6954	27	920	149	Membership
-6955	1	921	1	--Select--\nFemale\nMale
-6956	2	921	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6957	5	921	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6958	7	921	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6959	21	921	112	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-6960	22	921	117	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-6961	23	921	124	--Select--\nBoard Member\nStaff\nOther
+6955	1	921	1	Female
+6956	2	921	9	51 - 60
+6957	5	921	36	Associates Degree
+6958	7	921	49	Direct contact with external customers
+6959	21	921	112	Associates
+6960	22	921	117	1-3
+6961	23	921	124	Staff
 6962	24	921	\N	\N
-6963	25	921	135	--Select--\nPresident/CEO\nMembership Director\nExecutive Assistant\nAdministrative Assistant
-6964	26	921	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+6963	25	921	135	Executive Assistant
+6964	26	921	137	<10
 6965	27	921	-1	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-6966	1	922	1	--Select--\nFemale\nMale
-6967	2	922	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6968	5	922	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6969	7	922	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6970	21	922	112	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-6971	22	922	116	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-6972	23	922	124	--Select--\nBoard Member\nStaff\nOther
+6966	1	922	1	Female
+6967	2	922	8	41 - 50
+6968	5	922	36	Associates Degree
+6969	7	922	48	Direct contact with internal customers
+6970	21	922	112	Associates
+6971	22	922	116	Less than 1 yr
+6972	23	922	124	Staff
 6973	24	922	\N	\N
-6974	25	922	133	--Select--\nPresident/CEO\nMembership Director\nExecutive Assistant\nAdministrative Assistant
+6974	25	922	133	President/CEO
 6975	26	922	\N	\N
 6976	27	922	\N	\N
-6977	1	923	1	--Select--\nFemale\nMale
-6978	2	923	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+6977	1	923	1	Female
+6978	2	923	9	51 - 60
 6979	5	923	\N	\N
-6980	7	923	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6981	21	923	114	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-6982	22	923	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-6983	23	923	123	--Select--\nBoard Member\nStaff\nOther
-6984	24	923	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+6980	7	923	49	Direct contact with external customers
+6981	21	923	114	Masters
+6982	22	923	119	6-10
+6983	23	923	123	Board Member
+6984	24	923	127	1-3
 6985	25	923	\N	\N
-6986	26	923	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-6987	27	923	147	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+6986	26	923	137	<10
+6987	27	923	147	Education
 6988	1	924	2	Male
 6989	2	924	3	18 - 21
 6990	3	924	12	Less than 1 year
 6991	5	924	35	High School
 6992	7	924	48	Direct contact with internal customers
-6993	1	925	1	--Select--\nFemale\nMale
-6994	2	925	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-6995	3	925	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-6996	5	925	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-6997	7	925	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-6998	1	926	2	  --Select--   Female   Male   
-6999	2	926	8	  --Select--   18 - 21   22 - 25   26 - 30   31 - 35   36 - 40   41 - 50   51 - 60   61 - 70   71+   
-7000	5	926	37	  --Select--   High School   Associates Degree   Bachelors Degree   Graduate Masters Degree   Graduate Doctorate   Post High School   
-7001	7	926	49	  --Select--   Direct contact with internal customers   Direct contact with external customers   Indirect contact with external customers   Indirect contact with internal customers   
-7002	21	926	113	  --Select--   High School/GED   Tech Ed   Associates   Bachelors   Masters   Doctorate   
-7003	22	926	121	  --Select--   Less than 1 yr   1-3   4-5   6-10   11-15   16-20   21+   
-7004	23	926	123	  --Select--   Board Member   Staff   Other   
-7005	24	926	127	  --Select--   Less than 1 yr   1-3   4-5   6-10   11-15   16-20   21+   
+6993	1	925	1	Female
+6994	2	925	6	31 - 35
+6995	3	925	12	Less than 1 year
+6996	5	925	38	Graduate Masters Degree
+6997	7	925	48	Direct contact with internal customers
+6998	1	926	2	Male
+6999	2	926	8	41 - 50
+7000	5	926	37	Bachelors Degree
+7001	7	926	49	Direct contact with external customers
+7002	21	926	113	Bachelors
+7003	22	926	121	16-20
+7004	23	926	123	Board Member
+7005	24	926	127	1-3
 7006	25	926	-1	  --Select--   President/CEO   Membership Director   Executive Assistant   Administrative Assistant   
-7007	26	926	141	  --Select--   <10   11-30   31-60   61-100   101-300   301-500   501-750   751-1000   >1001   
+7007	26	926	141	101-300
 7008	27	926	\N	\N
 7009	1	927	1	Female
 7010	2	927	4	22 - 25
 7011	3	927	12	Less than 1 year
 7012	5	927	37	Bachelors Degree
 7013	7	927	48	Direct contact with internal customers
-7014	1	928	1	--Select--\nFemale\nMale
-7015	2	928	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7016	3	928	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7017	5	928	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-7018	7	928	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7019	1	929	1	--Select--\nFemale\nMale
-7020	2	929	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7021	5	929	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-7022	7	929	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7023	21	929	113	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-7024	22	929	118	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7025	23	929	123	--Select--\nBoard Member\nStaff\nOther
-7026	24	929	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7014	1	928	1	Female
+7015	2	928	9	51 - 60
+7016	3	928	15	6 - 10
+7017	5	928	38	Graduate Masters Degree
+7018	7	928	49	Direct contact with external customers
+7019	1	929	1	Female
+7020	2	929	8	41 - 50
+7021	5	929	37	Bachelors Degree
+7022	7	929	48	Direct contact with internal customers
+7023	21	929	113	Bachelors
+7024	22	929	118	4-5
+7025	23	929	123	Board Member
+7026	24	929	127	1-3
 7027	25	929	\N	\N
-7028	26	929	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7029	27	929	149	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7028	26	929	137	<10
+7029	27	929	149	Membership
 7030	1	930	1	Female
 7031	2	930	\N	\N
 7032	3	930	13	1 - 3
 7033	5	930	35	High School
 7034	7	930	48	Direct contact with internal customers
-7035	7	931	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7035	7	931	49	Direct contact with external customers
 7036	11	931	\N	Nirantha
 7037	12	931	\N	Balagopal
-7038	7	932	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7038	7	932	49	Direct contact with external customers
 7039	11	932	\N	Devi
 7040	12	932	\N	Paolillo
 7041	1	933	-1	\N
@@ -6641,50 +6641,50 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7049	25	933	\N	\N
 7050	26	933	\N	\N
 7051	27	933	152	Health and Wellness
-7052	1	934	1	--Select--\nFemale\nMale
-7053	2	934	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7054	5	934	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
+7052	1	934	1	Female
+7053	2	934	9	51 - 60
+7054	5	934	37	Bachelors Degree
 7055	7	934	\N	\N
-7056	21	934	113	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-7057	22	934	121	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7058	23	934	123	--Select--\nBoard Member\nStaff\nOther
-7059	24	934	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7056	21	934	113	Bachelors
+7057	22	934	121	16-20
+7058	23	934	123	Board Member
+7059	24	934	127	1-3
 7060	25	934	\N	\N
-7061	26	934	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7062	27	934	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7063	1	935	1	--Select--\nFemale\nMale
-7064	2	935	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7065	5	935	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-7066	7	935	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7067	21	935	113	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-7068	22	935	116	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7069	23	935	123	--Select--\nBoard Member\nStaff\nOther
-7070	24	935	126	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7061	26	934	137	<10
+7062	27	934	150	Ambassadors
+7063	1	935	1	Female
+7064	2	935	6	31 - 35
+7065	5	935	37	Bachelors Degree
+7066	7	935	48	Direct contact with internal customers
+7067	21	935	113	Bachelors
+7068	22	935	116	Less than 1 yr
+7069	23	935	123	Board Member
+7070	24	935	126	Less than 1 yr
 7071	25	935	\N	\N
-7072	26	935	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7072	26	935	141	101-300
 7073	27	935	\N	\N
-7074	1	936	2	--Select--\nFemale\nMale
-7075	2	936	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7076	5	936	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-7077	7	936	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7078	21	936	115	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-7079	22	936	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7080	23	936	123	--Select--\nBoard Member\nStaff\nOther
-7081	24	936	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7082	25	936	133	--Select--\nPresident/CEO\nMembership Director\nExecutive Assistant\nAdministrative Assistant
-7083	26	936	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7084	27	936	152	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7085	1	937	1	--Select--\nFemale\nMale
-7086	2	937	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7087	5	937	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School
-7088	7	937	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7089	21	937	113	--Select--\nHigh School/GED\nTech Ed\nAssociates\nBachelors\nMasters\nDoctorate
-7090	22	937	122	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7074	1	936	2	Male
+7075	2	936	9	51 - 60
+7076	5	936	39	Graduate Doctorate
+7077	7	936	49	Direct contact with external customers
+7078	21	936	115	Doctorate
+7079	22	936	119	6-10
+7080	23	936	123	Board Member
+7081	24	936	127	1-3
+7082	25	936	133	President/CEO
+7083	26	936	137	<10
+7084	27	936	152	Health and Wellness
+7085	1	937	1	Female
+7086	2	937	9	51 - 60
+7087	5	937	37	Bachelors Degree
+7088	7	937	49	Direct contact with external customers
+7089	21	937	113	Bachelors
+7090	22	937	122	21+
 7091	23	937	\N	\N
-7092	24	937	129	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
+7092	24	937	129	6-10
 7093	25	937	\N	\N
-7094	26	937	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7095	27	937	147	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7094	26	937	141	101-300
+7095	27	937	147	Education
 7096	1	938	2	Male
 7097	2	938	3	18 - 21
 7098	3	938	12	Less than 1 year
@@ -6699,7 +6699,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7107	11	939	\N	sherry 
 7108	12	939	\N	benjamins 
 7109	20	939	\N	sherry@sbcompany.net
-7110	1	940	1	--Select--\nFemale\nMale
+7110	1	940	1	Female
 7111	11	940	\N	Almarie
 7112	12	940	\N	Torres Baez
 7118	11	948	\N	Scott
@@ -6716,7 +6716,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7129	12	960	\N	Overholt 
 7130	11	962	\N	Alan
 7131	12	962	\N	Severance
-7141	2	964	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7141	2	964	10	61 - 70
 7142	33	964	\N	\N
 7143	34	964	\N	\N
 7144	35	964	\N	\N
@@ -6792,7 +6792,7 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7222	11	1019	\N	Second 6
 7223	12	1019	\N	Iteration 6
 7224	20	1019	\N	alseverance13@msn.com
-7225	1	1020	2	--Select--\nFemale\nMale
+7225	1	1020	2	Male
 7226	11	1020	\N	Reynaldo
 7227	12	1020	\N	Henriquez
 7228	11	1021	\N	Edgar Allan
@@ -6813,23 +6813,23 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7245	11	1027	\N	Jessi
 7246	12	1027	\N	Purdy
 7247	20	1027	\N	jessicajaymespurdy@gmail.com
-7254	2	1030	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7255	7	1030	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7256	56	1030	363	--Select--\nAdministration\nProduction Operations\nWarehouse Operations
-7257	5	1031	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7258	56	1031	362	--Select--\nAdministration\nProduction Operations\nWarehouse Operations
+7254	2	1030	11	71+
+7255	7	1030	49	Direct contact with external customers
+7256	56	1030	363	Warehouse Operations
+7257	5	1031	38	Graduate Masters Degree
+7258	56	1031	362	Production Operations
 7259	11	1032	\N	Samantha 
 7260	12	1032	\N	Zayas 
 7261	3	1033	\N	\N
 7262	54	1033	381	Production
 7263	3	1034	14	4 - 5
 7264	54	1034	381	Production
-7265	3	1035	15	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
-7266	54	1035	381	--Seleccionar--\nAdministration\nWarehouse\nProduction
+7265	3	1035	15	6 - 10
+7266	54	1035	381	Production
 7267	3	1036	15	6 - 10
 7268	54	1036	380	Warehouse
-7269	3	1037	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7270	54	1037	379	--Select--\nAdministration\nWarehouse\nProduction
+7269	3	1037	13	1 - 3
+7270	54	1037	379	Administration
 7271	3	1038	18	22 or more
 7272	54	1038	381	Production
 7273	3	1039	12	Less than 1 year
@@ -6838,8 +6838,8 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7276	54	1040	381	Production
 7277	3	1041	15	6 - 10
 7278	54	1041	380	Warehouse
-7279	3	1042	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7280	54	1042	380	--Select--\nAdministration\nWarehouse\nProduction
+7279	3	1042	12	Less than 1 year
+7280	54	1042	380	Warehouse
 7281	3	1043	\N	\N
 7282	54	1043	\N	\N
 7283	3	1044	\N	\N
@@ -6848,8 +6848,8 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7286	54	1045	\N	\N
 7287	3	1046	12	Less than 1 year
 7288	54	1046	381	Production
-7289	3	1047	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7290	54	1047	379	--Select--\nAdministration\nWarehouse\nProduction
+7289	3	1047	12	Less than 1 year
+7290	54	1047	379	Administration
 7291	3	1048	14	4 - 5
 7292	54	1048	381	Production
 7293	3	1049	\N	\N
@@ -6860,26 +6860,26 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7298	54	1051	381	Production
 7299	3	1052	\N	\N
 7300	54	1052	\N	\N
-7301	3	1053	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7302	54	1053	380	--Select--\nAdministration\nWarehouse\nProduction
+7301	3	1053	14	4 - 5
+7302	54	1053	380	Warehouse
 7303	3	1054	14	4 - 5
 7304	54	1054	381	Production
-7305	3	1055	13	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
-7306	54	1055	381	--Seleccionar--\nAdministration\nWarehouse\nProduction
+7305	3	1055	13	1 - 3
+7306	54	1055	381	Production
 7307	3	1056	13	1 - 3
 7308	54	1056	381	Production
-7309	3	1057	15	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
-7310	54	1057	381	--Seleccionar--\nAdministration\nWarehouse\nProduction
-7311	3	1058	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7312	54	1058	379	--Select--\nAdministration\nWarehouse\nProduction
+7309	3	1057	15	6 - 10
+7310	54	1057	381	Production
+7311	3	1058	12	Less than 1 year
+7312	54	1058	379	Administration
 7313	3	1059	13	1 - 3
 7314	54	1059	379	Administration
-7315	3	1060	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7316	54	1060	379	--Select--\nAdministration\nWarehouse\nProduction
+7315	3	1060	15	6 - 10
+7316	54	1060	379	Administration
 7317	3	1061	12	Less than 1 year
 7318	54	1061	381	Production
-7319	3	1062	15	--Select-- Less than 1 year 1 - 3 4 - 5 6 - 10 11 - 15 16 - 21 22 or more 
-7320	54	1062	379	--Select-- Administration Warehouse Production 
+7319	3	1062	15	6 - 10
+7320	54	1062	379	Administration
 7321	3	1063	14	4 - 5
 7322	54	1063	380	Warehouse
 7323	3	1064	14	4 - 5
@@ -6920,10 +6920,10 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7358	54	1081	380	Warehouse
 7359	3	1082	\N	\N
 7360	54	1082	\N	\N
-7361	3	1083	16	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7362	54	1083	381	--Select--\nAdministration\nWarehouse\nProduction
-7363	3	1084	17	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7364	54	1084	380	--Select--\nAdministration\nWarehouse\nProduction
+7361	3	1083	16	11 - 15
+7362	54	1083	381	Production
+7363	3	1084	17	16 - 21
+7364	54	1084	380	Warehouse
 7365	3	1085	13	1 - 3
 7366	54	1085	381	Production
 7367	3	1086	13	1 - 3
@@ -6936,8 +6936,8 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7374	54	1089	380	Warehouse
 7375	3	1090	16	11 - 15
 7376	54	1090	380	Warehouse
-7377	3	1091	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7378	54	1091	380	--Select--\nAdministration\nWarehouse\nProduction
+7377	3	1091	12	Less than 1 year
+7378	54	1091	380	Warehouse
 7379	3	1092	12	Less than 1 year
 7380	54	1092	381	Production
 7381	3	1093	16	11 - 15
@@ -6974,130 +6974,130 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7412	54	1108	\N	\N
 7413	3	1109	-1	\N
 7414	54	1109	380	Warehouse
-7415	3	1110	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
+7415	3	1110	13	1 - 3
 7416	54	1110	-1	--Select--\nAdministration\nWarehouse\nProduction
-7417	3	1111	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7418	54	1111	380	--Select--\nAdministration\nWarehouse\nProduction
-7419	3	1112	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7420	54	1112	381	--Select--\nAdministration\nWarehouse\nProduction
-7421	3	1113	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7422	54	1113	381	--Select--\nAdministration\nWarehouse\nProduction
-7423	3	1114	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7424	54	1114	381	--Select--\nAdministration\nWarehouse\nProduction
-7425	3	1115	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7426	54	1115	381	--Select--\nAdministration\nWarehouse\nProduction
-7427	3	1116	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7428	54	1116	381	--Select--\nAdministration\nWarehouse\nProduction
-7429	3	1117	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7430	54	1117	380	--Select--\nAdministration\nWarehouse\nProduction
-7431	3	1118	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7432	54	1118	379	--Select--\nAdministration\nWarehouse\nProduction
-7433	3	1119	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7434	54	1119	381	--Select--\nAdministration\nWarehouse\nProduction
-7438	3	1121	14	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7439	54	1121	381	--Select--\nAdministration\nWarehouse\nProduction
+7417	3	1111	12	Less than 1 year
+7418	54	1111	380	Warehouse
+7419	3	1112	13	1 - 3
+7420	54	1112	381	Production
+7421	3	1113	14	4 - 5
+7422	54	1113	381	Production
+7423	3	1114	14	4 - 5
+7424	54	1114	381	Production
+7425	3	1115	13	1 - 3
+7426	54	1115	381	Production
+7427	3	1116	13	1 - 3
+7428	54	1116	381	Production
+7429	3	1117	13	1 - 3
+7430	54	1117	380	Warehouse
+7431	3	1118	14	4 - 5
+7432	54	1118	379	Administration
+7433	3	1119	13	1 - 3
+7434	54	1119	381	Production
+7438	3	1121	14	4 - 5
+7439	54	1121	381	Production
 7440	3	1122	\N	\N
 7441	54	1122	\N	\N
 7562	11	1163	\N	Test
 7563	12	1163	\N	Test
 7564	20	1163	\N	Test@test.com
-7565	1	1164	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7566	2	1164	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7567	3	1164	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7568	5	1164	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7569	7	1164	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7565	1	1164	1	Female
+7566	2	1164	8	41 - 50
+7567	3	1164	13	1 - 3
+7568	5	1164	37	Bachelors Degree
+7569	7	1164	49	Direct contact with external customers
 7570	11	1164	\N	Jenn
 7571	12	1164	\N	Smith
-7572	1	1165	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7573	2	1165	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7574	3	1165	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7575	5	1165	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7576	7	1165	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7572	1	1165	2	Male
+7573	2	1165	9	51 - 60
+7574	3	1165	18	22 or more
+7575	5	1165	37	Bachelors Degree
+7576	7	1165	49	Direct contact with external customers
 7577	11	1165	\N	Peter
 7578	12	1165	\N	Farrell
-7579	1	1166	2	--Seleccionar--\nFemenino\nMasculino\nNon-Binary\nOther\nPrefer not to answer
-7580	2	1166	11	--Seleccionar--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7581	3	1166	15	--Seleccionar--\nMenos de 1 año\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 o más
-7582	5	1166	38	--Seleccionar--\nPreparatoria\nDiplomado\nBachillerato\nMaestría\nDoctorado\nLicenciatura
-7583	7	1166	48	--Seleccionar--\nContacto directo con clientes internos\nContacto directo con clientes externos\nContacto indirecto con clientes externos\nContacto indirecto con clientes internos
+7579	1	1166	2	Male
+7580	2	1166	11	71+
+7581	3	1166	15	6 - 10
+7582	5	1166	38	Graduate Masters Degree
+7583	7	1166	48	Direct contact with internal customers
 7584	56	1166	\N	\N
-7585	1	1167	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7586	2	1167	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7587	3	1167	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7588	5	1167	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7589	7	1167	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7590	1	1168	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7591	2	1168	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7592	3	1168	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7593	5	1168	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7594	7	1168	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7595	1	1169	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7596	2	1169	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
+7585	1	1167	2	Male
+7586	2	1167	6	31 - 35
+7587	3	1167	13	1 - 3
+7588	5	1167	37	Bachelors Degree
+7589	7	1167	48	Direct contact with internal customers
+7590	1	1168	1	Female
+7591	2	1168	11	71+
+7592	3	1168	18	22 or more
+7593	5	1168	35	High School
+7594	7	1168	50	Indirect contact with external customers
+7595	1	1169	1	Female
+7596	2	1169	9	51 - 60
 7597	3	1169	\N	\N
-7598	5	1169	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7599	7	1169	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7600	1	1170	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7601	2	1170	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7602	3	1170	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7603	5	1170	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7604	7	1170	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7605	1	1171	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7606	2	1171	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7607	3	1171	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7608	5	1171	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7609	7	1171	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7598	5	1169	38	Graduate Masters Degree
+7599	7	1169	48	Direct contact with internal customers
+7600	1	1170	2	Male
+7601	2	1170	11	71+
+7602	3	1170	15	6 - 10
+7603	5	1170	38	Graduate Masters Degree
+7604	7	1170	49	Direct contact with external customers
+7605	1	1171	1	Female
+7606	2	1171	8	41 - 50
+7607	3	1171	12	Less than 1 year
+7608	5	1171	35	High School
+7609	7	1171	48	Direct contact with internal customers
 7610	1	1172	1	Female
 7611	2	1172	9	51 - 60
 7612	3	1172	12	Less than 1 year
 7613	5	1172	37	Bachelors Degree
 7614	7	1172	49	Direct contact with external customers
-7622	1	1174	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7623	2	1174	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7624	3	1174	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7625	5	1174	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7626	7	1174	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7627	1	1175	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7628	2	1175	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7629	3	1175	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7630	5	1175	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7631	7	1175	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7622	1	1174	2	Male
+7623	2	1174	9	51 - 60
+7624	3	1174	12	Less than 1 year
+7625	5	1174	37	Bachelors Degree
+7626	7	1174	50	Indirect contact with external customers
+7627	1	1175	2	Male
+7628	2	1175	9	51 - 60
+7629	3	1175	18	22 or more
+7630	5	1175	37	Bachelors Degree
+7631	7	1175	48	Direct contact with internal customers
 7632	11	1175	\N	Marc
 7633	12	1175	\N	Barbella
-7634	1	1176	2	--Select-- Female Male Non-Binary Other Prefer not to answer 
-7635	2	1176	8	--Select-- 18 - 21 22 - 25 26 - 30 31 - 35 36 - 40 41 - 50 51 - 60 61 - 70 71+ 
-7636	3	1176	17	--Select-- Less than 1 year 1 - 3 4 - 5 6 - 10 11 - 15 16 - 21 22 or more 
-7637	5	1176	37	--Select-- High School Associates Degree Bachelors Degree Graduate Masters Degree Graduate Doctorate Post High School Certificate 
-7638	7	1176	48	--Select-- Direct contact with internal customers Direct contact with external customers Indirect contact with external customers Indirect contact with internal customers 
-7639	22	1176	116	--Select--        
-7640	23	1176	123	--Select--   Other 
-7641	24	1176	128	--Select--        
-7642	26	1176	139	--Select--          
-7643	27	1176	146	--Select--            
-7644	1	1177	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7645	2	1177	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7646	3	1177	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7647	5	1177	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7648	7	1177	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7634	1	1176	2	Male
+7635	2	1176	8	41 - 50
+7636	3	1176	17	16 - 21
+7637	5	1176	37	Bachelors Degree
+7638	7	1176	48	Direct contact with internal customers
+7639	22	1176	116	Less than 1 yr
+7640	23	1176	123	Board Member
+7641	24	1176	128	4-5
+7642	26	1176	139	31-60
+7643	27	1176	146	Executive
+7644	1	1177	2	Male
+7645	2	1177	8	41 - 50
+7646	3	1177	13	1 - 3
+7647	5	1177	37	Bachelors Degree
+7648	7	1177	49	Direct contact with external customers
 7649	22	1177	\N	\N
 7650	23	1177	\N	\N
 7651	24	1177	\N	\N
 7652	26	1177	\N	\N
 7653	27	1177	\N	\N
-7654	1	1178	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7655	2	1178	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7656	3	1178	12	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7657	5	1178	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7658	7	1178	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7654	1	1178	1	Female
+7655	2	1178	8	41 - 50
+7656	3	1178	12	Less than 1 year
+7657	5	1178	37	Bachelors Degree
+7658	7	1178	49	Direct contact with external customers
 7659	22	1178	\N	\N
 7660	23	1178	\N	\N
 7661	24	1178	\N	\N
 7662	26	1178	\N	\N
 7663	27	1178	\N	\N
-7664	1	1179	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7665	2	1179	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7666	3	1179	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7667	5	1179	35	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7668	7	1179	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7664	1	1179	1	Female
+7665	2	1179	9	51 - 60
+7666	3	1179	13	1 - 3
+7667	5	1179	35	High School
+7668	7	1179	49	Direct contact with external customers
 7669	22	1179	\N	\N
 7670	23	1179	\N	\N
 7671	24	1179	\N	\N
@@ -7113,125 +7113,125 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7681	24	1180	\N	\N
 7682	26	1180	145	>1001
 7683	27	1180	\N	\N
-7684	1	1181	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7685	2	1181	11	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7686	3	1181	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7687	5	1181	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7688	7	1181	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7684	1	1181	2	Male
+7685	2	1181	11	71+
+7686	3	1181	15	6 - 10
+7687	5	1181	39	Graduate Doctorate
+7688	7	1181	50	Indirect contact with external customers
 7689	1	1182	2	Male
 7690	2	1182	9	51 - 60
 7691	3	1182	18	22 or more
 7692	5	1182	38	Graduate Masters Degree
 7693	7	1182	49	Direct contact with external customers
-7694	1	1183	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7695	2	1183	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7696	3	1183	16	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7697	5	1183	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7698	7	1183	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
+7694	1	1183	1	Female
+7695	2	1183	9	51 - 60
+7696	3	1183	16	11 - 15
+7697	5	1183	38	Graduate Masters Degree
+7698	7	1183	49	Direct contact with external customers
 7699	22	1183	\N	\N
 7700	23	1183	\N	\N
 7701	24	1183	\N	\N
 7702	26	1183	\N	\N
 7703	27	1183	\N	\N
-7704	1	1184	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7705	2	1184	10	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7706	3	1184	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7707	5	1184	38	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7708	7	1184	50	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7709	1	1185	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7710	2	1185	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7711	3	1185	17	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7712	5	1185	39	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7713	7	1185	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7714	22	1185	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7715	23	1185	123	--Select--\nBoard Member\nStaff\nOther
-7716	24	1185	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7717	26	1185	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7718	27	1185	152	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7719	1	1186	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7720	2	1186	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7721	3	1186	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7722	5	1186	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7723	7	1186	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7724	22	1186	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7725	23	1186	123	--Select--\nBoard Member\nStaff\nOther
-7726	24	1186	126	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7727	26	1186	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7728	27	1186	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7729	1	1187	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7730	2	1187	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7731	3	1187	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7732	5	1187	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7733	7	1187	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7734	22	1187	118	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7735	23	1187	123	--Select--\nBoard Member\nStaff\nOther
-7736	24	1187	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7737	26	1187	137	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7738	27	1187	149	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7739	1	1188	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7740	2	1188	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7741	3	1188	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7742	5	1188	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7743	7	1188	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7744	22	1188	120	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7745	23	1188	123	--Select--\nBoard Member\nStaff\nOther
-7746	24	1188	126	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7747	26	1188	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7704	1	1184	1	Female
+7705	2	1184	10	61 - 70
+7706	3	1184	18	22 or more
+7707	5	1184	38	Graduate Masters Degree
+7708	7	1184	50	Indirect contact with external customers
+7709	1	1185	1	Female
+7710	2	1185	9	51 - 60
+7711	3	1185	17	16 - 21
+7712	5	1185	39	Graduate Doctorate
+7713	7	1185	49	Direct contact with external customers
+7714	22	1185	119	6-10
+7715	23	1185	123	Board Member
+7716	24	1185	127	1-3
+7717	26	1185	137	<10
+7718	27	1185	152	Health and Wellness
+7719	1	1186	2	Male
+7720	2	1186	8	41 - 50
+7721	3	1186	13	1 - 3
+7722	5	1186	37	Bachelors Degree
+7723	7	1186	49	Direct contact with external customers
+7724	22	1186	119	6-10
+7725	23	1186	123	Board Member
+7726	24	1186	126	Less than 1 yr
+7727	26	1186	137	<10
+7728	27	1186	150	Ambassadors
+7729	1	1187	1	Female
+7730	2	1187	8	41 - 50
+7731	3	1187	15	6 - 10
+7732	5	1187	37	Bachelors Degree
+7733	7	1187	48	Direct contact with internal customers
+7734	22	1187	118	4-5
+7735	23	1187	123	Board Member
+7736	24	1187	127	1-3
+7737	26	1187	137	<10
+7738	27	1187	149	Membership
+7739	1	1188	2	Male
+7740	2	1188	9	51 - 60
+7741	3	1188	18	22 or more
+7742	5	1188	36	Associates Degree
+7743	7	1188	48	Direct contact with internal customers
+7744	22	1188	120	11-15
+7745	23	1188	123	Board Member
+7746	24	1188	126	Less than 1 yr
+7747	26	1188	141	101-300
 7748	27	1188	\N	\N
-7749	1	1189	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7750	2	1189	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7751	3	1189	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7752	5	1189	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7753	7	1189	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7754	22	1189	117	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7755	23	1189	124	--Select--\nBoard Member\nStaff\nOther
+7749	1	1189	1	Female
+7750	2	1189	9	51 - 60
+7751	3	1189	13	1 - 3
+7752	5	1189	36	Associates Degree
+7753	7	1189	49	Direct contact with external customers
+7754	22	1189	117	1-3
+7755	23	1189	124	Staff
 7756	24	1189	\N	\N
 7757	26	1189	\N	\N
 7758	27	1189	\N	\N
-7759	1	1190	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7760	2	1190	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7761	3	1190	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7762	5	1190	36	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7763	7	1190	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7764	22	1190	119	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7765	23	1190	123	--Select--\nBoard Member\nStaff\nOther
-7766	24	1190	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7767	26	1190	139	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7768	27	1190	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7769	1	1191	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7770	2	1191	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7771	3	1191	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7772	5	1191	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7773	7	1191	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7774	22	1191	121	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7775	23	1191	123	--Select--\nBoard Member\nStaff\nOther
-7776	24	1191	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7777	26	1191	138	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7778	27	1191	150	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
-7779	1	1192	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7780	2	1192	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7781	3	1192	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7782	5	1192	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7783	7	1192	48	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7784	1	1193	2	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7785	2	1193	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7786	3	1193	18	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7787	5	1193	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7788	7	1193	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7789	1	1194	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7790	2	1194	8	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7791	3	1194	13	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7792	5	1194	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7793	7	1194	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7794	1	1195	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7795	2	1195	6	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7796	3	1195	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7797	5	1195	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7798	7	1195	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7799	22	1195	117	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7800	23	1195	123	--Select--\nBoard Member\nStaff\nOther
-7801	24	1195	127	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7802	26	1195	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
+7759	1	1190	1	Female
+7760	2	1190	9	51 - 60
+7761	3	1190	15	6 - 10
+7762	5	1190	36	Associates Degree
+7763	7	1190	49	Direct contact with external customers
+7764	22	1190	119	6-10
+7765	23	1190	123	Board Member
+7766	24	1190	127	1-3
+7767	26	1190	139	31-60
+7768	27	1190	150	Ambassadors
+7769	1	1191	2	Male
+7770	2	1191	9	51 - 60
+7771	3	1191	18	22 or more
+7772	5	1191	37	Bachelors Degree
+7773	7	1191	49	Direct contact with external customers
+7774	22	1191	121	16-20
+7775	23	1191	123	Board Member
+7776	24	1191	127	1-3
+7777	26	1191	138	11-30
+7778	27	1191	150	Ambassadors
+7779	1	1192	2	Male
+7780	2	1192	9	51 - 60
+7781	3	1192	18	22 or more
+7782	5	1192	37	Bachelors Degree
+7783	7	1192	48	Direct contact with internal customers
+7784	1	1193	2	Male
+7785	2	1193	9	51 - 60
+7786	3	1193	18	22 or more
+7787	5	1193	37	Bachelors Degree
+7788	7	1193	49	Direct contact with external customers
+7789	1	1194	1	Female
+7790	2	1194	8	41 - 50
+7791	3	1194	13	1 - 3
+7792	5	1194	37	Bachelors Degree
+7793	7	1194	49	Direct contact with external customers
+7794	1	1195	1	Female
+7795	2	1195	6	31 - 35
+7796	3	1195	15	6 - 10
+7797	5	1195	37	Bachelors Degree
+7798	7	1195	49	Direct contact with external customers
+7799	22	1195	117	1-3
+7800	23	1195	123	Board Member
+7801	24	1195	127	1-3
+7802	26	1195	141	101-300
 7803	27	1195	\N	\N
 7804	1	1196	\N	\N
 7805	2	1196	\N	\N
@@ -7243,16 +7243,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7811	24	1196	\N	\N
 7812	26	1196	\N	\N
 7813	27	1196	\N	\N
-7814	1	1197	1	--Select--\nFemale\nMale\nNon-Binary\nOther\nPrefer not to answer
-7815	2	1197	9	--Select--\n18 - 21\n22 - 25\n26 - 30\n31 - 35\n36 - 40\n41 - 50\n51 - 60\n61 - 70\n71+
-7816	3	1197	15	--Select--\nLess than 1 year\n1 - 3\n4 - 5\n6 - 10\n11 - 15\n16 - 21\n22 or more
-7817	5	1197	37	--Select--\nHigh School\nAssociates Degree\nBachelors Degree\nGraduate Masters Degree\nGraduate Doctorate\nPost High School Certificate
-7818	7	1197	49	--Select--\nDirect contact with internal customers\nDirect contact with external customers\nIndirect contact with external customers\nIndirect contact with internal customers
-7819	22	1197	122	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7820	23	1197	123	--Select--\nBoard Member\nStaff\nOther
-7821	24	1197	129	--Select--\nLess than 1 yr\n1-3\n4-5\n6-10\n11-15\n16-20\n21+
-7822	26	1197	141	--Select--\n<10\n11-30\n31-60\n61-100\n101-300\n301-500\n501-750\n751-1000\n>1001
-7823	27	1197	154	--Select--\nExecutive\nEducation\nEconomic Development\nMembership\nAmbassadors\nGreen\nHealth and Wellness\nLegislative\nGolf\nFilm\nVeterans/Military
+7814	1	1197	1	Female
+7815	2	1197	9	51 - 60
+7816	3	1197	15	6 - 10
+7817	5	1197	37	Bachelors Degree
+7818	7	1197	49	Direct contact with external customers
+7819	22	1197	122	21+
+7820	23	1197	123	Board Member
+7821	24	1197	129	6-10
+7822	26	1197	141	101-300
+7823	27	1197	154	Golf
 7824	11	1198	\N	ed
 7825	1	1199	2	Male
 7826	2	1199	11	71+
