@@ -725,6 +725,24 @@ COPY public.slcqassessmentquestionresponse (idslcqassessmentquestionresponse, id
 718	1281	16	4
 719	1281	17	4
 720	1281	18	4
+721	1282	1	4
+722	1282	2	4
+723	1282	3	4
+724	1282	4	4
+725	1282	5	4
+726	1282	6	4
+727	1282	7	4
+728	1282	8	4
+729	1282	9	4
+730	1282	10	4
+731	1282	11	4
+732	1282	12	4
+733	1282	13	4
+734	1282	14	4
+735	1282	15	4
+736	1282	16	4
+737	1282	17	4
+738	1282	18	4
 \.
 
 
@@ -732,4 +750,4 @@ COPY public.slcqassessmentquestionresponse (idslcqassessmentquestionresponse, id
 -- Name: slcqassessmentquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.slcqassessmentquestionresponse_seq', 720, true);
+SELECT pg_catalog.setval('public.slcqassessmentquestionresponse_seq', 738, true);

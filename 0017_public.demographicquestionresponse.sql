@@ -7791,6 +7791,14 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8359	11	1281	\N	test4 first name
 8360	12	1281	\N	test4 last name
 8361	20	1281	\N	test4@_ANDROID
+8362	1	1282	\N	\N
+8363	2	1282	\N	\N
+8364	3	1282	\N	\N
+8365	5	1282	\N	\N
+8366	7	1282	\N	\N
+8367	11	1282	\N	\N
+8368	12	1282	\N	\N
+8369	20	1282	\N	\N
 \.
 
 
@@ -7798,4 +7806,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8361, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8369, true);
