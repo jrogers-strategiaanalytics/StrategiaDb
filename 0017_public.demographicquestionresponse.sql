@@ -7815,6 +7815,9 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8383	11	1286	\N	Julie
 8384	12	1286	\N	Harris
 8385	20	1286	\N	rmcgkc@aol.com
+8386	11	1287	\N	Jean
+8387	12	1287	\N	reynolds
+8388	20	1287	\N	jreynolds@aol.com
 \.
 
 
@@ -7822,4 +7825,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8385, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8388, true);
