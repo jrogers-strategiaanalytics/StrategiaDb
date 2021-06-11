@@ -71,4 +71,4 @@ COPY public.assessmenttypequestioncategory (idassessmenttypequestioncategory, na
 -- Name: assessmenttypequestioncategory_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmenttypequestioncategory_seq', 31, true);
+SELECT pg_catalog.setval('public.assessmenttypequestioncategory_seq', 59, true);

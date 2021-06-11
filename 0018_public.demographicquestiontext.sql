@@ -66,7 +66,6 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 60	60	Job Level	Job Level	en	{"en": "Job Level", "es": ""}
 61	61	What is your Location?	Location	en	{"en": "What is your Location?", "es": ""}
 62	62	What is your location?	Demographics	en	{"en": "What is your location?", "es": ""}
-63	63	What is your location?	Location	en	{"en": "What is your location?", "es": ""}
 \.
 
 
@@ -74,4 +73,4 @@ COPY public.demographicquestiontext (iddemographicquestiontext, iddemographicque
 -- Name: demographicquestiontext_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestiontext_seq', 63, true);
+SELECT pg_catalog.setval('public.demographicquestiontext_seq', 62, true);

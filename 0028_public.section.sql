@@ -65,4 +65,4 @@ COPY public.section (idsection, idcomponent, name, description, scaleleft, scale
 -- Name: section_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.section_seq', 24, true);
+SELECT pg_catalog.setval('public.section_seq', 53, true);

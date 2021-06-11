@@ -36,4 +36,4 @@ COPY public.project (idproject, idclient, name, primarycontact, status) FROM std
 -- Name: project_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.project_seq', 35, true);
+SELECT pg_catalog.setval('public.project_seq', 34, true);

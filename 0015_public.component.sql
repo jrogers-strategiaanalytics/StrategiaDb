@@ -20,4 +20,4 @@ COPY public.component (idcomponent, name, weight) FROM stdin;
 -- Name: component_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.component_seq', 4, true);
+SELECT pg_catalog.setval('public.component_seq', 8, true);

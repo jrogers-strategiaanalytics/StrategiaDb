@@ -24,4 +24,4 @@ COPY public.assessmenttype (idassessmenttype, name, description, introtitle, int
 -- Name: assessmenttype_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmenttype_seq', 7, true);
+SELECT pg_catalog.setval('public.assessmenttype_seq', 12, true);

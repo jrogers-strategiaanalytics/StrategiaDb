@@ -16,4 +16,4 @@ COPY public.assessmenttypeslang (id, name, description, introtitle, introtext, e
 -- Name: assessmenttypeslang_id_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmenttypeslang_id_seq', 2, true);
+SELECT pg_catalog.setval('public.assessmenttypeslang_id_seq', 4, true);

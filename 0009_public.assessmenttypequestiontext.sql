@@ -941,4 +941,4 @@ COPY public.assessmenttypequestiontext (idassessmenttypequestiontext, idassessme
 -- Name: assessmenttypequestiontext_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.assessmenttypequestiontext_seq', 453, true);
+SELECT pg_catalog.setval('public.assessmenttypequestiontext_seq', 929, true);
