@@ -73,6 +73,14 @@ ALTER TABLE ONLY public.assessmenttypequestioncategory
 
 
 --
+-- Name: assessmenttypequestionslcq assessmenttypequestionslcq_pk; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.assessmenttypequestionslcq
+    ADD CONSTRAINT assessmenttypequestionslcq_pk PRIMARY KEY (idassessmenttypequestionslcq);
+
+
+--
 -- Name: assessmenttypequestiontext assessmenttypequestiontext_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
 --
 
@@ -209,11 +217,11 @@ ALTER TABLE ONLY public.section
 
 
 --
--- Name: slcqanswer slcqanswer_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+-- Name: sectioncrossref sectioncrossref_pk; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
 --
 
-ALTER TABLE ONLY public.slcqanswer
-    ADD CONSTRAINT slcqanswer_pkey PRIMARY KEY (idslcqanswer);
+ALTER TABLE ONLY public.sectioncrossref
+    ADD CONSTRAINT sectioncrossref_pk PRIMARY KEY (idsectionold, idsectionnew, reverse);
 
 
 --
@@ -225,27 +233,27 @@ ALTER TABLE ONLY public.slcqquadrant
 
 
 --
--- Name: slcqquestion slcqquestion_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
---
-
-ALTER TABLE ONLY public.slcqquestion
-    ADD CONSTRAINT slcqquestion_pkey PRIMARY KEY (idslcqquestion);
-
-
---
--- Name: slcqassessmentquestionresponse slcqquestionresponse_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
---
-
-ALTER TABLE ONLY public.slcqassessmentquestionresponse
-    ADD CONSTRAINT slcqquestionresponse_pkey PRIMARY KEY (idslcqassessmentquestionresponse);
-
-
---
--- Name: slcqscale slcqscales_pkey; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+-- Name: slcqscale slcqscale_pk; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
 --
 
 ALTER TABLE ONLY public.slcqscale
-    ADD CONSTRAINT slcqscales_pkey PRIMARY KEY (idslcqscale);
+    ADD CONSTRAINT slcqscale_pk PRIMARY KEY (idslcqscale);
+
+
+--
+-- Name: slcqscalecrossref slcqscalecrossref_pk; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqscalecrossref
+    ADD CONSTRAINT slcqscalecrossref_pk PRIMARY KEY (idsection, idslcqscale, reverse);
+
+
+--
+-- Name: slcqsection slcqsection_pk; Type: CONSTRAINT; Schema: public; Owner: adminstrategia
+--
+
+ALTER TABLE ONLY public.slcqsection
+    ADD CONSTRAINT slcqsection_pk PRIMARY KEY (idslcqsection);
 
 
 --
@@ -470,30 +478,6 @@ ALTER TABLE ONLY public.slcqquadrant
 
 ALTER TABLE ONLY public.slcqquadrant
     ADD CONSTRAINT slcqquadrant_fk_1 FOREIGN KEY (idslcqscalexaxis) REFERENCES public.slcqscale(idslcqscale);
-
-
---
--- Name: slcqquestion slcqquestion_fk; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
---
-
-ALTER TABLE ONLY public.slcqquestion
-    ADD CONSTRAINT slcqquestion_fk FOREIGN KEY (idslcqscale) REFERENCES public.slcqscale(idslcqscale);
-
-
---
--- Name: slcqassessmentquestionresponse slcqquestionresponse_fk; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
---
-
-ALTER TABLE ONLY public.slcqassessmentquestionresponse
-    ADD CONSTRAINT slcqquestionresponse_fk FOREIGN KEY (idassessmentresponse) REFERENCES public.assessmentresponse(idassessmentresponse);
-
-
---
--- Name: slcqassessmentquestionresponse slcqquestionresponse_fk_1; Type: FK CONSTRAINT; Schema: public; Owner: adminstrategia
---
-
-ALTER TABLE ONLY public.slcqassessmentquestionresponse
-    ADD CONSTRAINT slcqquestionresponse_fk_1 FOREIGN KEY (idslcqquestion) REFERENCES public.slcqquestion(idslcqquestion);
 
 
 --

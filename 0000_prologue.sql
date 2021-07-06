@@ -130,8 +130,7 @@ begin
              JOIN assessmentquestionresponse ar USING (idassessmentresponse)
              JOIN assessmenttypequestion atq USING (idassessmenttypequestion)
              JOIN section s USING (idsection)
-             JOIN component c_1 USING (idcomponent)
-             WHERE a_1.idassessmenttype BETWEEN 1 AND 6) c
+             JOIN component c_1 USING (idcomponent) ) c
      LEFT JOIN ( SELECT ct.idassessmentresponse,
             ct.idassessment,
             '||ct1columnlist||'
@@ -279,7 +278,8 @@ CREATE TABLE public.assessmenttypequestion (
     idsection integer NOT NULL,
     enumerator character varying(10) DEFAULT NULL::character varying,
     weight integer,
-    reverse boolean DEFAULT false
+    reverse boolean DEFAULT false,
+    assessmentvaluesetgroup integer DEFAULT 1
 );
 
 
@@ -559,11 +559,25 @@ ALTER TABLE public.assessmenttypequestioncategory_seq OWNER TO adminstrategia;
 CREATE TABLE public.assessmenttypequestioncategory (
     idassessmenttypequestioncategory integer DEFAULT nextval('public.assessmenttypequestioncategory_seq'::regclass) NOT NULL,
     name text,
-    lang character varying
+    lang character varying,
+    idslcqsection integer
 );
 
 
 ALTER TABLE public.assessmenttypequestioncategory OWNER TO adminstrategia;
+
+--
+-- Name: assessmenttypequestionslcq; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.assessmenttypequestionslcq (
+    idassessmenttypequestionslcq integer NOT NULL,
+    qleft text,
+    qright text
+);
+
+
+ALTER TABLE public.assessmenttypequestionslcq OWNER TO adminstrategia;
 
 --
 -- Name: assessmenttypequestiontext_seq; Type: SEQUENCE; Schema: public; Owner: adminstrategia
@@ -588,7 +602,8 @@ CREATE TABLE public.assessmenttypequestiontext (
     idassessmenttypequestion integer NOT NULL,
     idassessmenttypequestioncategory integer NOT NULL,
     question text,
-    lang character varying(10) DEFAULT NULL::character varying
+    lang character varying(10) DEFAULT NULL::character varying,
+    idassessmenttypequestionslcq integer
 );
 
 
@@ -633,9 +648,10 @@ ALTER TABLE public.assessmenttypeslang OWNER TO adminstrategia;
 --
 
 CREATE TABLE public.assessmentvalueset (
+    assessmentvaluesetgroup integer,
     assessmentvalue integer,
     reverse boolean DEFAULT false,
-    assessmentvaluetext character varying(40),
+    assessmentvaluetext character varying,
     lang character varying
 );
 
@@ -1180,19 +1196,17 @@ CREATE TABLE public.role (
 ALTER TABLE public.role OWNER TO adminstrategia;
 
 --
--- Name: slcqanswer; Type: TABLE; Schema: public; Owner: adminstrategia
+-- Name: sectioncrossref; Type: TABLE; Schema: public; Owner: adminstrategia
 --
 
-CREATE TABLE public.slcqanswer (
-    idslcqanswer integer NOT NULL,
-    answer text,
-    enumerator integer,
-    reversed boolean,
-    lang text
+CREATE TABLE public.sectioncrossref (
+    idsectionold integer NOT NULL,
+    idsectionnew integer NOT NULL,
+    reverse boolean NOT NULL
 );
 
 
-ALTER TABLE public.slcqanswer OWNER TO adminstrategia;
+ALTER TABLE public.sectioncrossref OWNER TO adminstrategia;
 
 --
 -- Name: slcqassessmentquestionresponse_seq; Type: SEQUENCE; Schema: public; Owner: adminstrategia
@@ -1207,20 +1221,6 @@ CREATE SEQUENCE public.slcqassessmentquestionresponse_seq
 
 
 ALTER TABLE public.slcqassessmentquestionresponse_seq OWNER TO adminstrategia;
-
---
--- Name: slcqassessmentquestionresponse; Type: TABLE; Schema: public; Owner: adminstrategia
---
-
-CREATE TABLE public.slcqassessmentquestionresponse (
-    idslcqassessmentquestionresponse integer DEFAULT nextval('public.slcqassessmentquestionresponse_seq'::regclass) NOT NULL,
-    idassessmentresponse integer,
-    idslcqquestion integer,
-    value integer
-);
-
-
-ALTER TABLE public.slcqassessmentquestionresponse OWNER TO adminstrategia;
 
 --
 -- Name: slcqquadrant; Type: TABLE; Schema: public; Owner: adminstrategia
@@ -1249,37 +1249,44 @@ CREATE TABLE public.slcqquadrant (
 ALTER TABLE public.slcqquadrant OWNER TO adminstrategia;
 
 --
--- Name: slcqquestion; Type: TABLE; Schema: public; Owner: adminstrategia
---
-
-CREATE TABLE public.slcqquestion (
-    idslcqquestion integer NOT NULL,
-    idslcqscale integer,
-    questiontext text,
-    enumerator integer,
-    reversed boolean,
-    lang text
-);
-
-
-ALTER TABLE public.slcqquestion OWNER TO adminstrategia;
-
---
 -- Name: slcqscale; Type: TABLE; Schema: public; Owner: adminstrategia
 --
 
 CREATE TABLE public.slcqscale (
     idslcqscale integer NOT NULL,
-    sectionname text,
+    idslcqsection integer,
     scalename text,
-    "left" text,
-    "right" text,
-    "order" integer,
-    lang text
+    scaleleft text,
+    scaleright text
 );
 
 
 ALTER TABLE public.slcqscale OWNER TO adminstrategia;
+
+--
+-- Name: slcqscalecrossref; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqscalecrossref (
+    idsection integer NOT NULL,
+    idslcqscale integer NOT NULL,
+    reverse boolean NOT NULL
+);
+
+
+ALTER TABLE public.slcqscalecrossref OWNER TO adminstrategia;
+
+--
+-- Name: slcqsection; Type: TABLE; Schema: public; Owner: adminstrategia
+--
+
+CREATE TABLE public.slcqsection (
+    idslcqsection integer NOT NULL,
+    sectionname text
+);
+
+
+ALTER TABLE public.slcqsection OWNER TO adminstrategia;
 
 --
 -- Name: systemtranslate; Type: TABLE; Schema: public; Owner: adminstrategia

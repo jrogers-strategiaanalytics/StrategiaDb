@@ -70,7 +70,6 @@ COPY public.assessment (idassessment, idassessmenttype, idproject, name, startda
 101	1	31	Company's employees	2020-07-13 00:00:00	2020-07-30 00:00:00	2	20	kitchen
 103	2	26	Check 18	2020-08-24 00:00:00	2020-08-28 00:00:00	2	3	18
 104	8	34	Test OSA	2020-09-30 00:00:00	2021-05-31 00:00:00	1	100	test_osa
-105	7	34	Test SLCQ	2020-09-30 00:00:00	2021-03-31 00:00:00	1	100	test_slcq
 106	11	8	MPO 2021-02	2021-02-08 00:00:00	2021-12-30 00:00:00	1	100	mpo21
 107	8	2	MHO Test 	0021-02-20 00:00:00	0021-02-20 00:00:00	2	1	New Questions 
 \.

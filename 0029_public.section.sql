@@ -58,6 +58,35 @@ COPY public.section (idsection, idcomponent, name, description, scaleleft, scale
 51	8	HR Approach	HR Effectiveness Philosophy	Non-Innovative	Innovative	1
 52	8	Strategic Perspective	Strategic Time Focus	Performance	Potential	3
 53	8	Learning Focus	Employee Development Focus	Technical Focus	Customer Focused	2
+54	9	Pace	Pace of Work	Deliberate	Rapid	1
+55	9	Creativity	Improvement Focus	Better	Different	5
+56	9	Focus	Focus of Work	Analytic	Experimental	2
+57	9	Customer Needs	Customer Focus	React	Anticipate	4
+58	9	Growth	Growth Strategy	Profits	Market Share	3
+59	9	Image	Organization – How it views itself	Follower	Leader	6
+60	9	Horizon	Organization – How it perceives going forward	Past	Future	7
+61	10	Customer Acquisition	Acquisition Focus	Retain	Acquire New	3
+62	10	Responsibility	Performance Responsibility	Limited	Broad	4
+63	10	Legacy	Change Focus	Protect	Evolve	1
+64	10	Space	Accountability	Narrow	Broad	2
+65	10	Orientation	Teaming Focus	Alone	Partner	5
+66	10	Employee Latitude and Judgement	Employee Empowerment	Narrow	Broad	6
+67	10	Customer Focused Processes	Focus on Customers	Low Focus	High Focus	7
+68	10	Intensity	Organization – How it exhibits its passion and reserve	Reserved	Passionate	8
+69	11	Consistency	Alignment of Strategy and Philosophy	Low	High	1
+70	11	Rewards	Strength of Link between Achievement and Rewards	Indirect	Direct	6
+71	11	Purpose	Clarity and Focus of Overarching Aspiration	Unclear	Clear	9
+72	11	Customer Processes	Strength of Customer Focused Processes	React	Anticipate	3
+73	11	Expectations	Clarity of Objectives, Metrics, and Performance	Unclear	Clear	7
+74	11	Measurement Processes	Depth and Breadth of Measurement Processes	Narrow	Broad	2
+75	11	Advancement	Clarity of Advancement Criteria	Unclear	Clear	8
+76	11	Supervisory Relationship	Supervisory Relationship Effectiveness	Weak	Strong	4
+77	11	Organizational Glue	Strength of link between organization and employee	Weak	Strong	5
+78	11	Information	Organization – how the company views their information	Control	Learning	10
+79	11	Values	Organization - Values that guide the pursuit of purpose	Undefined	Defined	11
+80	12	HR Approach	HR Effectiveness Philosophy	Non-Innovative	Innovative	1
+81	12	Strategic Perspective	Strategic Time Focus	Performance	Potential	3
+82	12	Learning Focus	Employee Development Focus	Technical Focus	Customer Focused	2
 \.
 
 
@@ -65,4 +94,4 @@ COPY public.section (idsection, idcomponent, name, description, scaleleft, scale
 -- Name: section_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.section_seq', 53, true);
+SELECT pg_catalog.setval('public.section_seq', 82, true);

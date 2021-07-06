@@ -7291,38 +7291,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7859	3	1205	13	1 - 3
 7860	5	1205	37	Bachelors Degree
 7861	7	1205	50	Indirect contact with external customers
-7862	1	1206	2	Male
-7863	2	1206	9	51 - 60
-7864	3	1206	13	1 - 3
-7865	5	1206	37	Bachelors Degree
-7866	7	1206	50	Indirect contact with external customers
-7867	11	1206	\N	test1 first name
-7868	12	1206	\N	test1 last name
-7869	20	1206	\N	test1@chrome85.0_WIN10
-7870	1	1207	2	Male
-7871	2	1207	9	51 - 60
-7872	3	1207	13	1 - 3
-7873	5	1207	37	Bachelors Degree
-7874	7	1207	50	Indirect contact with external customers
-7875	11	1207	\N	test2 first name
-7876	12	1207	\N	test2 last name
-7877	20	1207	\N	test2@chrome85.0_WIN10
-7878	1	1208	2	Male
-7879	2	1208	9	51 - 60
-7880	3	1208	13	1 - 3
-7881	5	1208	37	Bachelors Degree
-7882	7	1208	50	Indirect contact with external customers
-7883	11	1208	\N	test3 first name
-7884	12	1208	\N	test3 last name
-7885	20	1208	\N	test3@chrome85.0_WIN10
-7886	1	1209	2	Male
-7887	2	1209	9	51 - 60
-7888	3	1209	13	1 - 3
-7889	5	1209	37	Bachelors Degree
-7890	7	1209	50	Indirect contact with external customers
-7891	11	1209	\N	test4 first name
-7892	12	1209	\N	test4 last name
-7893	20	1209	\N	test4@chrome85.0_WIN10
 7894	1	1210	2	Male
 7895	2	1210	9	51 - 60
 7896	3	1210	13	1 - 3
@@ -7343,38 +7311,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7911	3	1213	13	1 - 3
 7912	5	1213	37	Bachelors Degree
 7913	7	1213	50	Indirect contact with external customers
-7914	1	1214	2	Male
-7915	2	1214	9	51 - 60
-7916	3	1214	13	1 - 3
-7917	5	1214	37	Bachelors Degree
-7918	7	1214	50	Indirect contact with external customers
-7919	11	1214	\N	test1 first name
-7920	12	1214	\N	test1 last name
-7921	20	1214	\N	test1@Firefox78.0_WIN10
-7922	1	1215	2	Male
-7923	2	1215	9	51 - 60
-7924	3	1215	13	1 - 3
-7925	5	1215	37	Bachelors Degree
-7926	7	1215	50	Indirect contact with external customers
-7927	11	1215	\N	test2 first name
-7928	12	1215	\N	test2 last name
-7929	20	1215	\N	test2@Firefox78.0_WIN10
-7930	1	1216	2	Male
-7931	2	1216	9	51 - 60
-7932	3	1216	13	1 - 3
-7933	5	1216	37	Bachelors Degree
-7934	7	1216	50	Indirect contact with external customers
-7935	11	1216	\N	test3 first name
-7936	12	1216	\N	test3 last name
-7937	20	1216	\N	test3@Firefox78.0_WIN10
-7938	1	1217	2	Male
-7939	2	1217	9	51 - 60
-7940	3	1217	13	1 - 3
-7941	5	1217	37	Bachelors Degree
-7942	7	1217	50	Indirect contact with external customers
-7943	11	1217	\N	test4 first name
-7944	12	1217	\N	test4 last name
-7945	20	1217	\N	test4@Firefox78.0_WIN10
 7946	1	1218	2	Male
 7947	2	1218	9	51 - 60
 7948	3	1218	13	1 - 3
@@ -7395,38 +7331,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 7963	3	1221	13	1 - 3
 7964	5	1221	37	Bachelors Degree
 7965	7	1221	50	Indirect contact with external customers
-7966	1	1222	2	Male
-7967	2	1222	9	51 - 60
-7968	3	1222	13	1 - 3
-7969	5	1222	37	Bachelors Degree
-7970	7	1222	50	Indirect contact with external customers
-7971	11	1222	\N	test1 first name
-7972	12	1222	\N	test1 last name
-7973	20	1222	\N	test1@MicrosoftEdge18.0_WIN10
-7974	1	1223	2	Male
-7975	2	1223	9	51 - 60
-7976	3	1223	13	1 - 3
-7977	5	1223	37	Bachelors Degree
-7978	7	1223	50	Indirect contact with external customers
-7979	11	1223	\N	test2 first name
-7980	12	1223	\N	test2 last name
-7981	20	1223	\N	test2@MicrosoftEdge18.0_WIN10
-7982	1	1224	2	Male
-7983	2	1224	9	51 - 60
-7984	3	1224	13	1 - 3
-7985	5	1224	37	Bachelors Degree
-7986	7	1224	50	Indirect contact with external customers
-7987	11	1224	\N	test3 first name
-7988	12	1224	\N	test3 last name
-7989	20	1224	\N	test3@MicrosoftEdge18.0_WIN10
-7990	1	1225	2	Male
-7991	2	1225	9	51 - 60
-7992	3	1225	13	1 - 3
-7993	5	1225	37	Bachelors Degree
-7994	7	1225	50	Indirect contact with external customers
-7995	11	1225	\N	test4 first name
-7996	12	1225	\N	test4 last name
-7997	20	1225	\N	test4@MicrosoftEdge18.0_WIN10
 7998	1	1226	2	Male
 7999	2	1226	9	51 - 60
 8000	3	1226	13	1 - 3
@@ -7467,70 +7371,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8035	3	1233	13	1 - 3
 8036	5	1233	37	Bachelors Degree
 8037	7	1233	50	Indirect contact with external customers
-8038	1	1234	2	Male
-8039	2	1234	9	51 - 60
-8040	3	1234	13	1 - 3
-8041	5	1234	37	Bachelors Degree
-8042	7	1234	50	Indirect contact with external customers
-8043	11	1234	\N	test1 first name
-8044	12	1234	\N	test1 last name
-8045	20	1234	\N	test1@Safari12.0_Mac
-8046	1	1235	2	Male
-8047	2	1235	9	51 - 60
-8048	3	1235	13	1 - 3
-8049	5	1235	37	Bachelors Degree
-8050	7	1235	50	Indirect contact with external customers
-8051	11	1235	\N	test2 first name
-8052	12	1235	\N	test2 last name
-8053	20	1235	\N	test2@Safari12.0_Mac
-8054	1	1236	2	Male
-8055	2	1236	9	51 - 60
-8056	3	1236	13	1 - 3
-8057	5	1236	37	Bachelors Degree
-8058	7	1236	50	Indirect contact with external customers
-8059	11	1236	\N	test3 first name
-8060	12	1236	\N	test3 last name
-8061	20	1236	\N	test3@Safari12.0_Mac
-8062	1	1237	2	Male
-8063	2	1237	9	51 - 60
-8064	3	1237	13	1 - 3
-8065	5	1237	37	Bachelors Degree
-8066	7	1237	50	Indirect contact with external customers
-8067	11	1237	\N	test4 first name
-8068	12	1237	\N	test4 last name
-8069	20	1237	\N	test4@Safari12.0_Mac
-8070	1	1238	2	Male
-8071	2	1238	9	51 - 60
-8072	3	1238	13	1 - 3
-8073	5	1238	37	Bachelors Degree
-8074	7	1238	50	Indirect contact with external customers
-8075	11	1238	\N	test1 first name
-8076	12	1238	\N	test1 last name
-8077	20	1238	\N	test1@_ANDROID
-8078	1	1239	2	Male
-8079	2	1239	9	51 - 60
-8080	3	1239	13	1 - 3
-8081	5	1239	37	Bachelors Degree
-8082	7	1239	50	Indirect contact with external customers
-8083	11	1239	\N	test2 first name
-8084	12	1239	\N	test2 last name
-8085	20	1239	\N	test2@_ANDROID
-8086	1	1240	2	Male
-8087	2	1240	9	51 - 60
-8088	3	1240	13	1 - 3
-8089	5	1240	37	Bachelors Degree
-8090	7	1240	50	Indirect contact with external customers
-8091	11	1240	\N	test3 first name
-8092	12	1240	\N	test3 last name
-8093	20	1240	\N	test3@_ANDROID
-8094	1	1241	2	Male
-8095	2	1241	9	51 - 60
-8096	3	1241	13	1 - 3
-8097	5	1241	37	Bachelors Degree
-8098	7	1241	50	Indirect contact with external customers
-8099	11	1241	\N	test4 first name
-8100	12	1241	\N	test4 last name
-8101	20	1241	\N	test4@_ANDROID
 8102	1	1242	2	Male
 8103	2	1242	9	51 - 60
 8104	3	1242	13	1 - 3
@@ -7551,38 +7391,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8119	3	1245	13	1 - 3
 8120	5	1245	37	Bachelors Degree
 8121	7	1245	50	Indirect contact with external customers
-8122	1	1246	2	Male
-8123	2	1246	9	51 - 60
-8124	3	1246	13	1 - 3
-8125	5	1246	37	Bachelors Degree
-8126	7	1246	50	Indirect contact with external customers
-8127	11	1246	\N	test1 first name
-8128	12	1246	\N	test1 last name
-8129	20	1246	\N	test1@chrome85.0_WIN10
-8130	1	1247	2	Male
-8131	2	1247	9	51 - 60
-8132	3	1247	13	1 - 3
-8133	5	1247	37	Bachelors Degree
-8134	7	1247	50	Indirect contact with external customers
-8135	11	1247	\N	test2 first name
-8136	12	1247	\N	test2 last name
-8137	20	1247	\N	test2@chrome85.0_WIN10
-8138	1	1248	2	Male
-8139	2	1248	9	51 - 60
-8140	3	1248	13	1 - 3
-8141	5	1248	37	Bachelors Degree
-8142	7	1248	50	Indirect contact with external customers
-8143	11	1248	\N	test3 first name
-8144	12	1248	\N	test3 last name
-8145	20	1248	\N	test3@chrome85.0_WIN10
-8146	1	1249	2	Male
-8147	2	1249	9	51 - 60
-8148	3	1249	13	1 - 3
-8149	5	1249	37	Bachelors Degree
-8150	7	1249	50	Indirect contact with external customers
-8151	11	1249	\N	test4 first name
-8152	12	1249	\N	test4 last name
-8153	20	1249	\N	test4@chrome85.0_WIN10
 8154	1	1250	2	Male
 8155	2	1250	9	51 - 60
 8156	3	1250	13	1 - 3
@@ -7603,38 +7411,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8171	3	1253	13	1 - 3
 8172	5	1253	37	Bachelors Degree
 8173	7	1253	50	Indirect contact with external customers
-8174	1	1254	2	Male
-8175	2	1254	9	51 - 60
-8176	3	1254	13	1 - 3
-8177	5	1254	37	Bachelors Degree
-8178	7	1254	50	Indirect contact with external customers
-8179	11	1254	\N	test1 first name
-8180	12	1254	\N	test1 last name
-8181	20	1254	\N	test1@Firefox78.0_WIN10
-8182	1	1255	2	Male
-8183	2	1255	9	51 - 60
-8184	3	1255	13	1 - 3
-8185	5	1255	37	Bachelors Degree
-8186	7	1255	50	Indirect contact with external customers
-8187	11	1255	\N	test2 first name
-8188	12	1255	\N	test2 last name
-8189	20	1255	\N	test2@Firefox78.0_WIN10
-8190	1	1256	2	Male
-8191	2	1256	9	51 - 60
-8192	3	1256	13	1 - 3
-8193	5	1256	37	Bachelors Degree
-8194	7	1256	50	Indirect contact with external customers
-8195	11	1256	\N	test3 first name
-8196	12	1256	\N	test3 last name
-8197	20	1256	\N	test3@Firefox78.0_WIN10
-8198	1	1257	2	Male
-8199	2	1257	9	51 - 60
-8200	3	1257	13	1 - 3
-8201	5	1257	37	Bachelors Degree
-8202	7	1257	50	Indirect contact with external customers
-8203	11	1257	\N	test4 first name
-8204	12	1257	\N	test4 last name
-8205	20	1257	\N	test4@Firefox78.0_WIN10
 8206	1	1258	2	Male
 8207	2	1258	9	51 - 60
 8208	3	1258	13	1 - 3
@@ -7655,38 +7431,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8223	3	1261	13	1 - 3
 8224	5	1261	37	Bachelors Degree
 8225	7	1261	50	Indirect contact with external customers
-8226	1	1262	2	Male
-8227	2	1262	9	51 - 60
-8228	3	1262	13	1 - 3
-8229	5	1262	37	Bachelors Degree
-8230	7	1262	50	Indirect contact with external customers
-8231	11	1262	\N	test1 first name
-8232	12	1262	\N	test1 last name
-8233	20	1262	\N	test1@MicrosoftEdge18.0_WIN10
-8234	1	1263	2	Male
-8235	2	1263	9	51 - 60
-8236	3	1263	13	1 - 3
-8237	5	1263	37	Bachelors Degree
-8238	7	1263	50	Indirect contact with external customers
-8239	11	1263	\N	test2 first name
-8240	12	1263	\N	test2 last name
-8241	20	1263	\N	test2@MicrosoftEdge18.0_WIN10
-8242	1	1264	2	Male
-8243	2	1264	9	51 - 60
-8244	3	1264	13	1 - 3
-8245	5	1264	37	Bachelors Degree
-8246	7	1264	50	Indirect contact with external customers
-8247	11	1264	\N	test3 first name
-8248	12	1264	\N	test3 last name
-8249	20	1264	\N	test3@MicrosoftEdge18.0_WIN10
-8250	1	1265	2	Male
-8251	2	1265	9	51 - 60
-8252	3	1265	13	1 - 3
-8253	5	1265	37	Bachelors Degree
-8254	7	1265	50	Indirect contact with external customers
-8255	11	1265	\N	test4 first name
-8256	12	1265	\N	test4 last name
-8257	20	1265	\N	test4@MicrosoftEdge18.0_WIN10
 8258	1	1266	2	Male
 8259	2	1266	9	51 - 60
 8260	3	1266	13	1 - 3
@@ -7707,38 +7451,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8275	3	1269	13	1 - 3
 8276	5	1269	37	Bachelors Degree
 8277	7	1269	50	Indirect contact with external customers
-8278	1	1270	2	Male
-8279	2	1270	9	51 - 60
-8280	3	1270	13	1 - 3
-8281	5	1270	37	Bachelors Degree
-8282	7	1270	50	Indirect contact with external customers
-8283	11	1270	\N	test1 first name
-8284	12	1270	\N	test1 last name
-8285	20	1270	\N	test1@Safari12.0_Mac
-8286	1	1271	2	Male
-8287	2	1271	9	51 - 60
-8288	3	1271	13	1 - 3
-8289	5	1271	37	Bachelors Degree
-8290	7	1271	50	Indirect contact with external customers
-8291	11	1271	\N	test2 first name
-8292	12	1271	\N	test2 last name
-8293	20	1271	\N	test2@Safari12.0_Mac
-8294	1	1272	2	Male
-8295	2	1272	9	51 - 60
-8296	3	1272	13	1 - 3
-8297	5	1272	37	Bachelors Degree
-8298	7	1272	50	Indirect contact with external customers
-8299	11	1272	\N	test3 first name
-8300	12	1272	\N	test3 last name
-8301	20	1272	\N	test3@Safari12.0_Mac
-8302	1	1273	2	Male
-8303	2	1273	9	51 - 60
-8304	3	1273	13	1 - 3
-8305	5	1273	37	Bachelors Degree
-8306	7	1273	50	Indirect contact with external customers
-8307	11	1273	\N	test4 first name
-8308	12	1273	\N	test4 last name
-8309	20	1273	\N	test4@Safari12.0_Mac
 8310	1	1274	2	Male
 8311	2	1274	9	51 - 60
 8312	3	1274	13	1 - 3
@@ -7759,46 +7471,6 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8327	3	1277	13	1 - 3
 8328	5	1277	37	Bachelors Degree
 8329	7	1277	50	Indirect contact with external customers
-8330	1	1278	2	Male
-8331	2	1278	9	51 - 60
-8332	3	1278	13	1 - 3
-8333	5	1278	37	Bachelors Degree
-8334	7	1278	50	Indirect contact with external customers
-8335	11	1278	\N	test1 first name
-8336	12	1278	\N	test1 last name
-8337	20	1278	\N	test1@_ANDROID
-8338	1	1279	2	Male
-8339	2	1279	9	51 - 60
-8340	3	1279	13	1 - 3
-8341	5	1279	37	Bachelors Degree
-8342	7	1279	50	Indirect contact with external customers
-8343	11	1279	\N	test2 first name
-8344	12	1279	\N	test2 last name
-8345	20	1279	\N	test2@_ANDROID
-8346	1	1280	2	Male
-8347	2	1280	9	51 - 60
-8348	3	1280	13	1 - 3
-8349	5	1280	37	Bachelors Degree
-8350	7	1280	50	Indirect contact with external customers
-8351	11	1280	\N	test3 first name
-8352	12	1280	\N	test3 last name
-8353	20	1280	\N	test3@_ANDROID
-8354	1	1281	2	Male
-8355	2	1281	9	51 - 60
-8356	3	1281	13	1 - 3
-8357	5	1281	37	Bachelors Degree
-8358	7	1281	50	Indirect contact with external customers
-8359	11	1281	\N	test4 first name
-8360	12	1281	\N	test4 last name
-8361	20	1281	\N	test4@_ANDROID
-8362	1	1282	\N	\N
-8363	2	1282	\N	\N
-8364	3	1282	\N	\N
-8365	5	1282	\N	\N
-8366	7	1282	\N	\N
-8367	11	1282	\N	\N
-8368	12	1282	\N	\N
-8369	20	1282	\N	\N
 8370	1	1283	\N	\N
 8371	2	1283	7	36 - 40
 8372	3	1283	\N	\N
