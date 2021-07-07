@@ -7490,6 +7490,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8386	11	1287	\N	Jean
 8387	12	1287	\N	reynolds
 8388	20	1287	\N	jreynolds@aol.com
+8389	1	1288	423	Non-Binary
+8390	2	1288	11	71+
+8391	3	1288	13	1 - 3
+8392	5	1288	35	High School
+8393	7	1288	50	Indirect contact with external customers
+8394	56	1288	\N	\N
+8395	60	1288	432	Employee
+8396	11	1288	\N	Miles
+8397	12	1288	\N	\N
+8398	20	1288	\N	\N
 \.
 
 
@@ -7497,4 +7507,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8388, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8398, true);

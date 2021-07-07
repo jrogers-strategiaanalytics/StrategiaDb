@@ -408,6 +408,7 @@ CREATE VIEW public.assessmentswithdemographicsvw AS
     a.d52,
     a.d54,
     a.d56,
+    a.d60,
     b.t11,
     b.t12,
     b.t20
@@ -427,8 +428,7 @@ CREATE VIEW public.assessmentswithdemographicsvw AS
              JOIN public.assessmentquestionresponse ar USING (idassessmentresponse))
              JOIN public.assessmenttypequestion atq USING (idassessmenttypequestion))
              JOIN public.section s USING (idsection))
-             JOIN public.component c_1 USING (idcomponent))
-          WHERE ((a_1.idassessmenttype >= 1) AND (a_1.idassessmenttype <= 6))) c
+             JOIN public.component c_1 USING (idcomponent))) c
      LEFT JOIN ( SELECT ct.idassessmentresponse,
             ct.idassessment,
             ct.d1,
@@ -479,8 +479,9 @@ CREATE VIEW public.assessmentswithdemographicsvw AS
             ct.d51,
             ct.d52,
             ct.d54,
-            ct.d56
-           FROM public.crosstab('select idassessmentresponse, idassessment, crosstabcolname, iddemographicvalueset from  demographicsbyassessmentvw WHERE iddemographicvalueset IS NOT NULL order by idassessmentresponse, demographicquestion'::text, 'select unnest(array[''D1'',''D2'',''D3'',''D4'',''D5'',''D6'',''D7'',''D8'',''D9'',''D10'',''D13'',''D14'',''D16'',''D17'',''D18'',''D21'',''D22'',''D23'',''D24'',''D25'',''D26'',''D27'',''D28'',''D29'',''D30'',''D31'',''D32'',''D33'',''D34'',''D35'',''D36'',''D37'',''D38'',''D39'',''D40'',''D41'',''D42'',''D43'',''D44'',''D45'',''D46'',''D47'',''D48'',''D49'',''D50'',''D51'',''D52'',''D54'',''D56'']);'::text) ct(idassessmentresponse integer, idassessment integer, d1 integer, d2 integer, d3 integer, d4 integer, d5 integer, d6 integer, d7 integer, d8 integer, d9 integer, d10 integer, d13 integer, d14 integer, d16 integer, d17 integer, d18 integer, d21 integer, d22 integer, d23 integer, d24 integer, d25 integer, d26 integer, d27 integer, d28 integer, d29 integer, d30 integer, d31 integer, d32 integer, d33 integer, d34 integer, d35 integer, d36 integer, d37 integer, d38 integer, d39 integer, d40 integer, d41 integer, d42 integer, d43 integer, d44 integer, d45 integer, d46 integer, d47 integer, d48 integer, d49 integer, d50 integer, d51 integer, d52 integer, d54 integer, d56 integer)) a USING (idassessment, idassessmentresponse))
+            ct.d56,
+            ct.d60
+           FROM public.crosstab('select idassessmentresponse, idassessment, crosstabcolname, iddemographicvalueset from  demographicsbyassessmentvw WHERE iddemographicvalueset IS NOT NULL order by idassessmentresponse, demographicquestion'::text, 'select unnest(array[''D1'',''D2'',''D3'',''D4'',''D5'',''D6'',''D7'',''D8'',''D9'',''D10'',''D13'',''D14'',''D16'',''D17'',''D18'',''D21'',''D22'',''D23'',''D24'',''D25'',''D26'',''D27'',''D28'',''D29'',''D30'',''D31'',''D32'',''D33'',''D34'',''D35'',''D36'',''D37'',''D38'',''D39'',''D40'',''D41'',''D42'',''D43'',''D44'',''D45'',''D46'',''D47'',''D48'',''D49'',''D50'',''D51'',''D52'',''D54'',''D56'',''D60'']);'::text) ct(idassessmentresponse integer, idassessment integer, d1 integer, d2 integer, d3 integer, d4 integer, d5 integer, d6 integer, d7 integer, d8 integer, d9 integer, d10 integer, d13 integer, d14 integer, d16 integer, d17 integer, d18 integer, d21 integer, d22 integer, d23 integer, d24 integer, d25 integer, d26 integer, d27 integer, d28 integer, d29 integer, d30 integer, d31 integer, d32 integer, d33 integer, d34 integer, d35 integer, d36 integer, d37 integer, d38 integer, d39 integer, d40 integer, d41 integer, d42 integer, d43 integer, d44 integer, d45 integer, d46 integer, d47 integer, d48 integer, d49 integer, d50 integer, d51 integer, d52 integer, d54 integer, d56 integer, d60 integer)) a USING (idassessment, idassessmentresponse))
      LEFT JOIN ( SELECT ct.idassessmentresponse,
             ct.idassessment,
             ct.t11,
