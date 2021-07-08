@@ -7500,6 +7500,16 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 8396	11	1288	\N	Miles
 8397	12	1288	\N	\N
 8398	20	1288	\N	\N
+8399	1	1289	1	Female
+8400	2	1289	10	61 - 70
+8401	3	1289	16	11 - 15
+8402	5	1289	37	Bachelors Degree
+8403	7	1289	51	Indirect contact with internal customers
+8404	56	1289	414	Marketing
+8405	60	1289	432	Employee
+8406	11	1289	\N	Patricia
+8407	12	1289	\N	Dumas
+8408	20	1289	\N	ptdumas@comcast.net
 \.
 
 
@@ -7507,4 +7517,4 @@ COPY public.demographicquestionresponse (iddemographicquestionresponse, iddemogr
 -- Name: demographicquestionresponse_seq; Type: SEQUENCE SET; Schema: public; Owner: adminstrategia
 --
 
-SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8398, true);
+SELECT pg_catalog.setval('public.demographicquestionresponse_seq', 8408, true);
